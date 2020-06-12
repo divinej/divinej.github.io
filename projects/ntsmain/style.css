@@ -1,0 +1,1357 @@
+/* Navbar CSS */
+nav {
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 0 10px 0 0;
+}
+nav.margin-bt {
+    margin-bottom: 10px;
+}
+img.ireland-map {
+    margin-top: 10px;
+}
+
+li pre {
+    line-height: 1.2;
+    margin-top: 25px;
+}
+
+ul.upper-right-menu {
+    margin-top: 0;
+}
+
+.upper-menu-item,
+.lower-menu-item {
+    margin-right: 35px;
+}
+
+.btn.blue-btn {
+    border-radius: 4px;
+    background-color: #007cc2;
+    padding: 3px 10px;
+    color: #ffffff;
+}
+
+ul li a {
+    color: #000;
+}
+ul li a:active {
+    border-bottom: 2px solid #007cc2;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #007cc2;
+}
+
+.brand-container {
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+
+span.brand-circle {
+    width: 130px;
+    height: 129px;
+    border-radius: 65px;
+    box-shadow: 0 0 27px rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+img.nts {
+    width: 100px;
+    position: relative;
+    top: -90px;
+    right: -15px;
+}
+
+img.acco {
+    height: 100px;
+    position: relative;
+    top: -120px;
+    right: -25px;
+}
+
+.esselt,
+.tesla {
+    width: 100px;
+    position: relative;
+    top: -110px;
+    right: -15px;
+}
+
+.leitz {
+    width: 100px;
+    position: relative;
+    top: -100px;
+    right: -15px;
+}
+
+.opaque {
+    width: 90px;
+    position: relative;
+    top: -115px;
+    right: -20px;
+}
+
+.uhu {
+    width: 90px;
+    position: relative;
+    top: -115px;
+    right: -20px;
+
+
+}
+
+.col-1 {
+    margin: 0 1.2rem;
+    position: relative;
+    height: 158px;
+}
+
+.snopake {
+    width: 90px;
+    position: relative;
+    top: -105px;
+    right: -20px;
+}
+
+.swordfish {
+    width: 90px;
+    position: relative;
+    top: -95px;
+    right: -20px;
+
+}
+
+.velcro {
+    width: 90px;
+    position: relative;
+    top: -90px;
+    right: -20px;
+}
+
+.shade {
+    /* border-bottom: 1px solid rgba(0,0,0,0.5); */
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-flow: row wrap;
+    }
+}
+
+
+
+
+.ntsnopadding {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+/* HOME HEADER BLOCK */
+.nts-home-header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 575px;
+    overflow: hidden;
+}
+
+.nts-home-header .grid {
+    display: grid;
+    grid-template-columns: 3% 89% 8%;
+    grid-template-rows: auto;
+    grid-template-areas: 'space home-header space';
+}
+
+@media (max-width:768px) {
+    .nts-home-header {
+        height: 100vh;
+    }
+}
+
+.nts-home-header .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .nts-home-header .content {
+    }
+}
+
+.nts-home-header .content .box {
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.78);
+    border-radius: 5px;
+    max-width: 470px;
+}
+
+.nts-home-header .content .box h1 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #05054d;
+}
+
+.nts-home-header .content .box p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nts-home-header .content .box .btn {
+    border: 1px solid #007dc3;
+    background-color: #007dc3;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nts-home-header .content .box .btn:hover {
+    background-color: #ee3224;
+}
+
+.nts-home-header .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-width: 350px;
+}
+
+.nts-home-header .contact .form {
+    background-color: rgba(255, 255, 255, 0.78);
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: 5px;
+}
+
+.nts-home-header .contact .form h3 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #05054d;
+}
+
+.nts-home-header .contact .form p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.nts-home-header .contact .form form {
+}
+
+.nts-home-header .contact .form form .form-field {
+    padding-bottom: 15px;
+}
+
+.nts-home-header .contact .form form .form-field span {
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #000000;
+}
+
+.nts-home-header .contact .form form .form-field input {
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.nts-home-header .contact .form form .form-field textarea {
+    background-color: #fff;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.nts-home-header .contact .form form .button {
+    padding-top: 0px;
+}
+
+.nts-home-header .contact .form form .button .btn {
+    width: 100%;
+    max-height: 36px;
+    background-color: #ee3224;
+    color: #fff;
+    border: 1px solid #ee3224;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 4px;
+}
+
+.nts-home-header .contact .form form .button .btn:hover {
+    background-color: #007dc3;
+}
+
+.nts-home-header .padding {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+/* TITLE BLOCK */
+.nts-title-block {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.nts-title-block.blue {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('images/theme/roundshape.png');
+}
+
+.nts-title-block.about {
+    padding-top: 75px;
+}
+
+.nts-title-block h1 {
+    text-align: center;
+    font-family: proxima-nova, sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+    color: #05054d;
+    text-rendering: optimizeLegibility;
+}
+
+.nts-title-block.blue h1 {
+    color: #fff;
+}
+
+/* Text Block */
+.nts-text-block {
+    display: grid;
+    grid-template-columns: 1fr 60% 1fr;
+    grid-template-rows: auto 100px;
+    grid-template-areas: 'space intro-text space' '. . .';
+}
+
+.nts-text-block.blue {
+    background-color: #007dc3;
+}
+
+.nts-text-block p {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: center;
+    font-family: Open Sans;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    width: auto;
+}
+
+.nts-text-block.blue p {
+    color: #fff;
+}
+
+/* HOME FACTS */
+.nts-facts {
+}
+
+.nts-facts .padding {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.nts-facts .number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nts-facts .number h2.timer.count-title.count-number {
+    font-family: proxima-nova, sans-serif;
+    font-size: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 1084px) {
+    .nts-facts .number h2.timer.count-title.count-number {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 772px) {
+    .nts-facts .number h2.timer.count-title.count-number {
+        font-size: 50px;
+    }
+}
+
+.nts-facts .number .plus {
+    font-family: proxima-nova, sans-serif;
+    font-size: 100px;
+    color: #fff;
+}
+
+@media (max-width: 1084px) {
+    .nts-facts .number .plus {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 772px) {
+    .nts-facts .number .plus {
+        font-size: 50px;
+    }
+}
+
+.nts-facts .number .plus-space {
+    font-family: proxima-nova, sans-serif;
+    font-size: 100px;
+    color: #fff;
+    font-weight: normal;
+}
+
+@media (max-width: 1084px) {
+    .nts-facts .number .plus-space {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 772px) {
+    .nts-facts .number .plus-space {
+        font-size: 50px;
+    }
+}
+
+.nts-facts .number .decimal {
+    font-family: proxima-nova, sans-serif;
+    font-size: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 1084px) {
+    .nts-facts .number .decimal {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 772px) {
+    .nts-facts .number .decimal {
+        font-size: 50px;
+    }
+}
+
+.nts-facts .count-text {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.nts-facts .fact1 {
+    background-color: #812720;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url('images/theme/shape2.png');
+    background-size: cover;
+    background-position: left bottom;
+}
+
+.nts-facts .fact1:before {
+}
+
+.nts-facts .fact1:after {
+}
+
+.nts-facts .fact2 {
+    background-color: #ab3d35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    background-image: url('images/theme/shape2.png');
+    background-size: cover;
+}
+
+.nts-facts .fact2:before {
+}
+
+.nts-facts .fact2:after {
+}
+
+.nts-facts .fact3 {
+    background-color: #ee3224;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.nts-facts .fact3:before {
+}
+
+.nts-facts .fact3:after {
+}
+
+/* CLIENT LOGO CAROUSEL */
+.nts-clients {
+}
+
+.nts-clients .client-container {
+}
+
+.nts-clients  .client-slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-template-areas: 'slide slide slide slide slide slide slide';
+    grid-gap: 50px;
+}
+
+.nts-clients .item {
+}
+
+.nts-clients .item img {
+}
+
+.nts-clients .prev {
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    top: 25%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #779d30;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #c3c3c3;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.nts-clients .next {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 1000;
+    color: #779d30;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #c3c3c3;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 1022px) {
+    .nts-clients .prev {
+        left: 0px;
+    }
+
+    .nts-clients .next {
+        right: 0px;
+    }
+}
+
+/* HOME SERVICES */
+.nts-services {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.nts-services .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.nts-services .item span {
+    background-color: #007dc3;
+    top: -10%;
+    position: absolute;
+    left: 12%;
+    border-radius: 50%;
+    height: 116px;
+    width: 116px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nts-services .item span.red {
+    background-color: #ee3224;
+}
+
+.nts-services .item img {
+    object-fit: cover;
+    max-height: 264px;
+    max-width: 264px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.nts-services .item p {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+.nts-services .item a {
+    background-color: #ee3224;
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nts-services .item a:hover {
+    background-color: #007dc3;
+    color: #fff;
+}
+
+/* HOME PRODUCT CATEGORY GRID */
+/* Square Product Grid */
+.nts-product-grid-square {
+    background-color: #000000;
+    background-image: -webkit-linear-gradient(top, rgb(0, 125, 195) 0%, rgb(0,125, 195) 14.2045%, rgb(228, 229, 230) 100%);
+    padding-bottom: 100px;
+}
+
+.nts-product-grid-square .row {
+}
+
+.nts-product-grid-square .products {
+}
+
+.nts-product-grid-square .products .grid-item.large
+
+.nts-product-grid-square .products .grid-item {
+}
+
+.nts-product-grid-square .products .item {
+    text-decoration: none !important;
+    border-radius: 30px !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.nts-product-grid-square .products .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nts-product-grid-square .products .item .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 125, 195, 0.87);
+    width: 100%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.nts-product-grid-square .products .item h4 {
+    color: #fff;
+    font-family: proxima-nova, sans-serif;
+}
+
+.nts-product-grid-square .products .item.item1 h4 {
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.nts-product-grid-square .products .item.item2 h4 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nts-product-grid-square .products .item.item1 {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100%;
+}
+
+.nts-product-grid-square .products .item.item2 {
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Circle Product Grid */
+.nts-product-grid-circle {
+    padding-top: 140px;
+    padding-bottom: 170px;
+    overflow: hidden;
+}
+
+.nts-product-grid-circle .item {
+    border-radius: 50%;
+    border: 4px solid #007dc3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 99% 1%;
+    grid-template-areas: 'product-circle-top' 'product-circle-bottom';
+    height: 367px;
+    width: 100%;
+    max-width: 367px;
+    margin-bottom: 90px;
+}
+
+.nts-product-grid-circle .item img {
+    object-fit: scale-down;
+    grid-area: 1 / 1 / 2 / 2;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.nts-product-grid-circle .item .button {
+    height: 100%;
+}
+
+.nts-product-grid-circle .item .button .btn {
+    background-color: #007dc3;
+    color: #fff;
+    border-radius: 10px;
+    font-family: proxima-nova, sans-serif;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.nts-product-grid-circle .item .button .btn:hover {
+}
+
+/* FOOTER SECTIONS */
+.nts-footer-header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 575px;
+}
+
+.nts-footer-header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.nts-footer-header .content .box {
+    padding-left: 32px;
+}
+
+.nts-footer-header .content .box h1 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #05054d;
+    padding-top: 60px;
+    padding-left: 90px;
+}
+
+.nts-footer-header .content .box p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    padding-left: 90px;
+}
+
+.nts-footer-header .content .box .btn {
+    border: 1px solid #007dc3;
+    background-color: #007dc3;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: normal;
+}
+
+.nts-footer-header .content .box .btn:hover {
+    background-color: #ee3224;
+}
+
+.nts-footer-header .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+@media (max-width: 769px) {
+    .nts-footer-header .contact {
+        justify-content: flex-start;
+    }
+}
+
+.nts-footer-header .contact .form {
+    background-color: rgba(255, 255, 255, 0.78);
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: 5px;
+}
+
+.nts-footer-header .contact .form h3 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #05054d;
+}
+
+.nts-footer-header .contact .form p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.nts-footer-header .contact .form form {
+}
+
+.nts-footer-header .contact .form form .form-field {
+    padding-bottom: 15px;
+}
+
+.nts-footer-header .contact .form form .form-field span {
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #000000;
+}
+
+.nts-footer-header .contact .form form .form-field input {
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.nts-footer-header .contact .form form .form-field textarea {
+    background-color: #fff;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.nts-footer-header .contact .form form .button {
+    padding-top: 0px;
+}
+
+.nts-footer-header .contact .form form .button .btn {
+    width: 100%;
+    max-height: 36px;
+    background-color: #ee3224;
+    color: #fff;
+    border: 1px solid #ee3224;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 4px;
+}
+
+.nts-footer-header .contact .form form .button .btn:hover {
+    background-color: #007dc3;
+}
+
+/* Footer Contact */
+.nts-footer-contact {
+}
+
+.nts-footer-contact .contact {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nts-footer-contact .contact img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nts-footer-contact .contact .text {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.nts-footer-contact .contact .text h2 {
+    font-family: Open Sans;
+    font-size: 30px;
+    color: #000000;
+    font-weight: lighter;
+}
+
+.nts-footer-contact .contact .text address {
+    text-align: center;
+    line-height: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.nts-footer-contact .contact .text address .company {
+    font-weight: bold;
+}
+
+.nts-footer-contact .contact .text address .address {
+    line-height: 20px;
+}
+
+.nts-footer-contact .contact .text .contact-info {
+    text-align: center;
+    line-height: 10px;
+}
+
+.nts-footer-contact .contact .text .contact-info p {
+}
+
+.nts-footer-contact .contact .text .contact-info span {
+    font-weight: bold;
+}
+
+.nts-footer-contact .map {
+    background-image: url('images/theme/map.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    min-height: 410px;
+    width: 100%;
+}
+
+.nts-footer-contact .padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Footer end */
+.nts-footer-logo-area {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 190px;
+    grid-template-areas: 'footer-space logo-area footer-space';
+    align-items: center;
+    justify-content: center;
+}
+
+.nts-footer-logo-area img {
+}
+
+/* Widget-area */
+.nts-footer-widget-area {
+    padding-bottom: 70px;
+}
+
+.nts-footer-widget-area .item {
+}
+
+.nts-footer-widget-area .item h4 {
+    margin-bottom: 45px;
+    font-weight: bold;
+    font-family: Open Sans;
+    font-size: 20px;
+    color: #000000;
+}
+
+.nts-footer-widget-area .item p {
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #000000;
+    font-weight: normal;
+    width: 85%;
+}
+
+.nts-footer-widget-area .item .col-2-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.nts-footer-widget-area .item .col-2-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nts-footer-widget-area .item .col-2-list ul li {
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+/* ABOUT PAGE HEADER */
+.nts-about-header {
+    width: 100%;
+    min-height: 475px;
+    background-size: cover;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: flex-end;
+    -webkit-justify-content: center;
+    flex-flow: wrap;
+    background-image: url('../images/excavators-581333_1920.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.nts-about-header h3 {
+    font-size: 44px;
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    .nts-about-header h3 {
+        font-size: 35px;
+        text-align: center;
+        font-weight: 300;
+        color: #fff;
+    }
+}
+
+.nts-about-header .breadcrumbs {
+    display: flex;
+    width: 100%;
+    padding: 30px 0px;
+    background: #fff;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nts-about-header .breadcrumbs ul {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nts-about-header .breadcrumbs ul li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    line-height: 18px;
+    float: left;
+}
+
+.nts-about-header .breadcrumbs ul li a {
+    position: relative;
+    font-size: 16px;
+    width: auto;
+    padding: 0px 10px 0 10px;
+    color: #000;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+
+.nts-about-header .breadcrumbs ul li a i {
+    color: #fac012;
+}
+
+.nts-about-header .breadcrumbs ul li:last-child a:after {
+    display: none;
+}
+
+.nts-about-header .breadcrumbs ul li:first-child a {
+    padding-left: 0px;
+}
+
+.nts-about-header .breadcrumbs ul li a:after {
+    position: relative;
+    font-family: 'FontAwesome';
+    right: -10px;
+    content: "\f105";
+    width: 5px;
+    height: 10px;
+    top: 0px;
+}
+
+/* About Gallery */
+.nts-about-gallery {
+}
+
+.nts-about-gallery .item1 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 575px;
+}
+
+.nts-about-gallery .item2 {
+    object-fit: cover;
+    width: 100%;
+    height: 275.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nts-about-gallery .item3 {
+    object-fit: cover;
+    width: 100%;
+    height: 286px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.nts-about-gallery .item4 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.nts-about-gallery .padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* BRAND PAGE */
+/* Brand Intro */
+.nts-brand-intro {
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+
+.nts-brand-intro img {
+}
+
+.nts-brand-intro .content {
+}
+
+.nts-brand-intro .content h2 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #05054d;
+    margin-bottom: 20px;
+}
+
+.nts-brand-intro .content p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+}
+
+.nts-brand-intro .content .logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+.nts-brand-intro .content .logos img {
+    object-fit: cover;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.nts-brand-intro .content .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+}
+
+.nts-brand-intro .content .buttons .btn1 {
+    background-color: #ee3224;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    margin: 5px;
+    border: 1px solid #ee3224;
+    border-radius: 5px;
+}
+
+.nts-brand-intro .content .buttons .btn1:hover {
+}
+
+.nts-brand-intro .content .buttons .btn2 {
+    background-color: #fff;
+    color: #ee3224;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    margin: 5px;
+    border: 1px solid #ee3224;
+    border-radius: 5px;
+}
+
+.nts-brand-intro .content .buttons .btn2:hover {
+}
+
+/* NTS BRAND PRODUCTS */
+.nts-brand-products {
+    padding-top: 5px;
+    padding-bottom: 150px;
+}
+
+.nts-brand-products .title {
+    padding-bottom: 50px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.nts-brand-products .title h2 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #05054d;
+}
+
+.nts-brand-products .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nts-brand-products .item span {
+    background-color: #007dc3;
+    bottom: -15%;
+    position: absolute;
+    right: 10%;
+    border-radius: 50%;
+    height: 116px;
+    width: 116px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nts-brand-products .item span.red {
+    background-color: #ee3224;
+}
+
+.nts-brand-products .item img {
+    object-fit: cover;
+    min-height: 264px;
+    max-width: 264px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #007dc3;
+}
+
+.nts-brand-products .space {
+    margin-bottom: 50px;
+}
+
+.nts-clients .container-fluid {
+    display: grid;
+    grid-template-columns: 3% 94% 3%;
+    grid-template-rows: 200px;
+    grid-template-areas: 'space slider space';
+
+}
+
+

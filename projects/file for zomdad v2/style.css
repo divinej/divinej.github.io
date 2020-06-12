@@ -1,0 +1,526 @@
+/*-----------------------------------------------------------------------------------
+  Author: Divinejustice Oko
+	Author email: 24sevenmedia01@gmail.com
+	Version: 1.1
+
+-----------------------------------------------------------------------------------
+
+
+/*css Normalising*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+
+header {
+  height: 76px;
+  padding: 20px 32px;
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+}
+
+
+/* clearfix */
+.group:before,
+.group:after {
+content: "";
+display: table;
+}
+.group:after {
+clear: both;
+}
+.group {
+clear: both;
+*zoom: 1;
+}
+
+.logo > span {
+  margin-left: 15px;
+}
+
+
+.canvasOpen {
+background: transparent;
+border: none;
+outline: none;
+margin-left: 20px;
+}
+
+/* Canvas Menu */
+
+input[type="search"] {
+  background-color: transparent;
+  border: 1px solid #d0d0d0;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 2px;
+  color: #222;
+  padding: 0 0 0 56px;
+  width: 100%;
+  background-image: url(images/search_icon.png);
+  background-repeat: no-repeat;
+  background-size: 44px auto; 
+
+}
+
+.lang-btn {
+  border: 1px solid #d0d0d0;
+  width: 100%;
+  height: 46px;
+  background-color: transparent;
+  background-image: url(images/globe.png);
+  background-repeat: no-repeat;
+  background-size: 44px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 62px;
+  font-size: 16px;
+}
+
+.canvas-menu {
+position: fixed;
+z-index: 9999;
+background: #fff;
+width: 100%;
+height: 100%;
+padding: 40px 60px;
+top: 0;
+right: 0;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+}
+.canvas-menu.hide {
+-webkit-transform: translate(100%, 0px);
+        transform: translate(100%, 0px);
+}
+.canvas-close a,
+.canvasOpen i {
+font-size: 30px;
+}
+
+.canvas-menu > button  {
+  position: relative;
+  left: 96%;
+  top: 0;
+  margin-bottom: 25px;
+  text-align: right;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.dropdown-items {
+  line-height: 44px;
+}
+
+/* Navigation */
+.topnav {
+  overflow: hidden;
+}
+
+.topnav > a {
+float: right;
+display: block;
+text-align: center;
+padding: 6px 16px;
+}
+
+.topnav a.active {
+background-color: #008489;
+color: #222;
+}
+
+.topnav > button {
+display: none;
+}
+
+.search-icon, 
+.web-icon {
+  width: 32px;
+}
+
+.web-icon {
+margin-top: -3px;
+}
+
+.dropbtn { 
+background-color: #fff;
+padding: 7px;
+border: none;
+cursor: pointer;
+vertical-align: top;
+}
+
+.dropdown {
+position: relative;
+display: block;
+}
+
+.dropdown-content {
+display: none;
+box-shadow: 0 0 4px 3px #f1f1f1;
+border-radius: 5px;
+overflow-y: auto;
+position: fixed;
+right: 10px;
+top: 16px;
+width: 195px;
+z-index: 5;
+padding: 15px;
+background-color: #fff;
+}
+
+.dropdown-content a {
+padding: 12px 16px; 
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+}
+
+/* Navbar Media Query */
+@media screen and (max-width: 1000.06px) {
+  .topnav a,
+  .topnav > .dropdown {
+    display: none;
+  }
+  .topnav > button {
+      float: right;
+      display: block;
+  }
+
+  .dropdown-content {
+    width: 87%;
+    top: 200px;
+    right: 7%;
+  }
+}
+
+
+.logo {
+float: left;
+padding: 6px;
+}
+
+
+body {
+  background: #fff;
+  color: #222;
+  font-size: 18px;
+  line-height: 1.66667;
+  font-family: Cereal,sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+float: left;
+padding: 6px;
+}
+
+ /*
+  ========================================
+  Typography
+  ========================================
+*/
+
+
+body {
+    background: #fff;
+    color: #222;
+    font-size: 18px;
+    line-height: 1.66667;
+    font-family: Cereal,sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+h1, h3, h4, h5, p {
+margin-bottom: 22px;
+}
+h1 {
+font-size: 36px;
+line-height: 44px;
+}
+h2 {
+font-size: 32px;
+line-height: 36px;
+}
+h3 {
+font-size: 24px;
+line-height: 1.25;
+}
+h4 {
+font-size: 18px;
+}
+h5 {
+color: #a9b2b9;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+}
+strong {
+font-weight: 400;
+}
+cite,
+em {
+font-style: italic;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+    color: #222;;
+}
+a, 
+a:hover, 
+a:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #008489
+}
+p a {
+    border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+    color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+    color: #648880;
+}
+
+/*
+  ========================================
+  Airbnb Luxe section
+  ========================================
+*/
+
+.hero {
+    margin-top: 60px;
+    margin-bottom: 48px;
+}
+
+.col-md-4 > h2 {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .col-md-4 > h2 {
+    margin-top: 22px;
+  }
+}
+
+/*
+  ========================================
+  Latest News section
+  ========================================
+*/
+
+.top-border:before {
+    content: "";
+    display: block;
+    padding-top: 64px;
+    border-top: 1px solid #ebebeb;
+}
+section > h3, 
+section > h2,
+.col-4 > h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.post {
+    margin-bottom: 120px;
+    font-size: 16px;
+}
+
+.post-tags {
+    font-size: 12px;
+}
+
+.post-tags > a {
+    color: #008489;
+}
+
+ /*
+    ========================================
+   Post Grid section
+    ========================================
+  */
+
+/* Post Tab section */
+.top-border > ul.nav {
+    margin-bottom: 48px;
+}
+
+
+ul#pills-tab {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+li.nav-item {
+  flex: 0 0 auto;
+  font-weight: 600;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #222;
+    background-color: #fff;
+    border-bottom: 2px solid #008489;
+    border-radius: 0;
+}
+
+.nav-item {
+  font-weight: 600px;
+  
+}
+
+.btn {
+    color: #fff;
+    background-color: #008489;
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 48px;
+}
+
+.btn-centered {
+    display: block;
+    margin: 24px auto;
+}
+
+.btn-load-more {
+    margin-bottom: 80px;
+}
+
+
+/*
+========================================
+Footer
+========================================
+*/
+footer {
+    font-size: 12px;
+    margin-bottom: 48px;
+}
+
+.footer-border:before {
+    content: "";
+    display: block;
+    padding-top: 28px;
+    border-top: 1px solid #ebebeb;
+}
+
+.footer-logo {
+    padding-right: 10px;
+}
+
+.col-6.col-md-7 {
+  text-align: right;
+}
+
+/* footer media query */
+@media screen and (max-width: 719px) {
+  .md-footer {
+    display: none;
+  }
+
+  .disclaimer {
+    text-align: center;
+  }
+}
+

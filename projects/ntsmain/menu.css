@@ -1,0 +1,151 @@
+/* Navbar CSS */
+nav {
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 0 10px 0 0;
+}
+li.left-upper-menu {
+    margin-right: 20px;
+}
+img.ireland-map {
+    margin-top: 10px;
+}
+
+li pre {
+    line-height: 1.2;
+    margin-top: 25px;
+}
+
+ul.upper-right-menu {
+    margin-top: 0;
+}
+
+.upper-menu-item,
+.lower-menu-item {
+    margin-right: 35px;
+}
+
+.btn.blue-btn {
+    /* width: 192px;
+height: 36px; */
+    border-radius: 4px;
+    background-color: #007cc2;
+    padding: 3px 10px;
+    color: #ffffff;
+}
+
+ul li a {
+    color: #000;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #007cc2;
+}
+
+.brand-container {
+    /* width: 1440px; */
+    /* height: 330px; */
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+
+span.brand-circle {
+    width: 130px;
+    height: 129px;
+    border-radius: 65px;
+    box-shadow: 0 0 27px rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+img.nts {
+    width: 100px;
+    position: relative;
+    top: -90px;
+    right: -15px;
+}
+
+img.acco {
+    height: 100px;
+    position: relative;
+    top: -120px;
+    right: -25px;
+}
+
+.esselt,
+.tesla {
+    width: 100px;
+    position: relative;
+    top: -110px;
+    right: -15px;
+}
+
+.leitz {
+    width: 100px;
+    position: relative;
+    top: -100px;
+    right: -15px;
+}
+
+.opaque {
+    width: 90px;
+    position: relative;
+    top: -115px;
+    right: -20px;
+}
+
+.uhu {
+    width: 90px;
+    position: relative;
+    top: -115px;
+    right: -20px;
+
+
+}
+
+.col-1 {
+    margin: 0 1.2rem;
+    position: relative;
+    height: 158px;
+}
+
+.snopake {
+    width: 90px;
+    position: relative;
+    top: -105px;
+    right: -20px;
+}
+
+.swordfish {
+    width: 90px;
+    position: relative;
+    top: -95px;
+    right: -20px;
+
+}
+
+.velcro {
+    width: 90px;
+    position: relative;
+    top: -90px;
+    right: -20px;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-flow: row wrap;
+    }
+}
+
+

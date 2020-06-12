@@ -1,0 +1,493 @@
+html {
+    overflow-x: hidden !important;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li a {
+    cursor: pointer !important;
+}
+
+.red-text {
+    color: #db0300;
+}
+
+
+nav {
+    height: 60px;
+    padding: 7px 15px 7px 7px;
+    background-color: #141414;
+    color: #fff;
+}
+nav ul li {
+    list-style-type: none; 
+    float: right;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 10px;
+}
+
+#id {
+    color: #fff;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img,
+.logo-area img {
+    width: 150px;
+}
+
+button {
+    background-color: #a30d0b;
+    font-size: 12px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.hero,
+.arenaPay-token,
+.growth-box,
+.feature-box,
+.esport-box,
+.newsletter {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+header {
+    background-image: url("../imgs/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px; 
+    color: #fff;
+}
+
+.white-paper {
+    margin-top: 30px;
+}
+
+.arena-pay img {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.do-it {
+    margin-top: 60px;
+}
+
+.icon-box {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 40px;
+}
+
+.icon-container {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+.growth-box .col-md-3 {
+    padding-right: 0;
+}
+
+.growth-icon {
+    width: 30px;
+}
+
+img.token-icon {
+    width: 50px;
+}
+
+.box {
+    background-color: #83100f;
+    height: 250px;
+    color: #fff;
+    padding: 20px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+
+.box > h5 {
+    color: #fff;
+}
+
+.box p {
+    color: #e6b3af;;
+}
+
+.newsletter {
+    text-align: center;
+    background-color: #83100f;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.newsletter input {
+    width: 400px;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+
+}
+
+
+.sign-up {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.our-team {
+    text-align: center;
+}
+
+.name {
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.our-team img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+
+
+.team-members {
+    margin-bottom: 50px;
+}
+
+.team-members img {
+    height: 100px;
+    width: 100px;
+}
+
+.team-members .col-md-3,
+.CEO {
+    margin-bottom: 30px;
+}
+
+.our-team  h3 {
+    text-align: left;
+}
+
+
+.partners {
+    margin-top: 25px;
+}
+
+.partners img {
+    height: 100px;
+}
+
+.partners .col-md-3 {
+    margin-bottom: 30px;
+}
+
+.investor {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.mobile-carousel {
+    display: none;
+}
+
+.mobile-carousel img {
+    height: 130px;
+}
+
+.mobile-carousel li {
+    display: inline-block;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #83100f;
+}
+
+i.fas {
+    color: #83100f;
+    padding-top: 2px;
+}
+
+.cor-event.yellow ul {
+    margin-right: 52px !important;
+}
+
+i.fas.fa-bars,
+.i.fa.fa-close {
+    color: #fff;
+}
+
+i.fas.fa-bars {
+    margin-top: -12px;
+}
+
+.fa-arrow-left:before,
+.fa-arrow-right:before {
+    vertical-align: middle;
+}
+
+.features {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+
+.feature-logo {
+    width: 200px;
+    margin-left: 37%;
+    display: block;
+}
+
+.feature-box > .row {
+    margin-top: 70px;
+}
+
+.icon-line {
+    width: 81%;
+    margin-top: -10px;
+    margin-left: 5%;
+}
+
+
+footer {
+    background-color: #141414;
+    height: 60px;
+    color: #fff;
+    padding-top: 15px;
+    position: relative;
+    bottom: 0;
+}
+
+footer .col-md-6 {
+    padding-right: 0 !important;
+}
+
+footer p {
+    margin-right: 30px;
+    font-size: 12px;
+    text-align: end;
+}
+
+.social-box {
+    padding-left: 20px;
+}
+
+.social-box img {
+    display: inline-block;
+    width: 25px;
+}
+
+.canvasOpen {
+	background: transparent;
+	border: none;
+	outline: none;
+	margin-left: 20px;
+}
+
+.canvasOpen img {
+	height: 32px;
+}
+
+/* Canvas Menu */
+.canvas-menu {
+	position: fixed;
+	z-index: 9999;
+	background: #0e0e0e;
+	width: 80%;
+	height: 100%;
+	padding: 5px 20px 40px 20px;
+	top: 0;
+	right: 0;
+	box-shadow: 40px 0px 104px #414141;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.canvas-menu.hide {
+	-webkit-transform: translate(100%, 0px);
+	        transform: translate(100%, 0px);
+}
+.canvas-close a {
+	font-size: 30px;
+	color: #FFF;
+}
+.canvas-close a:hover {
+	color: #84b245;
+}
+.header-right.canvas {
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 35px 0px;
+	padding: 35px 0px;
+	border-top: 1px solid #171717;
+}
+
+.main-menu ul li {
+	margin: 10px 0px;
+}
+.main-menu ul li a {
+	color: #FFF;
+	font-size: 16px;
+}
+.main-menu ul li a:hover {
+	color: #84b245;
+}
+
+#mobile-menu {
+    display: none;
+    float: right;
+}
+
+.cor-event.yellow ul {
+    padding-inline-start: 0;
+}
+
+.owl-stage-outer {
+    height: 200px !important;
+}
+
+
+/**********************
+Media Query
+***********************/
+@media screen and (max-width: 956px) {
+    nav ul li {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    section {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    header .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header {
+        height: 520px;
+    }
+
+    .arena-pay {
+        margin-bottom: 50px;
+    }
+
+    .arena-pay img {
+        width: 50%;
+    }
+
+    .white-paper {
+        display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    }
+
+    .icon-line {
+        display: none;
+    }
+
+    .feature-logo {
+    width: 100px;
+}
+
+    .team-members,
+    .partners {
+        display: none;
+    }
+
+    .mobile-carousel {
+        display: block;
+    }
+
+    .icon-box {
+        width: 50px;
+    height: 50px;
+    margin-bottom: 2px;
+    margin-top: 35px;
+    }
+
+    img.token-icon {
+        width: 35px;
+    }
+
+    div[class*="col-md"] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .short {
+        height: 40px;
+    }
+
+    .icon-container {
+        margin-bottom: 0;
+    }
+
+    .feature-box .col-sm-12 {
+        margin-bottom: 30px;
+    }
+
+    .esport-box .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .newsletter input {
+        width: 70%;
+    }
+
+    footer {
+        padding-bottom: 10px;
+        height: 80px;
+    }
+
+    footer p {
+        text-align: center;
+        margin-bottom: 0 !important;
+    }
+
+    .social-box {
+        text-align: center;
+    }
+
+    .growth-box .col-md-3 {
+        padding-right: 15px;
+    }
+
+    .social-box img {
+        margin-bottom: 5px;
+    }
+}
