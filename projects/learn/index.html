@@ -28,7 +28,7 @@
     <header>
         <nav class="menu">
             <div class="img-box">
-                <img src="images/gibik2 logo.png" alt="" class="logo">
+                <img src="images/gibik2logo.png" alt="" class="logo">
                 <p>Manage your sales</p>
             </div>
 
@@ -53,15 +53,15 @@
         </nav>
     </header>
 
-    <main>
-        <div class="dashboard">
-            <p>Manage</p>
-            <p>Add</p>
-            <p>Your Profile</p>
-            <p>Your Plan</p>
-            <p>Analytics</p>
-        </div>
+    <div class="dashboard">
+        <p>Manage</p>
+        <p>Add</p>
+        <p>Your Profile</p>
+        <p>Your Plan</p>
+        <p>Analytics</p>
+    </div>
 
+    <main>
         <div class="profile">
             <div class="back1">
                 <i class="fa fa-arrow-left"></i>
@@ -109,7 +109,7 @@
                 <p><span class="bold-text">Wallet Amt:</span> Rs.0,00,000</p>
                 <p><span class="bold-text">Due Amt:</span> <span class="red-text">Rs.0,00,000</span></p>
             </div>
-            
+
             <div class="order-details">
                 <div><span class="bold-text">Date of Reg:</span> 03/03/1986</div>
                 <div><span class="bold-text">TOTAL ORDERS:</span> 10,000</div>
@@ -183,25 +183,52 @@
                             <div class="row">
                                 <div class="col-sm-12 col-md-6">
                                     <div class="credit-hold">
-                                        Credit hold <i class="fas fa-toggle-off"></i> DeActive
+                                        Credit hold
+                                        <div class="wrap">
+                                            <div class="toggle">
+                                                <div class="t2"></div>
+                                                <div class="t1"></div>
+                                            </div>
+                                            <span class="red-text">DeActive</span>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-12 col-md-6">
                                     <div class="credit">
-                                        Credits <i class="fas fa-toggle-on"></i> Active
+                                        Credits
+
+                                        <div class="wrap">
+                                            <div class="toggle">
+                                                <div class="t3"></div>
+                                                <div class="t1"></div>
+                                            </div>
+                                            <span class="green-text"> Active</span>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-12 col-md-6">
                                     <div class="hold-account">
-                                        Hold Account <i class="fas fa-toggle-off"></i> DeActive
+                                        Hold Account
+                                        <div class="wrap">
+                                            <div class="toggle">
+                                                <div class="t2"></div>
+                                                <div class="t1"></div>
+                                            </div>
+                                        </div>
+                                        <span class="red-text">DeActive</span>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-12 col-md-6">
                                     <div class="ordering">
-                                        Admin Ordering <i class="fas fa-toggle-off fa-1.5x"></i> DeActive
+                                        Admin Ordering
+                                        <div class="toggle">
+                                            <div class="t2"></div>
+                                            <div class="t1"></div>
+                                        </div>
+                                        <span class="red-text">DeActive</span>
                                     </div>
                                 </div>
                             </div>
@@ -302,7 +329,7 @@
 
         <!--Order Table  -->
         <div class="order-t">
-            <table cellpadding="10">
+            <table cellpadding="15">
                 <thead>
                     <tr>
                         <td>Order #</td>
@@ -335,7 +362,7 @@
                         <td width="300px">Filter1, Filter2, Filter3</td>
                         <td class="green-text">PAID</td>
                         <td class="green-text">DELIVERED</td>
-                        <td class="red-text">Rebate given</td>
+                        <td class="red-text1">Rebate given</td>
                     </tr>
                 </tbody>
             </table>

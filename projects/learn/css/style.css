@@ -4,11 +4,16 @@
 
 body {
 	font-family: 'Quicksand', sans-serif;
+	background-color: #f3f3f3;
+	/* padding: 5px 10px; */
+	font-weight: lighter;
+	overflow-x: hidden;
 }
 
-header,
-main {
-	padding: 5px 10px;
+header {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0 30px;
 }
 
 nav {
@@ -24,7 +29,7 @@ nav {
 }
 
 .logo {
-	width: 50px;
+	width: 70px;
 }
 
 .menu-items li {
@@ -34,7 +39,7 @@ nav {
 }
 
 li a {
-	color: #000000;
+	color: #ffffff;
 }
 
 nav li:nth-child(2) {
@@ -55,11 +60,15 @@ nav li:nth-child(2) {
 	border-radius: 100%;
 	left: 53px;
 	top: 0;
+	border: 2px solid #ffffff;
 }
 
-.dashboard p {
-	margin-right: 30px;
+main {
+	padding: 30px 15px;
+	background-color: #ffffff;
 }
+
+
 
 .back1 {
 	display: inline-block;
@@ -67,6 +76,15 @@ nav li:nth-child(2) {
 	padding: 3px 10px;
 	border-radius: 20px;
 	color: #a2a1a1;
+}
+
+.dashboard {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.dashboard p {
+	margin-right: 40px;
 }
 
 .dashboard p:nth-child(1) {
@@ -146,44 +164,38 @@ nav li:nth-child(2) {
 }
 
 
-.join {
-	border: 2px solid #c92223;
-	padding: 3px 10px;
-	background-color: #c92223;
+.join,
+.wallet,
+.order,
+.call,
+.back {
 	border-radius: 25px;
 	color: #ffffff;
+	padding: 10px 15px;
+}
+
+.join {
+	background-color: #c92223;
+
 }
 
 .wallet {
-	border: 2px solid #727271;
-	padding: 3px 10px;
 	background-color: #727271;
-	border-radius: 25px;
-	color: #ffffff;
 }
 
 .order {
-	border: 2px solid #008dd2;
-	padding: 3px 10px;
 	background-color: #008dd2;
-	border-radius: 25px;
-	color: #ffffff;
 }
 
 .call {
-	border: 2px solid #009846;
-	padding: 3px 10px;
 	background-color: #009846;
 	border-radius: 20px;
-	color: #ffffff;
 }
 
 .back {
 	border: 2px solid #a2a1a1;
-	padding: 3px 10px;
-	border-radius: 20px;
-	color: #a2a1a1;
 	display: none !important;
+	color: #a2a1a1;
 }
 
 .green-text {
@@ -194,6 +206,7 @@ nav li:nth-child(2) {
 .status {
 	display: flex;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .status p {
@@ -202,7 +215,7 @@ nav li:nth-child(2) {
 
 .account-action div {
 	border: 2px solid #f3f3f3;
-	padding: 3px 15px;
+	padding: 10px 15px;
 	background-color: #f3f3f3;
 	border-radius: 5px;
 	color: #000000;
@@ -220,9 +233,11 @@ nav li:nth-child(2) {
 }
 
 .order-details div {
-	border: 1px solid #000000;
-	padding: 5px 10px;
+	border-right: 1px solid #000000;
+	padding: 10px 21px;
 	border-left: none;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 }
 
 .order-details div:nth-child(1) {
@@ -239,7 +254,7 @@ nav li:nth-child(2) {
 }
 
 .account p {
-	margin-bottom: 0;
+	margin-bottom: 6px;
 }
 
 .shop,
@@ -247,17 +262,16 @@ nav li:nth-child(2) {
 	background-color: #f3f3f3;
 	padding: 10px 20px;
 	border-radius: 7px;
-	height: 190px;
+	min-height: 190px;
 }
 
 .contact-info {
-	height: 167px;
+	height: 190px;
 }
 
 .shop {
-	padding: 10px 10px 10px 30px;
+	padding: 10px 10px 30px 30px;
 	position: relative;
-	font-size: 14px;
 	margin-left: 20px;
 }
 
@@ -274,12 +288,12 @@ nav li:nth-child(2) {
 .three,
 .four {
 	position: absolute;
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	text-align: center;
 	color: #ffffff;
 	border-radius: 5px;
-	padding: 3px;
+	padding: 8px;
 }
 
 .one {
@@ -331,7 +345,7 @@ nav li:nth-child(2) {
 
 .photos {
 	padding-top: 34px;
-	font-size: 13px;
+	margin-left: 15px;
 }
 
 .activate .col-6 {
@@ -351,7 +365,49 @@ nav li:nth-child(2) {
 .ordering {
 	background-color: #f3f3f3;
 	margin-bottom: 10px;
-	padding: 20px 5px;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.toggle,
+.t1,
+.t2 {
+	display: inline-block;
+}
+
+.toggle {
+	position: relative;
+	margin-right: 7px;
+	vertical-align: sub;
+}
+
+.t1 {
+	background-color: #ffffff;
+	width: 30px;
+	height: 15px;
+	border-radius: 8px;
+	border: 1px solid #e4e4e4;
+}
+
+.t2 {
+	background-color: #c92223;
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	position: absolute;
+	left: -4px;
+	top: 1px;
+}
+
+.t3 {
+	background-color: #009846;
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	position: absolute;
+	right: -4px;
+	top: 1px;
 }
 
 .col-md-1 {
@@ -360,13 +416,13 @@ nav li:nth-child(2) {
 
 .activate {
 	padding-top: 20px;
-	font-size: 13px;
+	/* font-size: 13px; */
 }
 
 select {
 	display: block;
 	margin: 20px auto 20px;
-	padding: 5px;
+	padding: 10px 5px;
 	font-weight: 600;
 }
 
@@ -378,7 +434,7 @@ select {
 }
 
 .order-info div {
-	padding: 5px 10px;
+	padding: 10px 10px;
 	margin-right: 10px;
 	background-color: #ffffff;
 	border-radius: 3px;
@@ -396,8 +452,9 @@ select {
 }
 
 .search {
-	margin-top: 10px;
+	margin-top: 20px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .search p,
@@ -407,21 +464,25 @@ select {
 }
 
 .search>input {
-	height: 30px;
+	height: 46px;
 	padding: 5px;
 	text-align: center;
+	margin-top: 10px;
 }
 
 .search>p {
 	margin-right: 20px;
 	vertical-align: initial;
+	padding-top: 10px;
 }
 
-.search div {
+.to,
+.from {
 	border: 1px solid #e4e4e4;
 	margin-right: 30px;
-	height: 29px;
-	padding: 2px 10px;
+	height: 46px;
+	padding: 10px 10px;
+	border-radius: 3px;
 }
 
 .table-mobile {
@@ -448,8 +509,8 @@ select {
 }
 
 .order-t {
-	margin-bottom: 40px;
-	font-size: 13px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 table {
@@ -461,10 +522,6 @@ tr {
 	background-color: #f3f3f3;
 }
 
-.bold-text {
-	font-weight: 700;
-}
-
 tbody::before {
 	content: "@";
 	display: block;
@@ -474,8 +531,13 @@ tbody::before {
 
 .red-bd {
 	border: 1px solid #c92223;
-	padding: 5px 10px;
+	padding: 15px 40px;
 	border-radius: 3px;
+}
+
+.red-text1 {
+	text-decoration: underline;
+	color: #c92223;
 }
 
 .blue-text {
@@ -507,10 +569,14 @@ table .green-text {
 	.dashboard {
 		display: flex;
 		overflow-x: hidden;
+		justify-content: center;
+	}
+
+	.account-action {
+		overflow-x: auto;
 	}
 
 	.profile-action {
-		height: 34px;
 		display: inline-block;
 		width: auto;
 		overflow-x: hidden;
@@ -543,11 +609,11 @@ table .green-text {
 	}
 
 	.back {
-		display: inline-block;
+		display: inline-block !important;
 	}
 
 	.one {
-		top: 17px;
+		top: 5px;
 		left: 95%;
 	}
 
@@ -557,17 +623,25 @@ table .green-text {
 	}
 
 	.three {
-		top: 88px;
+		top: 97px;
 		left: 95%;
 	}
 
 	.four {
-		top: 124px;
+		top: 142px;
 		left: 95%;
 	}
 
 	.activate i {
 		margin-left: 16%;
+	}
+
+	.shop {
+		padding: 10px 10px 0 30px;
+	}
+
+	#order {
+		display: block;
 	}
 
 	.order-info {
@@ -578,10 +652,19 @@ table .green-text {
 		display: none;
 	}
 
+	.account .col-lg-2,
+	.account .col-lg-4 {
+		padding-right: 0;
+	}
+
 	.search {
 		display: flex;
 		justify-content: center;
 		align-content: center;
+	}
+
+	.search>input {;
+		margin-top: 0;
 	}
 
 	.search>p {
