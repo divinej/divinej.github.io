@@ -347,6 +347,7 @@ main {
 
 .upload {
 	margin-bottom: 7px;
+	padding-left: 10px;
 }
 
 .photos {
@@ -572,7 +573,7 @@ table .green-text {
 @media all and (min-width: 769px) {
 
 	header {
-		padding: 0 30px;
+		padding: 0 60px;
 	}
 
 	.menu-items li {
