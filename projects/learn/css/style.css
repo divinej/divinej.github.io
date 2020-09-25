@@ -13,7 +13,7 @@ body {
 header {
 	background-color: #000000;
 	color: #ffffff;
-	padding: 0 30px;
+	padding-left: 20px;
 }
 
 nav {
@@ -64,7 +64,7 @@ nav li:nth-child(2) {
 }
 
 main {
-	padding: 30px 15px;
+	padding: 30px 20px;
 	background-color: #ffffff;
 }
 
@@ -80,7 +80,7 @@ main {
 
 .dashboard {
 	padding-top: 20px;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
 .dashboard p {
@@ -95,6 +95,7 @@ main {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .acc-details {
@@ -125,6 +126,11 @@ main {
 
 .profile p {
 	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.profile-action {
+	margin-bottom: 30px;
 }
 
 .profile-action,
@@ -157,10 +163,10 @@ main {
 }
 
 .order-details-mb {
-	border: 1px solid #e4e4e4;
-	padding: 10px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	border: 2px solid #e4e4e4;
+	padding: 10px 10px 0;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 
@@ -214,12 +220,11 @@ main {
 }
 
 .account-action div {
-	border: 2px solid #f3f3f3;
+	border: 1px solid #e4e4e4;
 	padding: 10px 15px;
 	background-color: #f3f3f3;
 	border-radius: 5px;
 	color: #000000;
-	margin-bottom: 10px;
 }
 
 .account-action .delete {
@@ -263,16 +268,18 @@ main {
 	padding: 10px 20px;
 	border-radius: 7px;
 	min-height: 190px;
+	border: 2px solid #e4e4e4;
 }
 
 .contact-info {
-	height: 190px;
+	width: 300px;
 }
 
 .shop {
 	padding: 10px 10px 30px 30px;
 	position: relative;
 	margin-left: 20px;
+	margin-bottom: 10px;
 }
 
 .shop h6 {
@@ -280,7 +287,7 @@ main {
 }
 
 .contact-info {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .one,
@@ -294,29 +301,26 @@ main {
 	color: #ffffff;
 	border-radius: 5px;
 	padding: 8px;
+	bottom: -20px;
 }
 
 .one {
-	bottom: -10px;
 	left: 14px;
 	background-color: #2b2a29;
 }
 
 .two {
-	bottom: -10px;
-	left: 56px;
+	left: 67px;
 	background-color: #b2b2b2;
 }
 
 .three {
-	bottom: -10px;
-	left: 102px;
+	left: 122px;
 	background-color: #b2b2b2;
 }
 
 .four {
-	bottom: -10px;
-	left: 146px;
+	left: 176px;
 	background-color: #b2b2b2;
 }
 
@@ -337,6 +341,8 @@ main {
 	text-align: center;
 	background-color: #f3f3f3;
 	padding: 5px;
+	border: 2px solid #e4e4e4;
+	border-radius: 4px;
 }
 
 .upload {
@@ -344,8 +350,12 @@ main {
 }
 
 .photos {
-	padding-top: 34px;
-	margin-left: 15px;
+	margin: 40px 35px 10px;
+}
+
+.activate {
+	padding-top: 20px;
+	margin: 0 50px 0;
 }
 
 .activate .col-6 {
@@ -368,6 +378,8 @@ main {
 	padding: 20px 10px;
 	display: flex;
 	justify-content: space-between;
+	border: 2px solid #e4e4e4;
+	border-radius: 4px;
 }
 
 .toggle,
@@ -387,7 +399,7 @@ main {
 	width: 30px;
 	height: 15px;
 	border-radius: 8px;
-	border: 1px solid #e4e4e4;
+	border: 2px solid #e4e4e4;
 }
 
 .t2 {
@@ -397,7 +409,7 @@ main {
 	border-radius: 100%;
 	position: absolute;
 	left: -4px;
-	top: 1px;
+	top: 0;
 }
 
 .t3 {
@@ -407,16 +419,11 @@ main {
 	border-radius: 100%;
 	position: absolute;
 	right: -4px;
-	top: 1px;
+	top: 0;
 }
 
 .col-md-1 {
 	padding-right: 0;
-}
-
-.activate {
-	padding-top: 20px;
-	/* font-size: 13px; */
 }
 
 select {
@@ -424,6 +431,7 @@ select {
 	margin: 20px auto 20px;
 	padding: 10px 5px;
 	font-weight: 600;
+	height: 46px;
 }
 
 .order-info {
@@ -465,8 +473,7 @@ select {
 
 .search>input {
 	height: 46px;
-	padding: 5px;
-	text-align: center;
+	padding: 5px 5px 5px 10px;
 	margin-top: 10px;
 }
 
@@ -531,7 +538,7 @@ tbody::before {
 
 .red-bd {
 	border: 1px solid #c92223;
-	padding: 15px 40px;
+	padding: 10px 40px;
 	border-radius: 3px;
 }
 
@@ -552,7 +559,30 @@ table .green-text {
 
 /* Media query */
 
+@media all and (max-width: 375px) {
+	.menu-items li {
+		margin-right: 15px;
+	}
+
+	.contact-info {
+		width: 218px;
+	}
+}
+
 @media all and (min-width: 769px) {
+
+	header {
+		padding: 0 30px;
+	}
+
+	.menu-items li {
+		margin-right: 20px;
+	}
+
+	main {
+		padding: 30px 15px;
+	}
+
 	.dashboard {
 		display: flex;
 		justify-content: center;
@@ -601,7 +631,9 @@ table .green-text {
 	}
 
 	.contact-info {
-		height: 190px;
+		min-height: 190px !important;
+		width: 100%;
+		margin-bottom: 0;
 	}
 
 	.back1 {
@@ -632,12 +664,22 @@ table .green-text {
 		left: 95%;
 	}
 
+	.activate {
+		margin: 0;
+	}
+
 	.activate i {
 		margin-left: 16%;
 	}
 
 	.shop {
-		padding: 10px 10px 0 30px;
+		padding: 10px 10px 13px 30px;
+	}
+
+	.photos {
+		margin-left: 15px;
+		padding-top: 34px;
+		margin-bottom: 20px;
 	}
 
 	#order {
@@ -663,7 +705,7 @@ table .green-text {
 		align-content: center;
 	}
 
-	.search>input {;
+	.search>input {
 		margin-top: 0;
 	}
 
