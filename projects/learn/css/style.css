@@ -580,7 +580,7 @@ table .green-text {
 	}
 
 	main {
-		padding: 30px 15px;
+		padding: 30px 60px;
 	}
 
 	.dashboard {
@@ -668,6 +668,9 @@ table .green-text {
 		margin: 0;
 	}
 
+	.activate .col-sm-12.col-md-6 {
+		padding-left: 0;
+	}
 	.activate i {
 		margin-left: 16%;
 	}
@@ -697,6 +700,11 @@ table .green-text {
 	.account .col-lg-2,
 	.account .col-lg-4 {
 		padding-right: 0;
+	}
+
+	.t1,
+	.t3 {
+		top: 1px;
 	}
 
 	.search {
