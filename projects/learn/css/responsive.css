@@ -1,0 +1,141 @@
+/* *****************	
+****            Page 1 Media Query
+*******************************************/
+
+@media all and (min-width: 370px) {
+	.menu-items li {
+		margin-right: 15px;
+	}
+	
+	.sales-mg-box,
+	.sales-mg-box2 {
+		height: 240px;
+	}
+
+	video {
+		width: 300px;
+	}
+}
+
+
+@media all and (min-width: 416px) {
+	.logo {
+		width: 70px;
+	}
+	.menu-items li {
+		margin-right: 20px;
+		font-size: 1em;
+	}
+
+	.sales-mg-box,
+	.sales-mg-box2 {
+		height: 220px;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.img-box p {
+		display: inline-block;
+		margin-left: 20px;
+		display: inline-block;
+	}
+	
+	video {
+		width: 60%;
+		height: 300px;
+	}
+	.email-field {
+		width: 400px;
+	}
+	.carousel-control-next {
+		right: 122px;
+	}
+
+	.carousel-control-prev {
+		left: 122px;
+	}
+
+	.customers,
+	.start-free,
+	.trusted-cs {
+		display: block;
+	}
+
+	footer {
+		display: flex;
+	}
+
+		/* *****************************
+**              Scene 5-Sign In Media Query
+********************************** */
+	.footer-bt {
+		position: absolute;
+    width: 100%;
+    bottom: 0;
+	}
+
+
+		/* *****************************
+**              Page 3 Media Query
+********************************** */
+	.partner input,
+	.partner select {
+		width: 500px;
+	}
+
+	.questions {
+		width: 500px;
+	}
+}
+
+@media all and (min-width: 1024px) {
+	.email-field {
+		display: inline-block;
+		margin: 0 auto;
+	}
+
+	.manage-now {
+		position: absolute;
+		right: 26%;
+		top: -9px;
+	}
+
+	.b2b-container,
+	.price-container {
+		display: flex;
+		justify-content: center;
+		overflow-x: auto;
+	}
+
+	.carousel-control-next {
+		right: 26%;
+	}
+
+	.carousel-control-prev {
+		left: 26%;
+	}
+
+
+	/* *****************************
+**              Page 2 Media Query
+********************************** */
+
+}
+
+@media all and (min-width: 1440PX) {
+	.carousel-control-next {
+		right: 30%;
+	}
+
+	.carousel-control-prev {
+		left: 30%;
+	}
+}
+
+/* *****************************
+**              End of Page 1 Media Query
+********************************** */
+
+
+
+
