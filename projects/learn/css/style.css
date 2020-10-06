@@ -5,8 +5,7 @@
 body {
 	font-family: 'Quicksand', sans-serif;
 	background-color: var(--white);
-	/* font-weight: lighter;
-	overflow-x: hidden; */
+	font-size: 0.9rem;
 	color: var(--black);
 	font-family: 'Quicksand', sans-serif;
 }
@@ -30,7 +29,7 @@ body {
 header {
 	background-color: var(--black);
 	color: var(--white);
-	padding-left: 20px;
+	padding-left: 10px;
 }
 
 nav {
@@ -54,7 +53,10 @@ nav {
 	display: inline-block;
 	list-style-type: none;
 	margin-right: 5px;
-	font-size: 0.8em;
+}
+
+.menu-items .mg-left {
+	margin-right: 17px;
 }
 
 li a {
@@ -77,7 +79,7 @@ nav li:nth-child(2) {
 	content: "";
 	display: inline-block;
 	border-radius: 100%;
-	left: 53px;
+	left: 50px;
 	top: 0;
 	border: 2px solid var(--white);
 }
@@ -86,7 +88,7 @@ nav li:nth-child(2) {
 /************** Main Sectio styles  ******************/
 
 main {
-	padding: 30px 20px;
+	padding: 30px 10px;
 	background-color: var(--white);
 }
 
@@ -108,15 +110,16 @@ main {
 
 .email-form {
 	position: relative;
+	margin-bottom: 5px;
 }
 
 .email-field {
+	width: calc(100% - 10px);
 	padding: 10px;
 	border-radius: 30px;
 	border: 1px solid var(--black);
 	text-align: center;
 	display: block;
-	text-align: left;
 	margin: 0 auto;
 }
 
@@ -131,18 +134,20 @@ main {
 	padding: 7px 12px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-weight: 700;
 }
 
 .demo-btn {
 	width: 200px;
 	margin-top: 50px;
+	padding: 5px 12px;
 }
 
 video {
 	background-color: var(--black);
-	margin-top: 40px;
-	width: 280px;
-	height: 200px;
+	margin-top: 30px;
+	width: calc(100% - 10px);
+    height: 150px;
 }
 
 
@@ -152,14 +157,16 @@ video {
 	margin-bottom: 60px;
 }
 
-.b2b h5 {
-	font-weight: 550;
+.center-txt {
+	font-weight: 700;
 	text-align: center;
 	margin-bottom: 30px;
 }
 
 .b2b-container,
-.price-container {
+.price-container,
+.dashboard,
+.add-associate {
 	width: 100%;
 	white-space: nowrap;
 	position: relative;
@@ -169,14 +176,14 @@ video {
 }
 
 .b2b-box {
-	width: 230px;
-	height: 140px;
-	background-color: var(--gray);
-	display: inline-block;
-	zoom: 1;
-	padding: 24px 20px;
-	margin-right: 15px;
-	border-radius: 5px;
+	width: 200px;
+    height: 110px;
+    background-color: var(--gray);
+    display: inline-block;
+    zoom: 1;
+    padding: 20px 10px;
+    margin-right: 3px;
+    border-radius: 5px;
 }
 
 .b2b-box p {
@@ -186,34 +193,62 @@ video {
 }
 
 .b2b-box img {
-	width: 100px;
-	height: 92.3px;
+	width: 80px;
+	height: 80px;
 }
 
 /* Check out pricing styles */
 .price-ft {
+	position: relative;
 	background-color: var(--black);
 	color: var(--white);
 	padding: 10px;
 	border-radius: 5px;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
+	font-weight: 700;
+}
+
+.arrow-box {
+	position: absolute;
+    display: inline-block;
+    background-color: var(--white);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    right: 10px;
+	top: 5px;
+	color: var(--black);
 }
 
 /* Sales Info Styles */
-.sales-info h6 {
+.sales-info > p {
 	text-align: center;
 	font-weight: 700;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.sales-mg-container .row {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sales-mg-container .col-6,
+.sales-mg-container .col-md-4 {
+	padding-right: 3px;
+	padding-left: 3px;
 }
 
 .sales-mg-box,
 .sales-mg-box2 {
 	border: 3px solid var(--gray-bd);
-	padding: 12px;
-	border-radius: 7px;
-	margin: 0 auto 25px;
-	height: 340px;
-	/* width: 240px; */
+    padding: 7px 5px;
+    border-radius: 7px;
+    margin: 0 auto 15px;
+    height: 170px;
+}
+
+.no-display {
+	display: none;
 }
 
 .sales-mg-box2 {
@@ -228,7 +263,7 @@ video {
 
 /* Customers Styles */
 .customers {
-	margin-top: 70px;
+	margin-top: 50px;
 	display: none;
 }
 
@@ -246,10 +281,10 @@ video {
 }
 
 .cs-img {
-	width: 40%;
+	width: 31%;
 	max-width: 151px;
 	height: 40px;
-	margin: 0 auto 5px;
+	margin: 5px auto 15px;
 	background-color: var(--gray-bd);
 }
 
@@ -268,12 +303,12 @@ video {
 }
 
 .carousel-control-prev {
-	left: -5px;
+	left: 117px;
 	top: 70px
 }
 
 .carousel-control-next {
-	right: -5px;
+	right: 117px;
 	top: 70px
 }
 
@@ -305,7 +340,7 @@ video {
 /*   */
 .start-free {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 70px;
 	display: none;
 }
 
@@ -315,8 +350,9 @@ video {
 }
 
 .start-free h6 {
-	margin-top: 60px;
+	margin-top: 50px;
 	margin-bottom: 20px;
+	font-weight: 700;
 }
 
 .trusted-cs {
@@ -324,9 +360,18 @@ video {
 }
 
 .trusted-cs-box {
+	display: inline-block;
 	background-color: var(--gray);
-	height: 60px;
-	margin-bottom: 15px;
+	width: 100%;
+	height: 90px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.trusted-cs .col,
+.trusted-cs .col-md-2 {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 footer {
@@ -374,7 +419,7 @@ footer p,
 
 .price-btn > button {
 	width: 150px;
-	padding: 10px;
+	padding: 12px;
 }
 
 .monthly-btn {
@@ -414,7 +459,7 @@ footer p,
 	display: inline-block;
 	width: 230px;
 	text-align: center;
-	margin-right: 20px;
+	margin-right: 35px;
 }
 
 .price-box h6 {
@@ -449,12 +494,12 @@ footer p,
 	border-color: var(--blue);
 	border-radius: 30px;
 	position: absolute;
-	left: 25%;
-	bottom: -32px;
+	left: 15%;
+    bottom: -25px;
 }
 
 .price-box-lg {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .price-box-lg table {
@@ -523,7 +568,7 @@ th, td {
 	border-radius: 30px;
 	color: var(--white);
 	left: 45px;
-	bottom: -10px;
+	bottom: -3px;
 }
 
 .customize .demo-btn {
@@ -553,7 +598,7 @@ th, td {
 
 .partner input,
 .partner select {
-	width: 300px;
+	width: 100%;
 	margin: 0 auto;
 	 border: 1px solid var(--black);
 	 padding: 25px;
@@ -569,13 +614,14 @@ th, td {
 }
 
 .questions {
-	background-color: var(--gray);
-	width: 320px;
+	background-color: var(--gray-bd);
+	width: 100%;
 	padding: 10px;
 	margin: 25px auto;
 	border-radius: 30px;
 	text-align: left;
 	position: relative;
+	font-weight: 600;
 }
 
 .partner span{
@@ -589,15 +635,15 @@ th, td {
 
 
 /**************************************************************
-*							END OF SCREEN 5 SIGN IN
+*							START OF SCREEN 5 SIGN IN
 *********************************************************** */
 .login-box {
-	width: 280px;
-	margin: 70px auto;
-	border: 2px solid var(--gray);
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-	text-align: center;
+	width: 100%;
+    margin: 70px 0;
+    border: 2px solid var(--gray);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
 }
 
 .login-form {
@@ -641,5 +687,268 @@ th, td {
 
 .gray-bg {
 	background-color: var(--gray-bd);
-	/* color: var(--white); */
 }
+
+
+/**************************************************************
+*							START OF SCREEN 6
+*********************************************************** */
+
+.about-company {
+	text-align: center;
+}
+
+.about-company h3 {
+	margin-top: 40px;
+}
+
+.about-company-box {
+	position: relative;
+	width: 100%;
+	margin: 70px auto;
+	background-color: var(--black);
+	color: var(--white);
+	border-radius: 10px;
+	text-align: center;
+	padding: 40px 10px 10px;
+}
+
+.logo-box {
+	width: 130px;
+	height: 65px;
+	border: 2px solid var(--black);
+	background-color: var(--white);
+	border-radius: 7px;
+	position: absolute;
+	top: -37px;
+	left: 31%;
+	color: var(--black);
+	padding-top: 20px;
+}
+
+.input-group-prepend {
+	width: 40%;
+}
+
+.about-company-box input,
+.about-company-box select {
+	border-radius: 30px;
+}
+
+.about-company-box .input-group {
+	border: 1px solid var(--white);
+	border-radius: 30px;
+	background-color: var(--white);
+}
+
+.input-group select {
+	border: none;
+	border-right: 2px solid var(--gray-bd);
+	border-radius: 30px;
+}
+
+.input-group input {
+	border-radius: 30px;
+	border: none;
+}
+
+.next-btn,
+.add-product-btn {
+	background-color: var(--black);
+    border: 1px solid var(--black);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 6
+*********************************************************** */
+.dashboard {
+	background-color: var(--gray-bd);
+	padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.dashboard p {
+	float: none;
+    display: inline-block;
+	zoom: 1;
+	margin-right: 30px;
+}
+
+.dashboard p:nth-child(1) {
+	font-weight: bold;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 7
+*********************************************************** */
+
+.no-projects {
+	text-align: center;
+	margin-top: 120px;
+}
+
+.add-product-btn {
+	margin-top: 60px;
+}
+
+.small-text {
+	font-size: 12px;
+}
+
+.red-txt {
+	color: var(--red);	
+}
+
+.no-projects .bottom-text {
+	position: absolute;
+	bottom: 60px;
+	left: 13%;
+}
+
+/**************************************************************
+*							START OF SCREEN 8
+*********************************************************** */
+main.no-side-pd {
+	padding: 20px 0;
+}
+
+main.custom-pd {
+	padding: 10px 0;
+}
+
+main.no-pd,
+.col-4.no-pd {
+	padding: 0;
+}
+.associate-details {
+	text-align: center;
+}
+
+.add-associate-box,
+.add-products-box,
+.add-lead-box,
+.add-team-box,
+.save-category-btn,
+.black-dist-btn,
+.gray-cus-btn {
+	display: inline-block;
+	background-color: var(--black);
+    border: 1px solid var(--black);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 5px 19px;
+    margin: 10px;
+}
+
+.add-products-box,
+.add-lead-box,
+.add-team-box,
+.gray-cus-btn {
+	background-color: var(--gray-bd);
+	border: 1px solid var(--gray-bd);
+	color: var(--black);
+}
+
+.associate-details {
+	margin: 30px 0;
+}
+
+.bold-txt {
+	margin-bottom: 0;
+}
+
+.upload-excel {
+	font-size: 0.8rem;
+}
+
+.black-dist-btn,
+.gray-cus-btn {
+	margin: 0 5px;
+}
+
+.add-associate-form {
+	text-align: center;
+}
+
+.red-bd input,
+.red-bd .input-group {
+	border: 1px solid var(--red);
+	border-radius: 12px;
+	color: var(--black);
+}
+
+.red-bd .input-group input,
+.red-bd .no-bd,
+.black-bd .input-group input {
+	border: none;
+}
+
+.red-bd .input-group-prepend select{
+    width: 70%;
+}
+
+.red-bd .input-group .bd-right {
+	border-right: 1px solid var(--red);
+    width: 90%;
+}
+
+.black-bd input,
+.black-bd .input-group {
+	border: 1px solid var(--black);
+	border-radius: 12px;
+}
+
+.black-bd .input-group .bd-left {
+	border-left: 1px solid var(--black);
+	border-radius: 12px;
+}
+
+.black-bd .inline-input {
+	display: inline-block;
+}
+
+.black-bd p {
+	text-align: left;
+}
+
+.save-category-btn {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 10px 15px;
+}
+
+.btn-container {
+	text-align: center;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 8
+*********************************************************** */
+.text-container {
+	padding: 0 10px;
+	margin-top: 20px;
+}
+
+.back {
+	border-radius: 100%;
+	color: var(--black);
+	padding: 10px 15px;
+	border: 1px solid var(--black);
+	width: 30px;
+    height: 30px;
+}
+
+.select-container {
+	padding: 10px;
+}
+
+

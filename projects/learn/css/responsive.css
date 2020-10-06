@@ -6,14 +6,17 @@
 	.menu-items li {
 		margin-right: 15px;
 	}
-	
+
 	.sales-mg-box,
 	.sales-mg-box2 {
-		height: 240px;
+		height: 160px;
 	}
 
-	video {
-		width: 300px;
+	/* *****************************
+	**              Scene 7 Media Query
+	********************************** */
+	.no-projects .bottom-text {
+		left: 20%;
 	}
 }
 
@@ -22,69 +25,189 @@
 	.logo {
 		width: 70px;
 	}
+
 	.menu-items li {
 		margin-right: 20px;
 		font-size: 1em;
 	}
 
-	.sales-mg-box,
-	.sales-mg-box2 {
-		height: 220px;
+	.sales-mg-container .col-6,
+	.sales-mg-container .col-md-4 {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	/* *****************************
+	**              Scene 6 Media Query
+	********************************** */
+
+	.logo-box {
+		left: 34%;
 	}
 }
 
 @media all and (min-width: 768px) {
+	.padd {
+		padding: 30px 6%;
+	}
+
+	.no-display {
+		display: block;
+	}
+
+	.manage-now {
+		position: absolute;
+		right: 19%;
+		top: -10px;
+		padding: 8px 12px;
+	}
+
+	.b2b-container {
+		display: flex;
+		justify-content: center;
+		overflow-x: auto;
+	}
+
+	.b2b-box {
+		margin-right: 20px;
+	}
+
+	.price-ft {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.arrow-box {
+		right: 28%;
+	}
+
+	.sales-info>p {
+		margin-bottom: 40px;
+	}
+
+	.customers>h6 {
+		margin-bottom: 40px;
+		font-weight: 700;
+	}
+
+	.sales-mg-box,
+	.sales-mg-box2 {
+		padding: 12px;
+	}
+
+	.sales-mg-container .col-6,
+	.sales-mg-container .col-md-4 {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
 	.img-box p {
 		display: inline-block;
 		margin-left: 20px;
 		display: inline-block;
 	}
-	
+
 	video {
 		width: 60%;
-		height: 300px;
-	}
-	.email-field {
-		width: 400px;
-	}
-	.carousel-control-next {
-		right: 122px;
+		height: 200px;
 	}
 
-	.carousel-control-prev {
-		left: 122px;
+	.email-field {
+		width: 400px;
 	}
 
 	.customers,
 	.start-free,
 	.trusted-cs {
 		display: block;
+		text-align: center;
 	}
 
 	footer {
 		display: flex;
 	}
 
-		/* *****************************
-**              Scene 5-Sign In Media Query
-********************************** */
+	/* *****************************
+	**              Scene 5-Sign In Media Query
+	********************************** */
+	.login-box {
+		width: 500px;
+		margin: 70px auto;
+	}
+
+	.login-box input.form-control {
+		width: calc(100% - 30%) !important;
+	}
+
 	.footer-bt {
 		position: absolute;
-    width: 100%;
-    bottom: 0;
+		width: 100%;
+		bottom: 0;
 	}
 
 
-		/* *****************************
-**              Page 3 Media Query
-********************************** */
+	/* *****************************
+	**              Scene 5-Sign In Media Query
+	********************************** */
+	.about-company-box {
+		width: 400px;
+	}
+
+	/* *****************************
+	**              Page 3 Media Query
+	********************************** */
 	.partner input,
 	.partner select {
-		width: 500px;
+		width: 450px;
 	}
 
 	.questions {
 		width: 500px;
+	}
+
+
+	/* *****************************
+	**              Page 3 Media Query
+	********************************** */
+	.partner input,
+	.no-projects .bottom-text {
+		left: 35%;
+	}
+
+	.dashboard,
+	.add-associate {
+		display: flex;
+		justify-content: center;
+		overflow-x: auto;
+	}
+
+	/* *****************************
+	**              Page 8 Media Query
+	********************************** */
+	main.no-side-pd {
+		padding: 30px 20px;
+	}
+
+	main.custom-pd {
+		padding: 20px;
+	}
+
+	.text-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+
+	.associate-details .bold-txt {
+		margin-right: 15px;
+	}
+
+	.associate-details p {
+		display: inline-block;
+	}
+
+	.footer-bt.relative-bt {
+		position: relative;
 	}
 }
 
@@ -94,13 +217,6 @@
 		margin: 0 auto;
 	}
 
-	.manage-now {
-		position: absolute;
-		right: 26%;
-		top: -9px;
-	}
-
-	.b2b-container,
 	.price-container {
 		display: flex;
 		justify-content: center;
@@ -108,34 +224,64 @@
 	}
 
 	.carousel-control-next {
-		right: 26%;
+		right: 25%;
 	}
 
 	.carousel-control-prev {
-		left: 26%;
+		left: 25%;
+	}
+
+	.sales-mg-box,
+	.sales-mg-box2 {
+		height: 120px;
+	}
+
+		/* *****************************
+**              Page 7 Media Query
+********************************** */
+	.no-projects .bottom-text {
+		left: 39%;
 	}
 
 
 	/* *****************************
-**              Page 2 Media Query
+**              Page 8 Media Query
 ********************************** */
+	.associate-details {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.footer-bt.relative-bt {
+		position: absolute;
+	}
+
 
 }
 
 @media all and (min-width: 1440PX) {
+
+	/* *****************************
+	**              Scene 1 Media Query
+	********************************** */
+	.sales-mg-box,
+	.sales-mg-box2 {
+		height: 120px;
+	}
+
 	.carousel-control-next {
-		right: 30%;
+		right: 33%;
 	}
 
 	.carousel-control-prev {
-		left: 30%;
+		left: 33%;
+	}
+
+
+	/* *****************************
+	**              Scene 7 Media Query
+	********************************** */
+	.no-projects .bottom-text {
+		left: 43%;
 	}
 }
-
-/* *****************************
-**              End of Page 1 Media Query
-********************************** */
-
-
-
-
