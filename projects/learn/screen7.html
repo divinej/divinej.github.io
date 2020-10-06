@@ -13,16 +13,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="" />
 
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Quicksand:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/31e5e1a58b.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
 
     <!-- Custom Css file -->
     <link rel="stylesheet" href="css/style.css">
@@ -41,17 +37,18 @@
 
             <div class="menu-container">
                 <ul class="menu-items">
-                    <li class="not-box">
+                    <li class="not-box mg-left">
                         <a href="">
-                            Partner in Sales
+                            <i class="fa fa-bell"></i>
                         </a>
+                        <span class="dot"></span>
                     </li>
                     <li>
-                        <a href="#">Pricing</a>
+                        <a href="#">Ayush</a>
                     </li>
                     <li>
                         <a href="#">
-                            Sign In
+                            Log Out
                         </a>
                     </li>
                 </ul>
@@ -59,36 +56,24 @@
         </nav>
     </header>
 
+    <div class="dashboard">
+        <p>Manage</p>
+        <p>Add</p>
+        <p>Your Profile</p>
+        <p>Your Plan</p>
+        <p>Analytics</p>
+    </div>
 
-    <main class="no-pd">
-        <div class="login-box">
-            <div class="login-form">
-                <button class="sign-in gray-bg" id="signIn" onclick="window.location.href='/screen5-signIn.html'">Sign In</button>
-                <button class="sign-up black-bg" id="signUp">Sign Up</button>
-            </div>
+    <main class="container">
+        <div class="no-projects">
+            <h4>No Projects or Associate added Yet <br>
+            </h4>
 
-            <form>
-                    <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Full Name">
-                        </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email id">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Password">
-                    </div>
+            <button class="add-product-btn">Add Products</button>
+            <p class="small-text  bold-txt">Manage all your b2b with ease & transparency</p>
 
-                    <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <label class="form-check-label" for="">
-                              Agree to <span class="txt-underline">Terms & condition</span>
-                            </label>
-                          </div>
-                </form>
-
-                <button class="manage-now">Create Now</button>
+            <p class="bottom-text">Current Plan: Birdy <span class="red-txt bold-txt">Change Plan</span></p>
         </div>
-      
     </main>
 
     <footer class="footer-bt">
@@ -109,7 +94,7 @@
     <!-- Popper JS -->
     <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap JS file -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="custom/js/bootstrap.bundle.min.js"></script>
     <!-- Main JS -->
     <script src="js/script.js"></script>
 
