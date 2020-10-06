@@ -147,7 +147,7 @@ video {
 	background-color: var(--black);
 	margin-top: 30px;
 	width: calc(100% - 10px);
-    height: 150px;
+	height: 150px;
 }
 
 
@@ -166,7 +166,8 @@ video {
 .b2b-container,
 .price-container,
 .dashboard,
-.add-associate {
+.add-associate,
+.linked-container {
 	width: 100%;
 	white-space: nowrap;
 	position: relative;
@@ -177,13 +178,13 @@ video {
 
 .b2b-box {
 	width: 200px;
-    height: 110px;
-    background-color: var(--gray);
-    display: inline-block;
-    zoom: 1;
-    padding: 20px 10px;
-    margin-right: 3px;
-    border-radius: 5px;
+	height: 110px;
+	background-color: var(--gray);
+	display: inline-block;
+	zoom: 1;
+	padding: 20px 10px;
+	margin-right: 3px;
+	border-radius: 5px;
 }
 
 .b2b-box p {
@@ -210,18 +211,18 @@ video {
 
 .arrow-box {
 	position: absolute;
-    display: inline-block;
-    background-color: var(--white);
-    height: 30px;
-    width: 30px;
-    border-radius: 100%;
-    right: 10px;
+	display: inline-block;
+	background-color: var(--white);
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	right: 10px;
 	top: 5px;
 	color: var(--black);
 }
 
 /* Sales Info Styles */
-.sales-info > p {
+.sales-info>p {
 	text-align: center;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -241,10 +242,10 @@ video {
 .sales-mg-box,
 .sales-mg-box2 {
 	border: 3px solid var(--gray-bd);
-    padding: 7px 5px;
-    border-radius: 7px;
-    margin: 0 auto 15px;
-    height: 170px;
+	padding: 7px 5px;
+	border-radius: 7px;
+	margin: 0 auto 15px;
+	height: 170px;
 }
 
 .no-display {
@@ -404,7 +405,7 @@ footer p,
 
 
 
- /* ***************************************************************************
+/* ***************************************************************************
  **									PAGE 2 
  *******************************************************************************/
 .page2 {
@@ -417,7 +418,7 @@ footer p,
 	justify-content: center;
 }
 
-.price-btn > button {
+.price-btn>button {
 	width: 150px;
 	padding: 12px;
 }
@@ -474,10 +475,10 @@ footer p,
 	background-color: var(--gray-bd);
 	padding: 10px;
 	height: 78px;
-    line-height: 1.2;
+	line-height: 1.2;
 }
 
-.gray-box > p:nth-child(1) {
+.gray-box>p:nth-child(1) {
 	margin-bottom: 0;
 	font-weight: 700;
 }
@@ -495,7 +496,7 @@ footer p,
 	border-radius: 30px;
 	position: absolute;
 	left: 15%;
-    bottom: -25px;
+	bottom: -25px;
 }
 
 .price-box-lg {
@@ -511,11 +512,13 @@ footer p,
 	border-spacing: 0 5px;
 	border-collapse: separate;
 }
+
 .gray-tb tr {
 	background-color: var(--gray-bd);
 }
 
-th, td {
+th,
+td {
 	padding: 10px;
 	margin-bottom: 10px;
 }
@@ -590,19 +593,19 @@ th, td {
 
 .partner .black-bd {
 	width: 270px;
-    background-color: var(--black);
-    color: var(--white);
-    padding: 10px;
-    margin: 20px auto 40px;
+	background-color: var(--black);
+	color: var(--white);
+	padding: 10px;
+	margin: 20px auto 40px;
 }
 
 .partner input,
 .partner select {
 	width: 100%;
 	margin: 0 auto;
-	 border: 1px solid var(--black);
-	 padding: 25px;
-	 border-radius: 30px;
+	border: 1px solid var(--black);
+	padding: 25px;
+	border-radius: 30px;
 }
 
 .join-btn {
@@ -624,7 +627,7 @@ th, td {
 	font-weight: 600;
 }
 
-.partner span{
+.partner span {
 	position: absolute;
 	right: 25px;
 }
@@ -639,11 +642,11 @@ th, td {
 *********************************************************** */
 .login-box {
 	width: 100%;
-    margin: 70px 0;
-    border: 2px solid var(--gray);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    text-align: center;
+	margin: 70px 0;
+	border: 2px solid var(--gray);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	text-align: center;
 }
 
 .login-form {
@@ -660,9 +663,9 @@ th, td {
 
 .login-box input.form-control {
 	width: calc(100% - 5%) !important;
-    margin: 0 auto;
-    border: 2px solid var(--gray);
-    padding: 15px;
+	margin: 0 auto;
+	border: 2px solid var(--gray);
+	padding: 15px;
 	border-radius: 30px;
 }
 
@@ -755,12 +758,12 @@ th, td {
 .next-btn,
 .add-product-btn {
 	background-color: var(--black);
-    border: 1px solid var(--black);
-    color: var(--white);
-    border-radius: 30px;
-    padding: 10px 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	border: 1px solid var(--black);
+	color: var(--white);
+	border-radius: 30px;
+	padding: 10px 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
@@ -770,13 +773,13 @@ th, td {
 .dashboard {
 	background-color: var(--gray-bd);
 	padding-top: 20px;
-    padding-left: 20px;
+	padding-left: 20px;
 
 }
 
 .dashboard p {
 	float: none;
-    display: inline-block;
+	display: inline-block;
 	zoom: 1;
 	margin-right: 30px;
 }
@@ -804,7 +807,7 @@ th, td {
 }
 
 .red-txt {
-	color: var(--red);	
+	color: var(--red);
 }
 
 .no-projects .bottom-text {
@@ -828,6 +831,7 @@ main.no-pd,
 .col-4.no-pd {
 	padding: 0;
 }
+
 .associate-details {
 	text-align: center;
 }
@@ -838,14 +842,17 @@ main.no-pd,
 .add-team-box,
 .save-category-btn,
 .black-dist-btn,
-.gray-cus-btn {
+.gray-cus-btn,
+.save-btn,
+.skip-btn {
 	display: inline-block;
 	background-color: var(--black);
-    border: 1px solid var(--black);
-    color: var(--white);
-    border-radius: 30px;
-    padding: 5px 19px;
-    margin: 10px;
+	border: 1px solid var(--black);
+	color: var(--white);
+	border-radius: 30px;
+	padding: 5px 19px;
+	margin: 10px;
+	font-weight: 700;
 }
 
 .add-products-box,
@@ -891,13 +898,13 @@ main.no-pd,
 	border: none;
 }
 
-.red-bd .input-group-prepend select{
-    width: 70%;
+.red-bd .input-group-prepend select {
+	width: 70%;
 }
 
 .red-bd .input-group .bd-right {
 	border-right: 1px solid var(--red);
-    width: 90%;
+	width: 90%;
 }
 
 .black-bd input,
@@ -930,25 +937,180 @@ main.no-pd,
 }
 
 
+
 /**************************************************************
-*							START OF SCREEN 8
+*							START OF SCREEN 10
 *********************************************************** */
 .text-container {
-	padding: 0 10px;
+	display: flex;
+    justify-content: space-between;
 	margin-top: 20px;
+	align-items: center;
+	margin-bottom: 30px;
 }
 
 .back {
 	border-radius: 100%;
 	color: var(--black);
-	padding: 10px 15px;
+	padding: 5px 6px;
 	border: 1px solid var(--black);
 	width: 30px;
-    height: 30px;
+	height: 30px;
 }
 
 .select-container {
 	padding: 10px;
 }
 
+.select-container .input-group {
+    margin: 1rem auto;
+}
+
+.select-container select {
+	border: 2px solid var(--gray-bd);
+	border-radius: 10px;
+}
+
+.select-container .red-bd {
+	border: 2px solid var(--red);
+}
+
+.linked-container {
+	padding: 20px;
+}
+
+.linked-box {
+	position: relative;
+	border: 2px solid var(--black);
+	border-radius: 30px;
+	display: inline-block;
+	padding: 5px 20px;
+	margin-right: 15px;
+}
+
+.clear-box {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: var(--red);
+	border: 2px solid var(--black);
+	color: var(--white);
+	display: inline-block;
+	line-height: 1;
+	padding-left: 4px;
+	left: -10px;
+}
+
+.remove-txt {
+	color: var(--red);
+	text-align: center;
+	font-weight: 700;
+}
+
+.select-container,
+.set-limit-container {
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.set-limit {
+	display: flex;
+	justify-content: center;
+}
+
+.set-limit-container .input-group {
+	border: 2px solid var(--gray-bd);
+	border-radius: 10px;
+	width: 200px;
+	margin-left: 10px;
+}
+
+.set-limit-container .input-group-prepend {
+	background-color: var(--gray);
+	border: none;
+	border-right: 2px solid var(--gray-bd);
+	border-radius: 10px;
+	text-align: center;
+	line-height: 2.5;
+	width: 60px;
+	padding-left: 10px;
+}
+
+.center-btn {
+	text-align: center;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 11
+*********************************************************** */
+.discount-box {
+	display: flex;
+	align-items: baseline;
+	background-color: var(--gray-bd);
+	padding: 5px 4px;
+	margin: 20px auto 30px;
+	border-radius: 5px;
+}
+
+.discount-box p,
+.discount-box input {
+	margin-right: 7px;
+}
+
+.discount-box .percent,
+.discount-box .inline-p,
+.discount-box .days {
+	margin-right: 2px;
+}
+
+.percent,
+.days {
+	width: 56px;
+	padding: 10px;
+	border: 2px solid var(--black);
+	height: 33px;
+	border-radius: 4px;
+}
+
+.save-btn {
+	margin-left: 0;
+}
+
+.discount-container .bold-txt {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cash-discount-box {
+	background-color: var(--gray-bd);
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-weight: 700;
+}
+
+.cash-discount-box .clear-box {
+	position: inherit;
+	border: 2px solid var(--white);
+	background-color: var(--white);
+	color: var(--red);
+	font-weight: 700;
+	vertical-align: text-top;
+    padding-left: 1px;
+	margin-left: 20%;
+}
+
+.cash-discount-box P:last-of-type {
+	margin-bottom: 0;
+}
+
+
+.skip-btn {
+	background-color: var(--gray-bd);
+	border-color: var(--gray-bd);
+	padding: 10px 30px;
+}
 

@@ -18,6 +18,17 @@
 	.no-projects .bottom-text {
 		left: 20%;
 	}
+
+	/* *****************************
+	**              Scene 10 Media Query
+	********************************** */
+	.set-limit {
+		align-items: baseline;
+	}
+
+	.select-container .input-group {
+		width: 330px;
+	}
 }
 
 
@@ -44,7 +55,21 @@
 	.logo-box {
 		left: 34%;
 	}
+
+	/* *****************************
+	**              Scene 11 Media Query
+	********************************** */
+	.discount-box {
+		justify-content: center;
+	}
+
+	.save-btn {
+		margin-left: 15px;
+	}
+
 }
+
+
 
 @media all and (min-width: 768px) {
 	.padd {
@@ -175,7 +200,8 @@
 	}
 
 	.dashboard,
-	.add-associate {
+	.add-associate,
+	.linked-container {
 		display: flex;
 		justify-content: center;
 		overflow-x: auto;
@@ -192,12 +218,6 @@
 		padding: 20px;
 	}
 
-	.text-container {
-		display: flex;
-		justify-content: space-between;
-	}
-	
-
 	.associate-details .bold-txt {
 		margin-right: 15px;
 	}
@@ -208,6 +228,22 @@
 
 	.footer-bt.relative-bt {
 		position: relative;
+	}
+
+	/* *****************************
+	**              Page 10 Media Query
+	********************************** */
+	.select-container,
+	.set-limit-container {
+		width: 500px;
+	}
+
+	/* *****************************
+	**              Page 10 Media Query
+	********************************** */
+	.discount-box,
+	.cash-discount-box {
+		width: 400px;
 	}
 }
 
@@ -236,7 +272,7 @@
 		height: 120px;
 	}
 
-		/* *****************************
+	/* *****************************
 **              Page 7 Media Query
 ********************************** */
 	.no-projects .bottom-text {
