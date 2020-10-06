@@ -662,7 +662,7 @@ td {
 }
 
 .login-box input.form-control {
-	width: calc(100% - 5%) !important;
+	width: calc(100% - 10%) !important;
 	margin: 0 auto;
 	border: 2px solid var(--gray);
 	padding: 15px;
@@ -825,6 +825,10 @@ main.no-side-pd {
 
 main.custom-pd {
 	padding: 10px 0;
+}
+
+.sign-in-pd {
+	padding: 30px 25px;
 }
 
 main.no-pd,
