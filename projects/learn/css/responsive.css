@@ -4,7 +4,7 @@
 
 @media all and (min-width: 370px) {
     .menu-items li {
-        margin-left: 32px;
+        margin-left: 30px;
     }
 
     .sales-mg-box,
@@ -309,7 +309,11 @@
     video {
         width: 700px;
         height: 400px;
-    }
+	}
+	
+	.gray-box .blue-btn {
+		left: 28px;
+	}
 
     /* *****************************
 **              Page 7 Media Query
@@ -357,7 +361,12 @@
 
     .carousel-control-prev {
         left: 33%;
-    }
+	}
+	
+	.gray-box .blue-btn {
+		left: 60px;
+	}
+	
 
 
     /* *****************************
