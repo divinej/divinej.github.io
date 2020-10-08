@@ -64,10 +64,23 @@
 
 
 @media all and (min-width: 768px) {
-    nav {
-        padding-left: 27px;
+	nav,
+	footer {
+        padding-right: 35px;
         padding-left: 35px;
-    }
+	}
+
+	footer {
+		height: 44px;
+	}
+	
+	.footer-nav-items li {
+		display: inline-block;
+	}
+
+	.blue-txt {
+		display: inline-block;
+	}
 
     .menu-items .hide {
         display: inline-block;

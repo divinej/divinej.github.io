@@ -104,6 +104,10 @@ nav {
 	font-weight: 700;
 	color: var(--white);
 	height: 100%;
+}
+
+nav,
+footer {
 	padding-left: 13px;
 	padding-right: 13px;
 }
@@ -459,10 +463,12 @@ video {
 footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px 30px;
+	align-items: center;
 	background-color: var(--black);
 	color: var(--white);
-	display: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 700;
 }
 
 footer p,
@@ -472,11 +478,16 @@ footer p,
 
 .blue-txt {
 	color: var(--blue);
+	display: block;
 }
 
+.footer-nav-items {
+	padding-left: 0;
+}
 .footer-nav-items li {
-	display: inline-block;
+	/* display: inline-block; */
 	margin-left: 20px;
+	list-style-type: none;
 }
 
 
