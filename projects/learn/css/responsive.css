@@ -3,321 +3,354 @@
 *******************************************/
 
 @media all and (min-width: 370px) {
-	.menu-items li {
-		margin-right: 15px;
-	}
+    .menu-items li {
+        margin-left: 35px;
+    }
 
-	.sales-mg-box,
-	.sales-mg-box2 {
-		height: 160px;
-	}
+    .sales-mg-box,
+    .sales-mg-box2 {
+        height: 120px;
+    }
 
-	/* *****************************
+    /* *****************************
 	**              Scene 7 Media Query
 	********************************** */
-	.no-projects .bottom-text {
-		left: 20%;
-	}
+    .no-projects .bottom-text {
+        left: 20%;
+    }
 
-	/* *****************************
+    /* *****************************
 	**              Scene 10 Media Query
 	********************************** */
-	.set-limit {
-		align-items: baseline;
-	}
+    .set-limit {
+        align-items: baseline;
+    }
 
-	.select-container .input-group {
-		width: 330px;
-	}
+    .select-container .input-group {
+        width: 330px;
+    }
 }
 
 
 @media all and (min-width: 416px) {
-	.logo {
-		width: 70px;
-	}
+    nav {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
-	.menu-items li {
-		margin-right: 20px;
-		font-size: 1em;
-	}
+    .sales-mg-container .col-6,
+    .sales-mg-container .col-md-4 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 
-	.sales-mg-container .col-6,
-	.sales-mg-container .col-md-4 {
-		padding-right: 5px;
-		padding-left: 5px;
-	}
-
-	/* *****************************
+    /* *****************************
 	**              Scene 6 Media Query
 	********************************** */
 
-	.logo-box {
-		left: 34%;
-	}
+    .logo-box {
+        left: 34%;
+    }
 
-	/* *****************************
+    /* *****************************
 	**              Scene 11 Media Query
 	********************************** */
-	.discount-box {
-		justify-content: center;
-	}
-
-	.save-btn {
-		margin-left: 15px;
-	}
+    .discount-box {
+        justify-content: center;
+    }
 
 }
 
 
 
 @media all and (min-width: 768px) {
-	.padd {
-		padding: 30px 6%;
+    nav {
+        padding-left: 27px;
+        padding-left: 35px;
+    }
+
+    .menu-items .hide {
+        display: inline-block;
+    }
+
+    .menu-items .show {
+        display: none;
+    }
+
+    .padd {
+        padding: 0 6% var(--lg);
+    }
+
+    .no-display {
+        display: block;
+    }
+
+    .b2b-container,
+    .dashboard,
+    .add-associate,
+    .linked-container,
+    .box-container {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+    }
+
+    .b2b-box {
+        margin-right: 20px;
+    }
+
+    .price-ft {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .arrow-box {
+        right: 25%;
+	}
+	
+	.arrow-box i {
+		padding-top: 1px;
+		padding-left: 0;
 	}
 
-	.no-display {
-		display: block;
-	}
+    .sales-info>p {
+        margin-bottom: 40px;
+    }
 
-	.manage-now {
-		position: absolute;
-		right: 19%;
-		top: -10px;
-		padding: 8px 12px;
-	}
+    .sales-mg-box,
+    .sales-mg-box2 {
+        padding: 12px;
+    }
 
-	.b2b-container {
-		display: flex;
-		justify-content: center;
-		overflow-x: auto;
-	}
+    .sales-mg-container .col-6,
+    .sales-mg-container .col-md-4 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 
-	.b2b-box {
-		margin-right: 20px;
-	}
+    .img-box p {
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
 
-	.price-ft {
-		text-align: center;
-		margin-bottom: 40px;
-	}
+    video {
+        width: 60%;
+        height: 260px;
+    }
 
-	.arrow-box {
-		right: 28%;
-	}
-
-	.sales-info>p {
-		margin-bottom: 40px;
-	}
-
-	.customers>h6 {
-		margin-bottom: 40px;
-		font-weight: 700;
-	}
-
-	.sales-mg-box,
-	.sales-mg-box2 {
-		padding: 12px;
-	}
-
-	.sales-mg-container .col-6,
-	.sales-mg-container .col-md-4 {
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-
-	.img-box p {
-		display: inline-block;
-		margin-left: 20px;
-		display: inline-block;
-	}
-
-	video {
-		width: 60%;
-		height: 200px;
-	}
-
-	.email-field {
+    .email-field {
 		width: 400px;
-	}
+		text-align: left;
+		padding-left: 20px;
+    }
 
-	.customers,
-	.start-free,
-	.trusted-cs {
-		display: block;
-		text-align: center;
-	}
+    .email-form .black-btn {
+        position: absolute;
+        top: 0px;
+        right: 18%;
+    }
 
-	footer {
-		display: flex;
-	}
+    .customers,
+    .start-free,
+    .trusted-cs {
+        display: block;
+        text-align: center;
+    }
 
-	/* *****************************
+    .trusted-cs {
+        display: block;
+    }
+
+    .trusted-cs1 {
+        display: none;
+    }
+
+
+
+    footer {
+        display: flex;
+    }
+
+    /* *****************************
 	**              Scene 5-Sign In Media Query
 	********************************** */
-	.login-box {
-		width: 500px;
-		margin: 70px auto;
-	}
+    .login-box {
+        width: 500px;
+        margin: 70px auto;
+    }
 
-	.login-box input.form-control {
-		width: calc(100% - 30%) !important;
-	}
+    .login-box input.form-control {
+        width: calc(100% - 30%) !important;
+    }
 
-	.footer-bt {
-		position: absolute;
-		width: 100%;
-		bottom: 0;
-	}
+    .footer-bt {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
 
 
-	/* *****************************
+    /* *****************************
 	**              Scene 5-Sign In Media Query
 	********************************** */
-	.about-company-box {
-		width: 400px;
-	}
+    .about-company-box {
+        width: 400px;
+    }
 
-	/* *****************************
+    /* *****************************
 	**              Page 3 Media Query
 	********************************** */
-	.partner input,
-	.partner select {
-		width: 450px;
-	}
+    .partner input,
+    .partner select {
+        width: 450px;
+    }
 
-	.questions {
-		width: 500px;
-	}
+    .questions {
+        width: 500px;
+    }
 
 
-	/* *****************************
+    /* *****************************
 	**              Page 3 Media Query
 	********************************** */
-	.partner input,
-	.no-projects .bottom-text {
-		left: 35%;
-	}
+    .partner input,
+    .no-projects .bottom-text {
+        left: 35%;
+    }
 
-	.dashboard,
-	.add-associate,
-	.linked-container {
-		display: flex;
-		justify-content: center;
-		overflow-x: auto;
-	}
-
-	/* *****************************
+    /* *****************************
 	**              Page 8 Media Query
 	********************************** */
-	main.no-side-pd {
-		padding: 30px 20px;
-	}
+    main.no-side-pd {
+        padding: 30px 20px;
+    }
 
-	main.custom-pd {
-		padding: 20px;
-	}
+    main.custom-pd {
+        padding: 20px;
+    }
 
-	.associate-details .bold-txt {
-		margin-right: 15px;
-	}
+    .associate-details .bold-txt {
+        margin-right: 15px;
+    }
 
-	.associate-details p {
-		display: inline-block;
-	}
+    .associate-details p {
+        display: inline-block;
+    }
 
-	.footer-bt.relative-bt {
-		position: relative;
-	}
+    .footer-bt.relative-bt {
+        position: relative;
+    }
 
-	/* *****************************
+    /* *****************************
 	**              Page 10 Media Query
 	********************************** */
-	.select-container,
-	.set-limit-container {
-		width: 500px;
-	}
+    .select-container,
+    .set-limit-container {
+        width: 500px;
+    }
 
-	/* *****************************
+    /* *****************************
 	**              Page 10 Media Query
 	********************************** */
-	.discount-box,
-	.cash-discount-box {
-		width: 400px;
-	}
+    .discount-box,
+    .cash-discount-box {
+        width: 400px;
+    }
+
+    /* *****************************
+	**              Page 10 Media Query
+	********************************** */
+
 }
 
 @media all and (min-width: 1024px) {
-	.email-field {
-		display: inline-block;
-		margin: 0 auto;
+    .email-field {
+        display: inline-block;
+        margin: 0 auto;
+	}
+	
+	.arrow-box {
+        right: 30%;
 	}
 
-	.price-container {
-		display: flex;
-		justify-content: center;
-		overflow-x: auto;
-	}
+    .price-container {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+    }
 
-	.carousel-control-next {
-		right: 25%;
-	}
+    .carousel-control-next {
+        right: 25%;
+    }
 
-	.carousel-control-prev {
-		left: 25%;
-	}
+    .carousel-control-prev {
+        left: 25%;
+    }
 
-	.sales-mg-box,
-	.sales-mg-box2 {
-		height: 120px;
-	}
+    .sales-mg-box,
+    .sales-mg-box2 {
+        height: 105px;
+    }
 
-	/* *****************************
+    video {
+        width: 700px;
+        height: 400px;
+    }
+
+    /* *****************************
 **              Page 7 Media Query
 ********************************** */
-	.no-projects .bottom-text {
-		left: 39%;
-	}
+    .no-projects .bottom-text {
+        left: 39%;
+    }
 
 
-	/* *****************************
+    /* *****************************
 **              Page 8 Media Query
 ********************************** */
-	.associate-details {
-		display: flex;
-		justify-content: space-between;
-	}
+    .associate-details {
+        display: flex;
+        justify-content: space-between;
+    }
 
-	.footer-bt.relative-bt {
-		position: absolute;
-	}
+    .footer-bt.relative-bt {
+        position: absolute;
+    }
 
 
 }
 
 @media all and (min-width: 1440PX) {
 
-	/* *****************************
+    /* *****************************
 	**              Scene 1 Media Query
 	********************************** */
-	.sales-mg-box,
-	.sales-mg-box2 {
-		height: 120px;
+	.arrow-box {
+        right: 34%;
 	}
 
-	.carousel-control-next {
-		right: 33%;
-	}
+	.email-form .black-btn {
+        right: 30%;
+    }
+    .sales-mg-box,
+    .sales-mg-box2 {
+        height: 120px;
+    }
 
-	.carousel-control-prev {
-		left: 33%;
-	}
+    .carousel-control-next {
+        right: 33%;
+    }
+
+    .carousel-control-prev {
+        left: 33%;
+    }
 
 
-	/* *****************************
+    /* *****************************
 	**              Scene 7 Media Query
 	********************************** */
-	.no-projects .bottom-text {
-		left: 43%;
-	}
+    .no-projects .bottom-text {
+        left: 43%;
+    }
 }
