@@ -169,7 +169,7 @@ li a {
 /************** Main Sectio styles  ******************/
 
 main {
-	padding: 0 10px var(--lg);
+	padding: 0 15px var(--lg);
 	background-color: var(--white);
 
 }
@@ -227,7 +227,7 @@ video {
 /* b2b styles */
 .b2b {
 	margin-top: var(--lg);
-	margin-bottom: var(--lg);
+	margin-bottom: var(--xl);
 }
 
 .center-txt {
