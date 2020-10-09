@@ -28,12 +28,24 @@
 
     .select-container .input-group {
         width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .add-associate-form>.black-btn {
+        font-size: 1.2rem !important;
     }
 }
 
 
 @media all and (min-width: 416px) {
-    nav {
+
+    nav,
+    .dashboard,
+    .add-associate,
+    .text-container,
+    .add-product,
+    footer {
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -55,32 +67,34 @@
     /* *****************************
 	**              Scene 11 Media Query
 	********************************** */
-    .discount-box {
-        justify-content: center;
-    }
 
 }
 
 
 
 @media all and (min-width: 768px) {
-	nav,
-	footer {
+
+    nav,
+    .dashboard,
+    .add-associate,
+    .text-container,
+    .add-product,
+    footer {
         padding-right: 35px;
         padding-left: 35px;
-	}
+    }
 
-	footer {
-		height: 44px;
-	}
-	
-	.footer-nav-items li {
-		display: inline-block;
-	}
+    footer {
+        height: 44px;
+    }
 
-	.blue-txt {
-		display: inline-block;
-	}
+    .footer-nav-items li {
+        display: inline-block;
+    }
+
+    .blue-txt {
+        display: inline-block;
+    }
 
     .menu-items .hide {
         display: inline-block;
@@ -90,7 +104,8 @@
         display: none;
     }
 
-    .padd {
+	.padd,
+	.screen13-pd {
         padding: 0 6% var(--lg);
     }
 
@@ -101,38 +116,37 @@
     .b2b-container,
     .dashboard,
     .add-associate,
-    .linked-container,
     .box-container {
         display: flex;
         justify-content: center;
         overflow-x: auto;
     }
 
+    .arrow-box {
+        right: 25%;
+    }
+
+    .arrow-box i {
+        padding-top: 1px;
+        padding-left: 0;
+    }
+
     .b2b-box {
-        margin-right: 20px;
+        margin: 0px auto 15px;
     }
 
     .price-ft {
         text-align: center;
-        margin-bottom: 40px;
+        margin: 0px 15px var(--lg);
     }
 
-    .arrow-box {
-        right: 25%;
-	}
-	
-	.arrow-box i {
-		padding-top: 1px;
-		padding-left: 0;
-	}
-
     .sales-info>p {
-        margin-bottom: 40px;
+        margin-bottom: var(--lg);
     }
 
     .sales-mg-box,
     .sales-mg-box2 {
-        padding: 12px;
+        padding: 12px 20px;
     }
 
     .sales-mg-container .col-6,
@@ -153,9 +167,9 @@
     }
 
     .email-field {
-		width: 400px;
-		text-align: left;
-		padding-left: 20px;
+        width: 400px;
+        text-align: left;
+        padding-left: 20px;
     }
 
     .email-form .black-btn {
@@ -212,7 +226,7 @@
     }
 
     /* *****************************
-	**              Page 3 Media Query
+	**              Page 6 Media Query
 	********************************** */
     .partner input,
     .partner select {
@@ -225,11 +239,15 @@
 
 
     /* *****************************
-	**              Page 3 Media Query
+	**              Page 7 Media Query
 	********************************** */
     .partner input,
     .no-projects .bottom-text {
         left: 35%;
+    }
+
+    .no-projects .bottom-text {
+        bottom: 60px;
     }
 
     /* *****************************
@@ -239,8 +257,9 @@
         padding: 30px 20px;
     }
 
-    main.custom-pd {
-        padding: 20px;
+    .text-container {
+        display: flex;
+        justify-content: space-between;
     }
 
     .associate-details .bold-txt {
@@ -249,6 +268,11 @@
 
     .associate-details p {
         display: inline-block;
+    }
+
+    .add-associate-form .col-12 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .footer-bt.relative-bt {
@@ -263,6 +287,18 @@
         width: 500px;
     }
 
+    .screen10 .no-display {
+        display: inline-block;
+    }
+
+    .back1 {
+        display: none;
+    }
+
+    .select-container .input-group {
+        width: 362px;
+    }
+
     /* *****************************
 	**              Page 10 Media Query
 	********************************** */
@@ -271,21 +307,46 @@
         width: 400px;
     }
 
-    /* *****************************
-	**              Page 10 Media Query
-	********************************** */
+    .set-limit-container .input-group {
+        margin-left: 30px;
+    }
 
+    /* *****************************
+	**              Page 13 Media Query
+	********************************** */
+	.add-product {
+		text-align: left;
+	}
+
+	.screen13 .gray-box {
+		width: 280px;
+		padding-left: 28px;
+	}
 }
 
 @media all and (min-width: 1024px) {
+    .max-width {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
     .email-field {
         display: inline-block;
         margin: 0 auto;
-	}
-	
-	.arrow-box {
+    }
+
+    .b2b-box {
+        width: 263.61px;
+        padding: 17px 20px 20px;
+    }
+
+    .b2b-box img {
+        margin-right: 20px;
+    }
+
+    .arrow-box {
         right: 30%;
-	}
+    }
 
     .price-container {
         display: flex;
@@ -303,29 +364,30 @@
 
     .sales-mg-box,
     .sales-mg-box2 {
-        height: 105px;
+        height: 110px;
+        width: 263.61px;
     }
 
     video {
-        width: 700px;
-        height: 400px;
-	}
-	
-	.gray-box .blue-btn {
-		left: 28px;
-	}
+        width: 580px;
+        height: 320px;
+    }
+
+    .gray-box .blue-btn {
+        left: 28px;
+    }
 
     /* *****************************
-**              Page 7 Media Query
-********************************** */
+	**              Page 7 Media Query
+	********************************** */
     .no-projects .bottom-text {
         left: 39%;
     }
 
 
     /* *****************************
-**              Page 8 Media Query
-********************************** */
+	**              Page 8 Media Query
+	********************************** */
     .associate-details {
         display: flex;
         justify-content: space-between;
@@ -335,6 +397,44 @@
         position: absolute;
     }
 
+    /* *****************************
+	**              Page 8 Media Query
+	********************************** */
+    .linked-container {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+    }
+
+
+    /* *****************************
+	**              Page 8 Media Query
+	********************************** */
+    .screen13 .gray-box {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+
+	/* *****************************
+	**              Page 13 Media Query
+	********************************** */
+	.screen13-pd {
+        padding: 0 35px var(--lg);
+    }
+	.screen13 {
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+	.screen13 .lg-container {
+        margin-top: 0;
+        margin-bottom: 0;
+	}
+	
+	.product-container .col-lg-4 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 }
 
@@ -343,30 +443,23 @@
     /* *****************************
 	**              Scene 1 Media Query
 	********************************** */
-	.arrow-box {
-        right: 34%;
-	}
-
-	.email-form .black-btn {
-        right: 30%;
-    }
     .sales-mg-box,
     .sales-mg-box2 {
         height: 120px;
     }
 
-    .carousel-control-next {
+    /* .carousel-control-next {
         right: 33%;
     }
 
     .carousel-control-prev {
         left: 33%;
-	}
-	
-	.gray-box .blue-btn {
-		left: 60px;
-	}
-	
+    } */
+
+    .gray-box .blue-btn {
+        left: 60px;
+    }
+
 
 
     /* *****************************
