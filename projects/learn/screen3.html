@@ -13,7 +13,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="" />
 
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Quicksand:wght@400;700&display=swap"
+        rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/31e5e1a58b.js" crossorigin="anonymous"></script>
 
@@ -40,11 +41,18 @@
 
             <div class="menu-container">
                 <ul class="menu-items">
-                    <li class="not-box">
+                    <li class="hide">
                         <a href="">
                             Partner in Sales
                         </a>
                     </li>
+
+                    <li class="show">
+                        <a href="">
+                            Partner
+                        </a>
+                    </li>
+
                     <li>
                         <a href="#">Pricing</a>
                     </li>
@@ -61,8 +69,8 @@
 
     <main class="container">
         <div class="partner">
-            <h3>Become a Partner</h3>
-            <p class="black-bd">Promote & Get 20% profit</p>
+            <h4>Become a Partner</h4>
+            <p class="black-bd bold-txt">Promote & Get 20% profit</p>
 
             <form>
                 <div class="form-group">
@@ -88,14 +96,24 @@
                 </div>
 
             </form>
-            
 
-            <button class="join-btn">Join Now</button>
+
+            <button class="black-btn">Join Now</button>
 
             <div class="faqs">
                 <h3>FAQS</h3>
+                <div class="accordion" id="collapseBox">
+                    <div class="questions" id="questionBtn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">Question <span class="right-txt show" id="plus">+</span><span class="right-txt" id="minus">-</span></div>
 
-                <div class="questions">Question <span class="right-txt">+</span></div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#collapseBox">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                            quinoa nesciunt laborum ei
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

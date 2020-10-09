@@ -41,11 +41,18 @@
 
             <div class="menu-container">
                 <ul class="menu-items">
-                    <li class="not-box">
+                    <li class="hide">
                         <a href="">
                             Partner in Sales
                         </a>
                     </li>
+
+                    <li class="show">
+                        <a href="">
+                            Partner
+                        </a>
+                    </li>
+
                     <li>
                         <a href="#">Pricing</a>
                     </li>
@@ -60,35 +67,36 @@
     </header>
 
 
-    <main class="sign-in-pd">
+    <main class="padd">
         <div class="login-box">
             <div class="login-form">
-                <button class="sign-in gray-bg" id="signIn" onclick="window.location.href='/screen5-signIn.html'">Sign In</button>
-                <button class="sign-up black-bg" id="signUp">Sign Up</button>
+                <button class="gray-btn" id="signIn" onclick="window.location.href='./screen5-signIn.html'">Sign
+                    In</button>
+                <button class="black-btn" id="signUp">Sign Up</button>
             </div>
 
             <form>
-                    <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Full Name">
-                        </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email id">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Password">
-                    </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Enter email id">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
 
-                    <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="">
-                            <label class="form-check-label" for="">
-                              Agree to <span class="txt-underline">Terms & condition</span>
-                            </label>
-                          </div>
-                </form>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label" for="">
+                        Agree to <span class="txt-underline">Terms & condition</span>
+                    </label>
+                </div>
+            </form>
 
-                <button class="manage-now">Create Now</button>
+            <button class="black-btn">Create Now</button>
         </div>
-      
+
     </main>
 
     <footer class="footer-bt">
