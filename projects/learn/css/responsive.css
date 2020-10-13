@@ -31,10 +31,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-    .add-associate-form>.black-btn {
-        font-size: 1.2rem !important;
-    }
 }
 
 
@@ -44,6 +40,7 @@
     .dashboard,
     .add-associate,
     .associate-details,
+    .associate-details1,
     .add-product,
     footer {
         padding-left: 25px;
@@ -83,6 +80,7 @@
     .dashboard,
     .add-associate,
     .associate-details,
+    .associate-details1,
     .add-product,
     footer {
         padding-right: 35px;
@@ -90,7 +88,6 @@
     }
 
     footer {
-        height: 44px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -102,7 +99,7 @@
     }
 
     .menu-items li {
-        margin-left: 45px;
+        margin-left: 35px;
     }
 
     .blue-txt {
@@ -241,7 +238,7 @@
     }
 
     .questions {
-        width: 500px;
+        width: 600px;
     }
 
 
@@ -276,6 +273,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .associate-details1 .text-container {
+        justify-content: space-between;
     }
     
     .add-associate {
@@ -346,6 +347,16 @@
 }
 
 @media all and (min-width: 1024px) {
+    nav,
+    .min-btn {
+        font-size: 1.2rem;
+    }
+
+    body,
+    .dashboard {
+        font-size: 1.1rem;
+    }
+
     .max-width {
         max-width: 900px;
         margin: 0 auto;
@@ -397,6 +408,9 @@
         left: 28px;
     }
 
+    .dashboard p {
+        margin-right: 60px;
+    }
 
     /* *****************************
 	**              Page 7 Media Query
@@ -436,8 +450,11 @@
     }
 
     /* *****************************
-	**              Page 8 Media Query
-	********************************** */
+    **              Page 10 Media Query
+    ********************************** */
+    .back, .back1 {
+        padding: 2px 4px;
+    }
     .linked-container {
         display: flex;
         justify-content: center;
