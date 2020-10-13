@@ -9,7 +9,7 @@
 
     .sales-mg-box,
     .sales-mg-box2 {
-        height: 136px;
+        height: 152px;
     }
 
     /* *****************************
@@ -43,7 +43,7 @@
     nav,
     .dashboard,
     .add-associate,
-    .text-container,
+    .associate-details,
     .add-product,
     footer {
         padding-left: 25px;
@@ -77,7 +77,7 @@
     nav,
     .dashboard,
     .add-associate,
-    .text-container,
+    .associate-details,
     .add-product,
     footer {
         padding-right: 35px;
@@ -86,10 +86,18 @@
 
     footer {
         height: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .footer-nav-items li {
         display: inline-block;
+        margin-left: 20px;
+    }
+
+    .menu-items li {
+        margin-left: 45px;
     }
 
     .blue-txt {
@@ -174,7 +182,7 @@
 
     .email-form .black-btn {
         position: absolute;
-        top: 0px;
+        top: 1px;
         right: 18%;
     }
 
@@ -211,12 +219,6 @@
         width: calc(100% - 30%) !important;
     }
 
-    .footer-bt {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-    }
-
 
     /* *****************************
 	**              Scene 5-Sign In Media Query
@@ -250,6 +252,10 @@
         bottom: 60px;
     }
 
+    .dashboard .no-display {
+        display: inline-block;
+    }
+
     /* *****************************
 	**              Page 8 Media Query
 	********************************** */
@@ -260,6 +266,11 @@
     .text-container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+    
+    .add-associate {
+        margin-top: var(--lg);
     }
 
     .associate-details .bold-txt {
@@ -287,7 +298,7 @@
         width: 500px;
     }
 
-    .screen10 .no-display {
+    .associate-details .no-display {
         display: inline-block;
     }
 
@@ -301,7 +312,11 @@
 
     /* *****************************
 	**              Page 10 Media Query
-	********************************** */
+    ********************************** */
+    .associate-details {
+         display: block;
+    }
+
     .discount-box,
     .cash-discount-box {
         width: 400px;
@@ -349,8 +364,7 @@
     }
 
     .price-container {
-        display: flex;
-        justify-content: center;
+        display: block;
         overflow-x: auto;
     }
 
@@ -364,7 +378,7 @@
 
     .sales-mg-box,
     .sales-mg-box2 {
-        height: 110px;
+        height: 131px;
         width: 263.61px;
     }
 
@@ -376,6 +390,24 @@
     .gray-box .blue-btn {
         left: 28px;
     }
+
+
+    /* *****************************
+	**              Page 7 Media Query
+	********************************** */
+    .logo-box {
+        width: 146px;
+        height: 80px;
+        top: -54px;
+        padding-top: 30px;
+    }
+
+    .about-company-box {
+        margin: 100px auto var(--xl);
+        padding-top: 42px;
+    }
+
+    
 
     /* *****************************
 	**              Page 7 Media Query

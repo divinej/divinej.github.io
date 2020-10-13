@@ -5,7 +5,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: var(--white);
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--black);
     font-family: 'Quicksand', sans-serif;
 }
@@ -24,9 +24,17 @@ body {
     --sm: 10px;
 }
 
-input:not(input[type=checkbox]),
+input,
 select {
-    height: 48px !important;
+    height: 50px !important;
+}
+
+input[type=checkbox] {
+    height: 13px !important;
+}
+
+.grey-text {
+    opacity: 0.4;
 }
 
 button {
@@ -40,12 +48,12 @@ button {
 
 .mid-btn {
     height: 38px;
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
 }
 
 .small-btn {
     height: 33px;
-    font-size: 0.9rem !important;
+    font-size: 0.8rem !important;
 }
 
 .black-btn,
@@ -122,7 +130,7 @@ nav {
 nav,
 .dashboard,
 .add-associate,
-.text-container,
+.associate-details,
 .add-product,
 footer {
     padding-left: 13px;
@@ -179,8 +187,8 @@ li a {
     content: "";
     display: inline-block;
     border-radius: 100%;
-    left: 13px;
-    top: -2px;
+    left: 12px;
+    top: -6px;
     border: 2px solid var(--white)
 }
 
@@ -338,7 +346,12 @@ video {
     padding: 7px 5px;
     border-radius: 5px;
     margin: 0 auto 15px;
-    height: 160px;
+    height: 190px;
+}
+
+.sales-mg-box > P:first-child,
+.sales-mg-box2 > p:first-child {
+    margin-bottom: 0;
 }
 
 .no-display {
@@ -434,7 +447,7 @@ video {
 }
 
 .bold-txt {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .arrow-box i {
@@ -479,9 +492,6 @@ video {
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: var(--black);
     color: var(--white);
     padding-top: 5px;
@@ -489,23 +499,34 @@ footer {
     font-weight: 700;
 }
 
+.footer-bt {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer > p:first-child {
+    margin-bottom: 10px;
+}
+
 footer p,
 .footer-nav-items {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
 }
 
 .blue-txt {
     color: var(--blue);
-    display: block;
 }
 
 .footer-nav-items {
     padding-left: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-nav-items li {
     /* display: inline-block; */
-    margin-left: 20px;
+    /* margin-left: 20px; */
     list-style-type: none;
 }
 
@@ -717,6 +738,7 @@ td {
 
 .partner .black-btn {
     margin-top: var(--md);
+    min-width: 150px;
 }
 
 .faqs {
@@ -748,7 +770,11 @@ td {
 /**************************************************************
 *							END OF SCREEN 3
 *********************************************************** */
-
+.screen4,
+.screen5 {
+    position: relative;
+    height: 100vh;
+}
 
 /**************************************************************
 *							START OF SCREEN 5 SIGN IN
@@ -774,6 +800,7 @@ td {
 }
 
 .login-form button {
+    min-width: 136px;
     width: 49.8%;
     border: none;
     padding: 10px;
@@ -830,12 +857,16 @@ td {
 .about-company-box {
     position: relative;
     width: 100%;
-    margin: 70px auto;
+    margin: 70px auto var(--lg);
     background-color: var(--black);
     color: var(--white);
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
-    padding: 40px 10px 10px;
+    padding: 40px 20px 10px;
+}
+
+.about-company button {
+    min-width: 150px;
 }
 
 .logo-box {
@@ -858,6 +889,7 @@ td {
 .about-company-box input,
 .about-company-box select {
     border-radius: 30px;
+    text-align: center;
 }
 
 .about-company-box .input-group {
@@ -878,13 +910,14 @@ td {
 }
 
 /**************************************************************
-*							START OF SCREEN 6
+*							START OF SCREEN 7
 *********************************************************** */
 .dashboard {
     display: flex;
     align-items: flex-end;
     background-color: var(--gray-bd);
     height: 50px;
+    font-size: 1rem;
 }
 
 .dashboard p {
@@ -894,14 +927,19 @@ td {
     margin-right: 30px;
 }
 
+nav .fa-bell {
+    font-size: 16px;
+}
 
-/**************************************************************
-*							START OF SCREEN 7
-*********************************************************** */
 
 .no-projects {
     text-align: center;
     margin-top: 120px;
+}
+
+.no-projects h4 {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .small-txt {
@@ -941,7 +979,7 @@ main.no-pd {
 }
 
 .add-associate {
-    margin-top: var(--lg);
+    margin-top: var(--md);
 }
 
 .add-associate button {
@@ -1042,17 +1080,20 @@ main.no-pd,
 /**************************************************************
 *							START OF SCREEN 10
 *********************************************************** */
-.text-container {
-    margin-top: var(--lg);
+.associate-details .text-container {
     display: flex;
     align-items: center;
+}
+
+.text-container {
+    margin-top: var(--lg);
 }
 
 .back,
 .back1 {
     border-radius: 100%;
     color: var(--black);
-    padding: 6px 7px;
+    padding: 4px 7px;
     border: 1px solid var(--black);
     width: 40px;
     height: 40px;
@@ -1176,6 +1217,17 @@ main.no-pd,
 
 .discount-box .form-group {
 	margin-bottom: 0;
+}
+
+.info-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: var(--black);
+    font-size: 14px;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Pacifico', cursive;
 }
 
 .percent,
@@ -1352,10 +1404,6 @@ main.custom-pd {
     padding-right: 2px;
 }
 
-.small-input {
-	margin-right: 5px;
-}
-
 .small-input .form-control {
 	border-radius: 5px;
 }
@@ -1476,96 +1524,62 @@ main.custom-pd {
 /**************************************************************
 *							START OF SCREEN 14
 *********************************************************** */
+.screen14 .no-mg-tp {
+    margin-top: 0;
+}
+
+.product-container {
+	font-size: 0.8rem
+}
+
 .screen14 .small-input-container {
-    align-items: baseline;
-    margin-top: 20px;
+	padding-left: 5px;
+    padding-right: 5px;
 }
 
-.screen14 .small-input-container.align-mdl {
-    align-items: end;
-    margin-top: 20px;
-}
-
-.align-mdl .black-btn {
-    margin-top: 25px;
-}
-
-.small-input2 .black-btn {
-    width: 70px;
-    border-radius: 5px;
-    padding: 9px;
-    text-align: center;
+.screen14 .small-input-container p {
+	text-align: left;
 }
 
 .screen14 .gray-bg {
-    padding: 1px 6px 13px;
-    border-radius: 10px;
-    margin-bottom: 4px;
+	padding-top: var(--sm);
+	padding-bottom: var(--sm);
 }
 
-.screen14 .input-group {
-    border: 1.5px solid var(--black);
-    border-radius: 5px;
-    color: var(--black);
+.small-input2 .input-group-prepend {
+	background-color: var(--white);
 }
 
-.screen14 .input-group select,
-.screen14 .input-group input {
-    border: none;
-    border-radius: 0;
+.product-container button,
+.product-container .input-group input,
+.product-container select {
+	border-radius: 5px;
 }
 
-.screen14 .input-group-prepend {
-    background-color: var(--white);
-    border-right: 2px solid var(--black);
-    padding: 10px 5px 0px;
-    width: auto;
+.small-input2 .form-group,
+.small-input1 .form-group {
+	width: 110px;
 }
 
-.screen14 .small-input1 {
-    display: inline-block;
-    padding-left: 2px;
-    padding-right: 2px;
-    width: 60px;
+.small-input2,
+.small-input1,
+.small-input3 {
+	margin-right: 10px;
+	text-align: left;
 }
 
-.screen14 .gray-bg.no-mg-bt {
-    padding: 16px 10px 0;
+.small-input3.no-mg {
+	margin-right: 0;
 }
 
-.screen14 .small-input2 {
-    display: inline-block;
-    padding-left: 3px;
-    padding-right: 3px;
-    width: 120px;
+.small-input4 input {
+	width: 50px;
 }
 
-.small-input2 p,
-.small-input1 p {
-    margin-bottom: 10px;
-    text-align: left;
-}
+.small-input3:nth-of-type(3)
 
-.small-input2 .input-group {
-    margin-bottom: 0;
-}
-
-.screen14 .no-mg-bt .gray-bg {
-    margin-bottom: 7px;
-    padding-bottom: 5px;
-}
-
-.screen14 .no-mg-bt .small-input-container {
-    margin-top: 0;
-}
-
-.screen14 .custom-mg {
-    margin-bottom: 5px;
-    margin-top: 10px;
-}
-
-.screen14 .no-mg-tp {
-    margin-top: 0;
+.small-input-container .align-mdl {
+	align-items: center;
 }
 
 .first-row {
@@ -1617,7 +1631,7 @@ main.custom-pd {
 
 
 /**************************************************************
-*							START OF SCREEN 14
+*							START OF SCREEN 15
 *********************************************************** */
 .screen15 textarea {
     width: 100%;
@@ -1673,7 +1687,7 @@ main.custom-pd {
 }
 
 /**************************************************************
-*							START OF SCREEN 14
+*							START OF SCREEN 17
 *********************************************************** */
 .add-team-member {
     margin-top: 40px;
