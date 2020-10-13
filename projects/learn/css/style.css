@@ -3,11 +3,16 @@
 }
 
 body {
+    position: relative;
     font-family: 'Quicksand', sans-serif;
     background-color: var(--white);
     font-size: 0.9rem;
     color: var(--black);
     font-family: 'Quicksand', sans-serif;
+}
+
+body.bt {
+    height: 100vh;
 }
 
 :root {
@@ -770,11 +775,11 @@ td {
 /**************************************************************
 *							END OF SCREEN 3
 *********************************************************** */
-.screen4,
+/* .screen4,
 .screen5 {
     position: relative;
     height: 100vh;
-}
+} */
 
 /**************************************************************
 *							START OF SCREEN 5 SIGN IN
