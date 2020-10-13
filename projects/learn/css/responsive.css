@@ -99,7 +99,7 @@
     }
 
     .menu-items li {
-        margin-left: 35px;
+        margin-left: 45px;
     }
 
     .blue-txt {
@@ -193,6 +193,16 @@
     .trusted-cs {
         display: block;
         text-align: center;
+    }
+
+    .carousel-control-prev {
+        left: 117px;
+        top: 70px
+    }
+    
+    .carousel-control-next {
+        right: 117px;
+        top: 70px
     }
 
     .trusted-cs {

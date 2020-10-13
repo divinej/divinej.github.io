@@ -377,7 +377,7 @@ video {
 /* Customers Styles */
 .customers {
     margin-top: var(--xl);
-    display: none;
+    text-align: center;
 }
 
 .customers>h6 {
@@ -421,12 +421,12 @@ video {
 }
 
 .carousel-control-prev {
-    left: 117px;
+    left: -10px;
     top: 70px
 }
 
 .carousel-control-next {
-    right: 117px;
+    right: -10px;
     top: 70px
 }
 
