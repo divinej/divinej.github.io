@@ -470,7 +470,7 @@
     ********************************** */
     .back,
     .back1 {
-        padding: 2px 4px;
+        padding: 5px 6px;
     }
 
     .linked-container {
@@ -525,7 +525,7 @@
     }
 
     .mid-btn {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     
     .small-btn {

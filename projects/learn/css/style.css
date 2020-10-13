@@ -1122,11 +1122,11 @@ main.no-pd,
 .back1 {
     border-radius: 100%;
     color: var(--black);
-    padding: 2px 4px;
+    padding: 6px 7px;
     border: 1px solid var(--black);
     width: 40px;
     height: 40px;
-    font-size: 1.1rem
+    font-size: 0.8rem;
 }
 
 .back i,
@@ -1156,7 +1156,7 @@ main.no-pd,
     border: 2px solid var(--black);
     border-radius: 30px;
     display: inline-block;
-    padding: 2px 20px;
+    padding: 0px 20px;
     margin-right: 15px;
     height: 33px;
 }
@@ -1170,7 +1170,7 @@ main.no-pd,
     border: 2px solid var(--black);
     color: var(--white);
     display: inline-block;
-    line-height: 0.9;
+    line-height: 0.7;
     padding-left: 3px;
     left: -10px;
     top: 4px;
