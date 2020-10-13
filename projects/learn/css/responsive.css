@@ -269,6 +269,10 @@
     }
 
     .text-container {
+        display: block;
+    }
+
+    .associate-details {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -318,9 +322,6 @@
     /* *****************************
 	**              Page 10 Media Query
     ********************************** */
-    .associate-details {
-         display: block;
-    }
 
     .discount-box,
     .cash-discount-box {
