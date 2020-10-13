@@ -6,7 +6,7 @@ body {
     position: relative;
     font-family: 'Quicksand', sans-serif;
     background-color: var(--white);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: var(--black);
     font-family: 'Quicksand', sans-serif;
 }
@@ -43,7 +43,7 @@ input[type=checkbox] {
 }
 
 button {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-right: 15px;
     padding-left: 15px;
     font-weight: 700;
@@ -53,7 +53,7 @@ button {
 
 .mid-btn {
     height: 38px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .small-btn {
@@ -129,7 +129,7 @@ nav {
     align-items: center;
     color: var(--white);
     height: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 nav,
@@ -161,7 +161,11 @@ footer {
     position: relative;
     display: inline-block;
     list-style-type: none;
-    margin-left: 13px;
+    margin-left: 4px;
+}
+
+.custom-nav .menu-items li {
+    margin-left: 15px;
 }
 
 .menu-items .mg-left {
@@ -193,8 +197,8 @@ li a {
     content: "";
     display: inline-block;
     border-radius: 100%;
-    left: 12px;
-    top: -6px;
+    left: 10px;
+    top: 0px;
     border: 2px solid var(--white)
 }
 
@@ -352,7 +356,7 @@ video {
     padding: 7px 5px;
     border-radius: 5px;
     margin: 0 auto 15px;
-    height: 190px;
+    height: 283px;
 }
 
 .sales-mg-box > P:first-child,
@@ -383,6 +387,7 @@ video {
 .customers>h6 {
     margin-bottom: var(--md);
     font-weight: 700;
+    font-size: 1.1rem;
 }
 
 .customer-box {
@@ -417,7 +422,7 @@ video {
     position: absolute;
     z-index: 1;
     opacity: 1;
-    padding-top: 6px;
+    padding: 5px 1px;
 }
 
 .carousel-control-prev {
@@ -428,6 +433,11 @@ video {
 .carousel-control-next {
     right: -10px;
     top: 70px
+}
+
+.carousel-control-next .fa-2x,
+.carousel-control-prev .fa-2x {
+    color: var(--black);
 }
 
 .carousel-control-prev i,
@@ -459,6 +469,7 @@ video {
 .arrow-box i {
     padding-top: 1px;
     padding-left: 5px;
+    color: var(--black);
 }
 
 /*   */
@@ -502,7 +513,6 @@ footer {
     color: var(--white);
     padding-top: 5px;
     padding-bottom: 5px;
-    height: 50px;
     text-align: center;
 }
 
@@ -512,7 +522,6 @@ footer {
     bottom: 0;
 }
 
-footer p,
 .footer-nav-items {
     margin-bottom: 0;
 }
@@ -524,7 +533,7 @@ footer p,
 .footer-nav-items {
     padding-left: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer-nav-items li {
@@ -776,6 +785,11 @@ footer.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
+}
+
+footer.flex p {
+    margin-bottom: 0;
 }
 
 /**************************************************************
@@ -919,7 +933,7 @@ footer.flex {
     align-items: flex-end;
     background-color: var(--gray-bd);
     height: 50px;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .dashboard p {
@@ -986,6 +1000,10 @@ main.no-pd {
 
 .add-associate button {
     margin-right: 15px;
+}
+
+.add-associate .gray-btn {
+    font-weight: normal;
 }
 
 main.no-pd,
@@ -1104,10 +1122,11 @@ main.no-pd,
 .back1 {
     border-radius: 100%;
     color: var(--black);
-    padding: 4px 7px;
+    padding: 2px 4px;
     border: 1px solid var(--black);
     width: 40px;
     height: 40px;
+    font-size: 1.1rem
 }
 
 .back i,
