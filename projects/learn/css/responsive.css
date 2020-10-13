@@ -9,7 +9,7 @@
 
     .sales-mg-box,
     .sales-mg-box2 {
-        height: 152px;
+        height: 165px;
     }
 
     /* *****************************
@@ -56,6 +56,11 @@
         padding-left: 5px;
     }
 
+
+    .sales-mg-box,
+    .sales-mg-box2 {
+        height: 152px;
+    }
     /* *****************************
 	**              Scene 6 Media Query
 	********************************** */
