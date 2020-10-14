@@ -145,7 +145,10 @@
 
     .arrow-box {
         right: 25%;
+        padding-left: 0px;
+        top: 8px;
     }
+
 
     .arrow-box i {
         padding-top: 1px;
@@ -370,7 +373,7 @@
 @media all and (min-width: 1024px) {
 
     .max-width {
-        max-width: 900px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -389,11 +392,13 @@
     }
 
     .arrow-box {
-        right: 30%;
+        right: 29%;
+        top: 16px;
     }
 
-    .carousel-control-prev, .carousel-control-next {
-        padding: 2px 1px;
+    .carousel-control-prev,
+    .carousel-control-next {
+        padding: 5px 0px;
     }
 
     .price-container {
@@ -413,6 +418,15 @@
     .sales-mg-box2 {
         height: 213px;
         width: 263.61px;
+    }
+
+    .b2b {
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+
+    .center-text {
+        margin-bottom: 60px;
     }
 
     video {
@@ -470,7 +484,7 @@
     ********************************** */
     .back,
     .back1 {
-        padding: 5px 6px;
+        padding: 5px 7px;
     }
 
     .linked-container {
@@ -514,22 +528,37 @@
 }
 
 @media all and (min-width: 1440PX) {
-    button,
-    nav {
-        font-size: 1.3rem;
-    }
-
-    body,
-    .dashboard {
-        font-size: 1.25rem;
-    }
-
-    .mid-btn {
-        font-size: 1.1rem;
-    }
-    
     .small-btn {
         font-size: 0.9rem;
+    }
+
+    .customers > h6,
+    .price-ft,
+    .big-txt {
+        font-size: 1.8rem;
+    }
+
+    .price-ft .arrow-box {
+        font-size: 1.1rem;
+    }
+
+    .max-width .big-font {
+        font-size: 2rem;
+    }
+
+    .customer-box {
+        max-width: 700px;
+        padding: 30px;
+    }
+
+    .customers>h6 {
+        margin-bottom: var(--xl);
+    }
+
+    .cs-img {
+        max-width: 251px;
+        width: 251px;
+        height: 86px;
     }
 
     .associate-details button,
@@ -537,6 +566,41 @@
     .upload-excel {
         font-size: 0.9rem
     }
+
+    .email-form .black-btn {
+        right: 27%;
+    }
+
+    .b2b-box {
+        width: 369.61px;
+        padding: 28px 20px 22px;
+        height: 170px;
+    }
+
+    .b2b-box img {
+        margin-right: 20px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .sales-mg-box,
+    .sales-mg-box2 {
+        height: 150px;
+        width: 358.61px;
+        margin: 0 auto 30px;
+    }
+
+    .carousel-control-next {
+        right: 19%;
+        top: 130px;
+    }
+
+    .carousel-control-prev {
+        left: 19%;
+        top: 130px;
+    }
+
+    
 
     /* *****************************
 	**              Scene 1 Media Query
