@@ -53,7 +53,7 @@ button {
 
 .mid-btn {
     height: 38px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .small-btn {
@@ -129,7 +129,7 @@ nav {
     align-items: center;
     color: var(--white);
     height: 100%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 nav,
@@ -279,7 +279,8 @@ video {
 .add-associate,
 .linked-container,
 .screen11 .btn-container,
-.box-container {
+.box-container,
+.order-action {
     width: 100%;
     white-space: nowrap;
     position: relative;
@@ -632,7 +633,7 @@ footer {
 }
 
 .gray-box .blue-btn {
-    width: 150px;
+    width: 170px;
     position: absolute;
     left: 60px;
     bottom: -17px;
@@ -931,7 +932,7 @@ footer.flex p {
 *********************************************************** */
 .dashboard {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     background-color: var(--gray-bd);
     height: 50px;
     font-size: 1.1rem;
@@ -942,6 +943,7 @@ footer.flex p {
     display: inline-block;
     zoom: 1;
     margin-right: 30px;
+    margin-bottom: 0;
 }
 
 nav .fa-bell {
@@ -1001,6 +1003,7 @@ main.no-pd {
 
 .add-associate button {
     margin-right: 15px;
+    width: 160px;
 }
 
 .add-associate .gray-btn {
@@ -1154,26 +1157,26 @@ main.no-pd,
 
 .linked-box {
     position: relative;
-    border: 2px solid var(--black);
+    border: 2px solid var(--gray-bd);
     border-radius: 30px;
     display: inline-block;
-    padding: 0px 20px;
-    margin-right: 15px;
-    height: 33px;
+    padding: 3px 7px;
+    margin-right: 25px;
+    height: 30px
 }
 
 .clear-box {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 100%;
     background-color: var(--red);
     border: 2px solid var(--black);
     color: var(--white);
     display: inline-block;
-    line-height: 0.7;
+    line-height: 0.8;
     padding-left: 3px;
-    left: -10px;
+    left: -13px;
     top: 4px;
 }
 
@@ -1250,23 +1253,35 @@ main.no-pd,
 	margin-bottom: 0;
 }
 
+.info-circle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-circle-container p {
+    margin-left: 10px;
+}
+
 .info-circle {
     width: 28px;
     height: 28px;
     border-radius: 100%;
     background-color: var(--black);
-    font-size: 14px;
+    font-size: 29px;
     text-align: center;
     color: var(--white);
-    font-family: 'Pacifico', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 900;
+    line-height: 0.9;
 }
 
 .percent,
 .days {
     width: 56px;
     padding: 10px;
-    border: 2px solid var(--black);
+    border: 1px solid var(--black);
     border-radius: 4px;
+    opacity: 0.4;
 }
 
 .discount-container .bold-txt {
@@ -1293,8 +1308,9 @@ main.no-pd,
     color: var(--red);
     font-weight: 700;
     vertical-align: text-top;
-    padding-left: 1px;
+    padding-left: 0px;
     margin-left: 10%;
+    line-height: 0.7;
 }
 
 .cash-discount-box P:last-of-type {
@@ -1332,8 +1348,9 @@ main.custom-pd {
     border: 1px solid var(--red);
     color: var(--white);
     margin-top: 0;
-    width: 268.84px;
+    width: 287.84px;
     border-radius: 10px;
+    font-size: 1rem;
 }
 
 /**************************************************************
@@ -1374,11 +1391,6 @@ main.custom-pd {
 	margin-bottom: 0;
 }
 
-.add-product .span-container,
-.add-product p {
-    display: inline-block;
-}
-
 .screen13 .green-btn,
 .type-container button {
     padding-left: 30px;
@@ -1390,13 +1402,17 @@ main.custom-pd {
     display: flex;
     justify-content: center;
     align-items: center;
-	margin-bottom: var(--lg);
-	margin-top: var(--lg);
+	margin-bottom: var(--xl);
+	margin-top: var(--xl);
 }
 
-.type-container i,
+.type-container .info-circle,
 .type-container button {
     margin-right: 10px;
+}
+
+.gray-txt {
+    opacity: 0.7;
 }
 
 .product-container p {
@@ -1414,6 +1430,21 @@ main.custom-pd {
 
 .small-input-container {
     display: flex;
+    align-items: center;
+}
+
+.small-input2 .black-btn,
+.small-input4 .black-btn {
+    height: 53px;
+    width: 80px;
+}
+
+.small-input-container .small-input {
+    margin-left: 5px;
+}
+
+.small-input-container .small-input:first-of-type {
+    margin-left: 0;
 }
 
 .small-input-container p {
@@ -1457,8 +1488,8 @@ main.custom-pd {
 }
 
 .screen13 .lg-container {
-	margin-bottom: var(--lg);
-	margin-top: var(--lg);
+	margin-bottom: var(--xl);
+	margin-top: var(--xl);
 }
 
 .screen13 .md-container p,
@@ -1493,10 +1524,18 @@ main.custom-pd {
     margin-right: 10px;
 }
 
+.small-input-container .mb-12 {
+    margin-bottom: 11px;
+}
+
 .screen13 .gray-bg {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 0;
+}
+
+.screen13 .gray-bg button {
+    border-radius: 30px;
 }
 
 .screen13 .gray-bg .black-btn {
@@ -1529,7 +1568,7 @@ main.custom-pd {
 }
 
 .screen13 .gray-box {
-    width: 247px;
+    width: 274px;
     margin: 0 auto;
     height: auto;
     border-radius: 5px;
@@ -1543,6 +1582,7 @@ main.custom-pd {
 .screen13 .red-btn {
     border: 1px solid var(--red);
     margin-top: var(--lg);
+    border-radius: 30px;
 }
 
 .box-content {
@@ -1560,7 +1600,7 @@ main.custom-pd {
 }
 
 .product-container {
-	font-size: 0.8rem
+        margin-top: var(--xl);
 }
 
 .screen14 .small-input-container {
@@ -1573,21 +1613,45 @@ main.custom-pd {
 }
 
 .screen14 .gray-bg {
-	padding-top: var(--sm);
-	padding-bottom: var(--sm);
+    padding: var(--sm) 5px;
+    border-radius: 5px;
 }
 
 .small-input2 .input-group-prepend {
 	background-color: var(--white);
 }
 
-.product-container button,
+.screen14 .input2-align {
+    line-height: 3.5;
+    padding-left: 5px;
+    border-right: 2px solid var(--black);
+}
+
+.screen14 .form-group {
+    border: 1.5px solid var(--black);
+    border-radius: 5px;
+}
+
+.screen14 .input-group select {
+    border-right: none;
+}
+
+.screen14 .input-group > .no-border {
+    border: none;
+}
+
+.screen14 .col-lg-4 > .no-mg-bt {
+    margin-top: var(--sm);
+    margin-bottom: var(--xl);
+}
+
+.product-container .black-btn,
 .product-container .input-group input,
 .product-container select {
 	border-radius: 5px;
 }
 
-.small-input2 .form-group,
+.small-input2 .mg-bt-3,
 .small-input1 .form-group {
 	width: 110px;
 }
@@ -1603,19 +1667,52 @@ main.custom-pd {
 	margin-right: 0;
 }
 
-.small-input4 input {
-	width: 50px;
+.gray-bg .small-input4 input {
+	width: 60px;
 }
 
-.small-input3:nth-of-type(3)
+.small-input4 {
+    margin-right: 5px; 
+}
+
+.small-input4 .form-group {
+    margin-bottom: 0;
+}
+
+.gray-bg .small-input4:first-of-type {
+    width: 70px;
+}
+
+.small-input4:last-of-type {
+    margin-right: 0;
+    margin-left: 10px;
+}
 
 .small-input-container .align-mdl {
-	align-items: center;
+    align-items: center;
 }
 
-.first-row {
-    margin-top: 15px;
+.screen14 .mg-5 {
+    margin-bottom: 9px;
 }
+
+.screen14 .align-mdl .form-group {
+    margin-bottom: 0;
+}
+
+.screen14 .align-mdl1 .form-group {
+    margin-bottom: 22px;
+}
+
+.screen14 .row-container {
+    padding: 10px;
+}
+
+.screen14 .custom-mg {
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
 
 .first-row .blue-txt {
     margin-left: 20px;
@@ -1666,10 +1763,9 @@ main.custom-pd {
 *********************************************************** */
 .screen15 textarea {
     width: 100%;
-    height: 144px;
+    height: 183px;
     border-radius: 5px;
     padding: 10px;
-    border: 1px solid var(--black);
 }
 
 .align-ct {
@@ -1683,6 +1779,17 @@ main.custom-pd {
 
 .screen15 .input-group-prepend {
     width: 20%;
+}
+
+.screen15 .input-group-prepend > select {
+    border: none;
+    border-right: 1px solid var(--black);
+    margin-right: 5px;
+    width: 66px;
+}
+
+.screen15 .row {
+    align-items: center;
 }
 
 /**************************************************************
@@ -1699,12 +1806,15 @@ main.custom-pd {
 }
 
 .screen16 .green-btn,
-.screen16 .white-btn {
+.screen16 .white-btn,
+.screen17 .white-btn,
+.screen17 .green-btn {
     border-radius: 10px;
 }
 
 .screen16 .white-btn {
     border: 2px solid var(--gray-bd);
+
 }
 
 .screen16 .input-group-prepend input,
@@ -1713,15 +1823,21 @@ main.custom-pd {
     margin-right: 3px;
 }
 
-.screen16 .bold-txt {
-    margin-bottom: 5px;
+.screen16 .input-group-prepend > select {
+    border: none;
+    border-right: 1px solid var(--black);
+    width: 66px;
+}
+
+.screen16 .black-bd {
+    margin-bottom: var(--xl);
 }
 
 /**************************************************************
 *							START OF SCREEN 17
 *********************************************************** */
 .add-team-member {
-    margin-top: 40px;
+    margin-top: var(--xl);
 }
 
 .screen17 .green-btn,
@@ -1752,3 +1868,54 @@ main.custom-pd {
 .screen17 .red-btn {
     margin-top: 50px;
 }
+
+
+.screen17 .btn-container {
+    margin-top:  var(--xl);
+}
+
+.screen17 .input-group-prepend > select {
+    width: 66px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 18
+*********************************************************** */
+.order-action {
+    display: flex;
+    margin-top: var(--lg);
+}
+
+.order-action .order-action-container {
+    margin-left: 15px;
+    position: relative;
+}
+
+.screen18 .red-circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: var(--red);
+    top: 11px;
+    left: -5px;
+}
+
+
+.screen18 .search-form {
+    display: flex;
+}
+
+.screen18 input,
+.screen18 select {
+    border-radius: 30px;
+}
+
+.screen18 .search-container input {
+    margin-right: 10px;
+}
+
+
+
+
