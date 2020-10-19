@@ -42,6 +42,10 @@ input[type=checkbox] {
     opacity: 0.4;
 }
 
+.green-txt {
+    color: var(--green);
+}
+
 button {
     font-size: 1.2rem;
     padding-right: 15px;
@@ -58,6 +62,11 @@ button {
 
 .small-btn {
     height: 33px;
+    font-size: 0.8rem;
+}
+
+.xs-btn {
+    height: 29px;
     font-size: 0.8rem;
 }
 
@@ -103,7 +112,6 @@ button {
     border: 1px solid var(--gray-bd);
     color: var(--black);
 }
-
 
 .dark-gray-btn {
     background-color: var(--black);
@@ -280,7 +288,8 @@ video {
 .linked-container,
 .screen11 .btn-container,
 .box-container,
-.order-action {
+.order-action,
+.transaction-statement {
     width: 100%;
     white-space: nowrap;
     position: relative;
@@ -856,7 +865,7 @@ footer.flex p {
 }
 
 .gray-bg {
-    background-color: var(--gray-bd);
+    background-color: var(--gray);
 }
 
 
@@ -1854,8 +1863,8 @@ main.custom-pd {
 }
 
 .photo-box {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
     background-color: var(--gray);
     margin: 0 auto 6px;
@@ -1888,7 +1897,7 @@ main.custom-pd {
 }
 
 .order-action .order-action-container {
-    margin-left: 15px;
+    margin-right: 15px;
     position: relative;
 }
 
@@ -1902,9 +1911,10 @@ main.custom-pd {
     left: -5px;
 }
 
-
 .screen18 .search-form {
     display: flex;
+    justify-content: center;
+    margin-bottom: var(--lg);
 }
 
 .screen18 input,
@@ -1912,10 +1922,134 @@ main.custom-pd {
     border-radius: 30px;
 }
 
+.screen18 .form-control {
+    background-color: var(--gray);
+    border: 1px solid var(--gray-bd); 
+}
+
+.screen18 label {
+    position: relative;
+    width: 100%;
+}
+
+.screen18 label > p {
+    position: absolute;
+    left: 2px;
+}
+
 .screen18 .search-container input {
     margin-right: 10px;
 }
 
+.screen18 .mg-rt {
+    margin-right: 10px;
+}
 
+.screen18 .sort-orders p {
+    background-color: var(--gray);
+    border: 1px solid var(--gray-bd);
+    border-radius: 30px;
+    padding: 6px 10px;
+}
+
+/**************************************************************
+*							START OF SCREEN 19
+***********************************************************/
+.screen19 .add-product {
+    margin-bottom: var(--xl);
+}
+.transaction-statement .gray-btn {
+    font-size: 1rem;
+    background: var(--gray);
+    border: 1px solid var(--gray-bd);
+    border-radius: 10px;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+.screen19 .order-action button {
+    margin-right: 10px;
+}
+
+.order-action .mid-btn {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.screen19 .gray-bg {
+    margin-bottom: var(--md);
+    font-size: 1rem;
+    padding: 20px 10px;
+    border: 1px solid var(--gray-bd);
+    border-radius: 3px;
+    line-height: 1;
+}
+
+.screen19 .flex-container {
+    display: flex;
+}
+
+
+.round-p {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    margin-left: 15px;
+    padding: 3px 19px;
+    color: var(--white);
+}
+
+.auto-delivery {
+    text-align: center;
+    margin-top: var(--lg);
+}
+
+.auto-delivery button {
+    margin-left: 15px;
+}
+
+.shipping {
+    background-color: var(--gray);
+    border: 1px solid var(--gray-bd);
+    border-radius: 5px;
+    text-align: center;
+    max-width: 470px;
+    margin: 0 auto var(--md);
+}
+
+.no-mb p{
+    margin-bottom: 5px;
+}
+
+.screen19 table {
+    margin-bottom: var(--md);
+}
+
+.screen19 th, td {
+    padding-bottom: 0;
+}
+
+.screen19 .xs-btn {
+    border-radius: 5px;
+}
+
+.red-circle1 {
+    height: 29px;
+    width: 29px;
+    border-radius: 100%;
+    border: 1px solid var(--red);
+    color: var(--red);
+    font-weight: 700;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.screen19 .col-md-6 > .flex-container {
+    justify-content: center;
+    margin-bottom: var(--xl);
+}
+
+.screen19 .form-control {
+    border: 2px solid rgba(0,0,0,0.6);
+}
 
 

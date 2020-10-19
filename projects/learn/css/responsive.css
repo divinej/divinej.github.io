@@ -370,11 +370,6 @@
 	**              Page 12 Media Query
 	********************************** 
 
-    .kyc-container .red-btn {
-        width: 317.84px;
-        font-size: 1.2rem;
-    }
-
     /* *****************************
 	**              Page 13 Media Query
 	********************************** */
@@ -403,6 +398,51 @@
 
     .add-lead-form {
         margin-top: 60px;
+    }
+
+     /* *****************************
+	**              Page 18 Media Query
+	********************************** */
+
+    .screen18 .order-action {
+        justify-content: center;
+        overflow-x: auto;
+    }
+    .screen18 .add-product p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .screen18 .sort-orders p {
+        padding-left: 20px;
+    }
+
+    .screen18 .mg-rt {
+        width: 400px;
+    }
+
+    .screen18 .mg-rt  input {
+        padding-left: 20px;
+    }
+
+    .screen18 .no-display {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+
+      /* *****************************
+	**              Page 19 Media Query
+	********************************** */
+    .auto-delivery {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .order-action {
+        justify-content: center;
+        overflow-x: auto;
     }
 }
 
@@ -593,6 +633,23 @@
         margin-bottom: 10px
     }
 
+     /* *****************************
+	**              Page 18 Media Query
+    ********************************** */
+    .screen18 .add-product {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .screen18 .order-action {
+        margin-top: 0;
+    }
+
+    .order-container {
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 @media all and (min-width: 1440PX) {
@@ -689,5 +746,25 @@
     .screen14 .mg-sm {
         margin-bottom: 6px;
         margin-top: 6px;
+    }
+
+    .screen19 .add-product {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .add-product p {
+        display: flex;
+    }
+
+    .screen19 .transaction-statement {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+    }
+
+    .order-action {
+        margin-top: 0;
+        width: auto;
     }
 }
