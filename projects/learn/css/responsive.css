@@ -36,7 +36,8 @@
         margin-right: auto;
     }
 
-    .discount-box p, .discount-box input {
+    .discount-box p,
+    .discount-box input {
         margin-right: 15px;
     }
 
@@ -134,9 +135,12 @@
         display: none;
     }
 
-    .padd,
-    .screen13-pd {
+    .padd{
         padding: 0 6% var(--lg);
+    }
+
+    .screen13-pd {
+        padding: 0 6% var(--lg) 0;
     }
 
     .no-display {
@@ -366,7 +370,7 @@
         margin-left: 30px;
     }
 
-      /* *****************************
+    /* *****************************
 	**              Page 12 Media Query
 	********************************** 
 
@@ -392,7 +396,7 @@
         margin-bottom: 12px;
     }
 
-     /* *****************************
+    /* *****************************
 	**              Page 15 Media Query
 	********************************** */
 
@@ -400,7 +404,7 @@
         margin-top: 60px;
     }
 
-     /* *****************************
+    /* *****************************
 	**              Page 18 Media Query
 	********************************** */
 
@@ -408,6 +412,7 @@
         justify-content: center;
         overflow-x: auto;
     }
+
     .screen18 .add-product p {
         display: flex;
         justify-content: center;
@@ -421,7 +426,7 @@
         width: 400px;
     }
 
-    .screen18 .mg-rt  input {
+    .screen18 .mg-rt input {
         padding-left: 20px;
     }
 
@@ -431,7 +436,7 @@
     }
 
 
-      /* *****************************
+    /* *****************************
 	**              Page 19 Media Query
 	********************************** */
     .auto-delivery {
@@ -494,7 +499,7 @@
     video {
         margin-top: 80px;
     }
-    
+
     .carousel-control-prev {
         left: 25%;
     }
@@ -512,7 +517,7 @@
 
     .center-txt,
     .sales-info>p,
-    .customers > h6 {
+    .customers>h6 {
         margin-bottom: 60px;
     }
 
@@ -522,7 +527,7 @@
     }
 
     .price-ft {
-        margin: 0px 15px 60px;
+        margin: 0px 15px 100px;
     }
 
     .customers {
@@ -628,12 +633,12 @@
         padding-right: 20px;
     }
 
-    .screen14 .col-lg-4 > .no-mg-bt {
+    .screen14 .col-lg-4>.no-mg-bt {
         margin-top: 0;
         margin-bottom: 10px
     }
 
-     /* *****************************
+    /* *****************************
 	**              Page 18 Media Query
     ********************************** */
     .screen18 .add-product {
@@ -657,10 +662,10 @@
         font-size: 0.9rem;
     }
 
-    .customers > h6,
+    .customers>h6,
     .price-ft,
     .big-txt {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .price-ft .arrow-box {
@@ -698,7 +703,7 @@
 
     .b2b-box {
         width: 369.61px;
-        padding: 28px 20px 22px;
+        padding: 28px 50px 22px;
         height: 170px;
     }
 
@@ -725,7 +730,7 @@
         top: 130px;
     }
 
-    
+
 
     /* *****************************
 	**              Scene 1 Media Query
@@ -738,14 +743,18 @@
 
     /* *****************************
 	**              Scene 7 Media Query
-	********************************** */
+    ********************************** */
+    .no-screen .add-product p {
+        display: inline-block;
+    }
+
     .no-projects .bottom-text {
         left: 43%;
     }
 
     .screen14 .mg-sm {
-        margin-bottom: 6px;
-        margin-top: 6px;
+        margin-bottom: 9px;
+        margin-top: 9px;
     }
 
     .screen19 .add-product {

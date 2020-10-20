@@ -50,7 +50,7 @@ button {
     font-size: 1.2rem;
     padding-right: 15px;
     padding-left: 15px;
-    font-weight: 700;
+    font-weight: 400;
     border-radius: 30px;
     height: 48px;
 }
@@ -296,6 +296,10 @@ video {
     overflow-x: scroll;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
+}
+
+.b2b-container {
+    text-align: center;
 }
 
 .b2b-box {
@@ -1376,7 +1380,7 @@ main.custom-pd {
 }
 
 .box-container button {
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
@@ -1437,9 +1441,9 @@ main.custom-pd {
     align-items: center;
 }
 
-.small-input-container {
+.screen13 .small-input-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .small-input2 .black-btn,
@@ -1538,7 +1542,7 @@ main.custom-pd {
 }
 
 .screen13 .gray-bg {
-    padding: 10px;
+    padding: 23px;
     border-radius: 5px;
     margin-bottom: 0;
 }
@@ -1595,7 +1599,7 @@ main.custom-pd {
 }
 
 .box-content {
-	margin-bottom: var(--sm);
+	margin-bottom: 16px;
 	display: flex;
     align-items: center
 }
@@ -1613,17 +1617,27 @@ main.custom-pd {
 }
 
 .screen14 .small-input-container {
-	padding-left: 5px;
-    padding-right: 5px;
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
 }
 
 .screen14 .small-input-container p {
 	text-align: left;
 }
 
+.screen14 p.custom-mg {
+    font-size: 0.9rem;
+}
+
 .screen14 .gray-bg {
-    padding: var(--sm) 5px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+.screen14 .add-product p {
+    display: inline-block;
 }
 
 .small-input2 .input-group-prepend {
@@ -1631,9 +1645,14 @@ main.custom-pd {
 }
 
 .screen14 .input2-align {
-    line-height: 3.5;
-    padding-left: 5px;
+    padding-top: 15px;
     border-right: 2px solid var(--black);
+    padding-left: 7px;
+    width: 40px;
+}
+
+.screen14 .justify-end {
+    align-items: flex-end;
 }
 
 .screen14 .form-group {
@@ -1652,6 +1671,7 @@ main.custom-pd {
 .screen14 .col-lg-4 > .no-mg-bt {
     margin-top: var(--sm);
     margin-bottom: var(--xl);
+    border-radius: 2px;
 }
 
 .product-container .black-btn,
@@ -1660,9 +1680,8 @@ main.custom-pd {
 	border-radius: 5px;
 }
 
-.small-input2 .mg-bt-3,
-.small-input1 .form-group {
-	width: 110px;
+.screen14 .input-group input {
+    max-width: 110px;
 }
 
 .small-input2,
@@ -1684,12 +1703,20 @@ main.custom-pd {
     margin-right: 5px; 
 }
 
+.screen14 .small-input2 > button {
+    margin-top: 5px;
+}
+
 .small-input4 .form-group {
     margin-bottom: 0;
 }
 
+.screen14 .country-added > .gray-bg {
+    padding: 21px 15px;
+}
+
 .gray-bg .small-input4:first-of-type {
-    width: 70px;
+    width: 75px;
 }
 
 .small-input4:last-of-type {
@@ -1718,10 +1745,14 @@ main.custom-pd {
 }
 
 .screen14 .custom-mg {
-    margin-top: 12px;
+    margin-top: 9px;
     margin-bottom: 7px;
 }
 
+.first-row,
+.second-row {
+    font-size: 0.9rem;
+}
 
 .first-row .blue-txt {
     margin-left: 20px;
@@ -1767,6 +1798,9 @@ main.custom-pd {
 }
 
 
+.screen14 .sixth-row p {
+    margin-bottom: 5px;
+}
 /**************************************************************
 *							START OF SCREEN 15
 *********************************************************** */
@@ -1821,9 +1855,9 @@ main.custom-pd {
     border-radius: 10px;
 }
 
-.screen16 .white-btn {
-    border: 2px solid var(--gray-bd);
-
+.screen16 .white-btn,
+.screen16 .green-btn {
+    border: 1px solid var(--black);
 }
 
 .screen16 .input-group-prepend input,
@@ -1861,6 +1895,7 @@ main.custom-pd {
 .screen17 .row {
     justify-content: center;
 }
+
 
 .photo-box {
     width: 300px;
