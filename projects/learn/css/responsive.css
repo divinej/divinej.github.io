@@ -215,6 +215,14 @@
         right: 18%;
     }
 
+    .start-free {
+        margin-top: 100px;
+    }
+
+    .start-free .black-btn {
+        font-size: 1.4rem;
+    }
+
     .customers,
     .start-free,
     .trusted-cs {
@@ -474,7 +482,7 @@
 
     .arrow-box {
         right: 29%;
-        top: 16px;
+        top: 10px;
     }
 
     .carousel-control-prev,
