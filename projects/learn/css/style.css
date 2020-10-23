@@ -146,6 +146,7 @@ nav,
 .associate-details,
 .associate-details1,
 .add-product,
+.screen13 .box-container,
 footer {
     padding-left: 13px;
     padding-right: 13px;
@@ -374,8 +375,8 @@ video {
     height: 283px;
 }
 
-.sales-mg-box > P:first-child,
-.sales-mg-box2 > p:first-child {
+.sales-mg-box>P:first-child,
+.sales-mg-box2>p:first-child {
     margin-bottom: 0;
 }
 
@@ -1241,7 +1242,7 @@ main.no-pd,
 *							START OF SCREEN 11
 *********************************************************** */
 .screen11 .form-group {
-    background-color:  var(--white);
+    background-color: var(--white);
     border: 1px solid var(--black);
     border-radius: 5px;
     margin-left: 7px;
@@ -1254,8 +1255,8 @@ main.no-pd,
 
 .discount-box {
     display: flex;
-	align-items: baseline;
-	justify-content: center;
+    align-items: baseline;
+    justify-content: center;
     background-color: var(--gray);
     padding: 15px 4px;
     margin: var(--lg) auto var(--lg);
@@ -1275,7 +1276,7 @@ main.no-pd,
 }
 
 .discount-box .form-group {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .info-circle-container {
@@ -1324,7 +1325,7 @@ main.no-pd,
 }
 
 .cash-discount-box p {
-	margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .cash-discount-box .clear-box {
@@ -1413,8 +1414,8 @@ main.custom-pd {
 }
 
 .add-product p {
-	margin-right: 15px;
-	margin-bottom: 0;
+    margin-right: 15px;
+    margin-bottom: 0;
 }
 
 .screen13 .green-btn,
@@ -1428,8 +1429,8 @@ main.custom-pd {
     display: flex;
     justify-content: center;
     align-items: center;
-	margin-bottom: var(--xl);
-	margin-top: var(--xl);
+    margin-bottom: var(--xl);
+    margin-top: var(--xl);
 }
 
 .type-container .info-circle,
@@ -1442,7 +1443,7 @@ main.custom-pd {
 }
 
 .product-container p {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .red-ph::placeholder {
@@ -1493,7 +1494,7 @@ main.custom-pd {
 }
 
 .small-input .form-control {
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 .small-input i {
@@ -1505,32 +1506,32 @@ main.custom-pd {
     font-weight: 700;
 }
 
-.no-mg-container  {
-	margin-bottom: var(--sm);
+.no-mg-container {
+    margin-bottom: var(--sm);
 }
 
 .screen13 .md-container {
-	margin-top: var(--md);
+    margin-top: var(--md);
 }
 
 .screen13 .lg-container {
-	margin-bottom: var(--xl);
-	margin-top: var(--xl);
+    margin-bottom: var(--xl);
+    margin-top: var(--xl);
 }
 
 .screen13 .md-container p,
 .screen13 .md-container .form-group {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .no-mg-container p,
 .no-mg-container .form-group {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .mg-bt-3 p {
-	margin-top: 10px;
-	margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .mg-bt-3 {
@@ -1612,8 +1613,8 @@ main.custom-pd {
 }
 
 .box-content {
-	margin-bottom: 16px;
-	display: flex;
+    margin-bottom: 16px;
+    display: flex;
     align-items: center
 }
 
@@ -1626,7 +1627,7 @@ main.custom-pd {
 }
 
 .product-container {
-        margin-top: var(--xl);
+    margin-top: var(--xl);
 }
 
 .screen14 .small-input-container {
@@ -1636,7 +1637,7 @@ main.custom-pd {
 }
 
 .screen14 .small-input-container p {
-	text-align: left;
+    text-align: left;
 }
 
 .screen14 p.custom-mg {
@@ -1654,7 +1655,7 @@ main.custom-pd {
 }
 
 .small-input2 .input-group-prepend {
-	background-color: var(--white);
+    background-color: var(--white);
 }
 
 .screen14 .input2-align {
@@ -1677,11 +1678,11 @@ main.custom-pd {
     border-right: none;
 }
 
-.screen14 .input-group > .no-border {
+.screen14 .input-group>.no-border {
     border: none;
 }
 
-.screen14 .col-lg-4 > .no-mg-bt {
+.screen14 .col-lg-4>.no-mg-bt {
     margin-top: var(--sm);
     margin-bottom: var(--xl);
     border-radius: 2px;
@@ -1690,7 +1691,7 @@ main.custom-pd {
 .product-container .black-btn,
 .product-container .input-group input,
 .product-container select {
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 .screen14 .input-group input {
@@ -1700,23 +1701,23 @@ main.custom-pd {
 .small-input2,
 .small-input1,
 .small-input3 {
-	margin-right: 10px;
-	text-align: left;
+    margin-right: 10px;
+    text-align: left;
 }
 
 .small-input3.no-mg {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 .gray-bg .small-input4 input {
-	width: 60px;
+    width: 60px;
 }
 
 .small-input4 {
-    margin-right: 5px; 
+    margin-right: 5px;
 }
 
-.screen14 .small-input2 > button {
+.screen14 .small-input2>button {
     margin-top: 5px;
 }
 
@@ -1724,7 +1725,7 @@ main.custom-pd {
     margin-bottom: 0;
 }
 
-.screen14 .country-added > .gray-bg {
+.screen14 .country-added>.gray-bg {
     padding: 21px 15px;
 }
 
@@ -1814,6 +1815,7 @@ main.custom-pd {
 .screen14 .sixth-row p {
     margin-bottom: 5px;
 }
+
 /**************************************************************
 *							START OF SCREEN 15
 *********************************************************** */
@@ -1837,7 +1839,7 @@ main.custom-pd {
     width: 20%;
 }
 
-.screen15 .input-group-prepend > select {
+.screen15 .input-group-prepend>select {
     border: none;
     border-right: 1px solid var(--black);
     margin-right: 5px;
@@ -1879,7 +1881,7 @@ main.custom-pd {
     margin-right: 3px;
 }
 
-.screen16 .input-group-prepend > select {
+.screen16 .input-group-prepend>select {
     border: none;
     border-right: 1px solid var(--black);
     width: 66px;
@@ -1928,10 +1930,10 @@ main.custom-pd {
 
 
 .screen17 .btn-container {
-    margin-top:  var(--xl);
+    margin-top: var(--xl);
 }
 
-.screen17 .input-group-prepend > select {
+.screen17 .input-group-prepend>select {
     width: 66px;
 }
 
@@ -1961,6 +1963,7 @@ main.custom-pd {
 
 .screen18 .search-form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: var(--lg);
 }
@@ -1972,7 +1975,7 @@ main.custom-pd {
 
 .screen18 .form-control {
     background-color: var(--gray);
-    border: 1px solid var(--gray-bd); 
+    border: 1px solid var(--gray-bd);
 }
 
 .screen18 label {
@@ -1980,7 +1983,7 @@ main.custom-pd {
     width: 100%;
 }
 
-.screen18 label > p {
+.screen18 label>p {
     position: absolute;
     left: 2px;
 }
@@ -2006,6 +2009,7 @@ main.custom-pd {
 .screen19 .add-product {
     margin-bottom: var(--xl);
 }
+
 .transaction-statement .gray-btn {
     font-size: 1rem;
     background: var(--gray);
@@ -2033,7 +2037,7 @@ main.custom-pd {
     line-height: 1;
 }
 
-.screen19 .flex-container {
+.flex-container {
     display: flex;
 }
 
@@ -2049,6 +2053,7 @@ main.custom-pd {
 .auto-delivery {
     text-align: center;
     margin-top: var(--lg);
+    margin-bottom: var(--sm);
 }
 
 .auto-delivery button {
@@ -2064,7 +2069,7 @@ main.custom-pd {
     margin: 0 auto var(--md);
 }
 
-.no-mb p{
+.no-mb p {
     margin-bottom: 5px;
 }
 
@@ -2072,7 +2077,8 @@ main.custom-pd {
     margin-bottom: var(--md);
 }
 
-.screen19 th, td {
+.screen19 th,
+td {
     padding-bottom: 0;
 }
 
@@ -2091,13 +2097,412 @@ main.custom-pd {
     margin-left: 10px;
 }
 
-.screen19 .col-md-6 > .flex-container {
+.screen19 .col-md-6>.flex-container {
     justify-content: center;
     margin-bottom: var(--xl);
 }
 
 .screen19 .form-control {
-    border: 2px solid rgba(0,0,0,0.6);
+    border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 
+
+/**************************************************************
+*							START OF SCREEN 21
+***********************************************************/
+.hide {
+    display: none;
+}
+
+.product-modal h5 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: var(--xl);
+}
+
+.screen19 .product-modal1 h5 {
+    text-align: center;
+}
+
+.product-modal>p {
+    text-align: center;
+}
+
+.product-modal input {
+    border-radius: 10px;
+}
+
+.product-modal .form-group {
+    margin-bottom: var(--lg);
+}
+
+.product-modal .btn-container {
+    margin-top: var(--lg);
+}
+
+.product-modal .align-right {
+    text-align: right;
+}
+
+.product-modal .red-btn,
+.product-modal1 .red-btn {
+    width: 130px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 23
+***********************************************************/
+.product-modal1>button {
+    border-radius: 0;
+    width: 32.2% !important;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.screen19 .product-modal1 {
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-right: 0;
+    height: 315px;
+}
+
+.product-modal1 p {
+    text-align: center;
+}
+
+.product-modal1 p:first-of-type {
+    margin-top: 54px;
+}
+
+.product-modal1 p:last-of-type {
+    margin-bottom: 54px;
+}
+
+/**************************************************************
+*							START OF SCREEN 24
+***********************************************************/
+.product-modal textarea {
+    border-radius: 10px;
+    padding: 20px 10px;
+    border-color: var(--gray-bd);
+    width: 267px;
+}
+
+.form-group .screen24 {
+    width: 180px;
+    border-color: var(--gray-bd);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.product-modal .no-mb {
+    margin-bottom: 0;
+}
+
+.product-modal .no-mg {
+    margin-bottom: 0;
+}
+
+.product-modal .mg-tp {
+    margin-top: var(--lg);
+}
+
+/**************************************************************
+*							START OF SCREEN 24
+***********************************************************/
+.screen26 [div*=col-] {
+    padding: 0;
+}
+
+.screen26 .gray-input input {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--gray);
+    height: 68px !important;
+}
+
+.screen26 .center-txt {
+    margin-bottom: 1rem;
+}
+
+.screen26 .flex-container {
+    justify-content: center;
+    margin-top: var(--md);
+    margin-bottom: var(--lg);
+}
+
+.screen26 .flex-container p {
+    background-color: var(--gray);
+    border: 1px solid var(--gray-bd);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.screen26 .flex-container p:first-of-type {
+    margin-right: 20px;
+}
+
+.screen26>.btn-container button {
+    border-radius: 10px;
+}
+
+.screen26>.btn-container {
+    margin-bottom: var(--lg);
+}
+
+.screen26 .white-btn {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.screen26 .gray-bg {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    height: 76px;
+    margin-bottom: 15px;
+}
+
+.screen26 .name {
+    font-size: 1rem;
+}
+
+.screen26 .no-flex-mb {
+    display: block;
+    height: auto;
+}
+
+.screen26 .no-flex-mb .input-container {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.screen26 .gray-bg p {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.screen26 .square-box {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    background-color: var(--white);
+    border: 2px solid var(--gray-bd);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.screen26 .red-box {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: var(--red);
+}
+
+.screen26 .box-content,
+.screen26 .box-content p {
+    margin-bottom: 0;
+}
+
+.screen26 .gray-bg .input-group {
+    max-width: 194px;
+    margin-right: 10px;
+}
+
+.screen26 .gray-bg .no-mg-lf {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.screen26 .gray-bg .input-container select {
+    border-radius: 14px;
+    border-color: var(--gray-bd);
+}
+
+.screen26 .input-group-prepend {
+    width: 35px;
+    background-color: var(--white);
+    border-right: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-left: 2px
+}
+
+.screen26 .no-pad-rt .gray-bg {
+    padding-left: 25px;
+}
+
+.screen26 .gray-bg .input-group input {
+    border-radius: 10px;
+}
+
+.screen26 .gray-bg .form-group {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    background-color: var(--white);
+    margin-bottom: 0;
+}
+
+.screen26 .input-container {
+    flex-grow: 1;
+}
+
+.screen26 .gray-bg button {
+    width: 100px;
+}
+
+/**************************************************************
+*							START OF SCREEN 27
+***********************************************************/
+.dark-gray-box {
+    width: 50%;
+    height: 155px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.screen27 .row .flex-container {
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.flex-container .dark-gray-box:nth-of-type(1) {
+    margin-right: 3px;
+}
+
+.screen27 .gray-bg {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.screen27 .gray-bg .bold-txt {
+    margin-bottom: 0;
+}
+
+.screen27 table {
+    width: 100%;
+}
+
+.screen27 th,
+td {
+    padding: 5px 0 0;
+}
+
+.screen27 .gray-box {
+    height: 100px;
+}
+
+.screen27 .long-box {
+    height: 320px;
+}
+
+.screen27>.flex-container {
+    justify-content: center;
+    margin-top: var(--lg);
+    margin-bottom: var(--lg);
+}
+
+.screen27>.flex-container p:first-of-type {
+    margin-right: 30px;
+}
+
+.screen27 .gray-box>p:nth-child(1) {
+    font-weight: inherit;
+}
+
+.screen27 .text-container {
+    text-align: center;
+    margin-top: var(--lg);
+    margin-bottom: var(--lg);
+}
+
+.orange-txt {
+    color: #f49c3d;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 28
+***********************************************************/
+.screen27 .text-container p:first-of-type {
+    margin-bottom: 0;
+}
+
+.screen27 .circle-container {
+    text-align: center;
+
+}
+
+.screen27 .dark-gray-circle,
+.screen27 .gray-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: inline-block;
+
+}
+
+.screen27 .gray-circle {
+    background-color: var(--gray-bd);
+}
+
+.screen27 .dark-gray-circle {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.screen27 .border-container {
+    border: 1px solid var(--gray-bd);
+    background-color: var(--gray);
+    padding: 10px;
+    ;
+    max-width: 585px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screen27 .border-container p {
+    margin-bottom: 0;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 29
+***********************************************************/
+.justify-center {
+    justify-content: center;
+}
+
+.screen18 .search-form .form-group:nth-of-type(2) {
+    margin-right: 10px;
+}
+
+/**************************************************************
+*							START OF SCREEN 30
+***********************************************************/
+.screen30 .product-modal {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 2px solid var(--gray-bd);
+}
+
+.screen30 .product-modal button {
+    width: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 1rem;
+}
+
+.screen30 .product-modal>button {
+    width: 100% !important;
+    border-radius: 7px;
+}
+
+.screen30 .product-modal .btn-container:last-of-type {
+    margin-bottom: var(--xl);
+}

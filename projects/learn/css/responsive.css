@@ -45,6 +45,23 @@
     .dark-gray-btn {
         min-width: 98px;
     }
+
+    /* *****************************
+	**              Scene 23 Media Query
+	********************************** */
+
+    .product-modal1>button {
+        width: 32.3% !important;
+        font-size: 1rem;
+    }
+
+
+    /* *****************************
+	**              Scene 24 Media Query
+	********************************** */
+    .product-modal textarea {
+        width: 100%;
+    }
 }
 
 
@@ -56,6 +73,7 @@
     .associate-details,
     .associate-details1,
     .add-product,
+    .screen13 .box-container,
     footer {
         padding-left: 25px;
         padding-right: 25px;
@@ -82,9 +100,11 @@
     }
 
     /* *****************************
-	**              Scene 11 Media Query
+	**              Scene 26 Media Query
 	********************************** */
-
+    .screen26 .green-btn {
+        min-width: 150px;
+    }
 }
 
 
@@ -135,12 +155,12 @@
         display: none;
     }
 
-    .padd{
+    .padd {
         padding: 0 6% var(--lg);
     }
 
     .screen13-pd {
-        padding: 0 6% var(--lg) 0;
+        padding: 0 15% var(--lg);
     }
 
     .no-display {
@@ -384,7 +404,8 @@
 
     /* *****************************
 	**              Page 13 Media Query
-	********************************** */
+    ********************************** */
+
     .add-product {
         text-align: left;
         margin-top: var(--xl);
@@ -456,6 +477,114 @@
     .order-action {
         justify-content: center;
         overflow-x: auto;
+    }
+
+    /* *****************************
+	**              Scene 21 Media Query
+    ********************************** */
+    .screen19.hide {
+        display: block;
+    }
+
+    .screen19 .product-modal,
+    .screen19 .product-modal1 {
+        position: absolute;
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 450px;
+        margin: 0 auto;
+        border-radius: 10px;
+        border-color: rgba(0, 0, 0, 0.6);
+        top: 251px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* *****************************
+	**              Scene 23 Media Query
+    ********************************** */
+    .hide {
+        display: block;
+    }
+
+    .screen19 .product-modal1 {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .product-modal1>button {
+        width: 145.4px !important;
+    }
+
+
+    /* *****************************
+	**              Scene 26 Media Query
+    ********************************** */
+    .screen26 .no-flex-mb {
+        display: flex;
+        height: 76px;
+    }
+
+    .screen26 .no-flex-mb .input-container {
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    /* *****************************
+	**              Scene 27 Media Query
+    ********************************** */
+
+    .screen27 .col-md-5 {
+        padding: 0;
+    }
+
+    /* *****************************
+	8**              Scene 27 Media Query
+    ********************************** */
+    .screen27 .border-container {
+        border-radius: 30px;
+    }
+
+    /* *****************************
+	8**              Scene 29 Media Query
+    ********************************** */
+
+    .screen18 .screen29,
+    .screen29 .order-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .screen18 .screen29 {
+        justify-content: space-between;
+    }
+
+    .screen29 .order-action {
+        margin-top: 0;
+        width: auto;
+    }
+
+    .screen30 .product-modal {
+        position: absolute;
+        width: 550px;
+        margin: 0 auto;
+        top: 253px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: none;
+    }
+
+    .screen30 .product-modal button {
+        width: 230px;
+        font-size: 1.2rem;
+    }
+
+    .product-modal .btn-container button:first-of-type {
+        margin-right: 30px;
+    }
+
+    .screen30 .product-modal .small-txt {
+        font-size: 1rem;
     }
 }
 
@@ -620,7 +749,11 @@
 
     /* *****************************
 	**              Page 13 Media Query
-	********************************** */
+    ********************************** */
+    .screen13-pd {
+        padding: 0 6% var(--lg) 0;
+    }
+    
     .screen13 .gray-box {
         margin-left: 0;
         margin-right: 0;
@@ -661,6 +794,13 @@
     .order-container {
         display: flex;
         align-items: center;
+    }
+
+    /* *****************************
+	**              Page 26 Media Query
+    ********************************** */
+    .screen26 .no-pad-rt {
+        padding-right: 0;
     }
 
 }
@@ -783,5 +923,13 @@
     .order-action {
         margin-top: 0;
         width: auto;
+    }
+
+    /* *****************************
+	**              Scene 21 Media Query
+    ********************************** */
+
+    .screen19 .product-modal {
+        top: 172px;
     }
 }
