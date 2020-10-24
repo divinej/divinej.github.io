@@ -269,6 +269,16 @@ video {
     margin-top: var(--xl);
 }
 
+.demo button {
+    line-height: 0;
+    padding-bottom: 6px;
+}
+
+.big-btn {
+    line-height: 0;
+    padding-bottom: 4px;
+    height: 50px;
+}
 
 /* b2b styles */
 .b2b {
@@ -1725,9 +1735,9 @@ main.custom-pd {
     margin-bottom: 0;
 }
 
-.screen14 .country-added>.gray-bg {
+/* .screen14 .country-added>.gray-bg {
     padding: 21px 15px;
-}
+} */
 
 .gray-bg .small-input4:first-of-type {
     width: 75px;
@@ -2075,6 +2085,7 @@ main.custom-pd {
 
 .screen19 table {
     margin-bottom: var(--md);
+    width: 100%;
 }
 
 .screen19 th,
@@ -2212,10 +2223,23 @@ td {
 }
 
 /**************************************************************
-*							START OF SCREEN 24
+*							START OF SCREEN 25
+***********************************************************/
+.screen25 {
+    font-size: 1rem;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 26
 ***********************************************************/
 .screen26 [div*=col-] {
     padding: 0;
+}
+
+.screen26 {
+    font-size: 1rem;
+    line-height: 1.2;
 }
 
 .screen26 .gray-input input {
@@ -2268,13 +2292,40 @@ td {
     margin-bottom: 15px;
 }
 
+.screen26 .block {
+    display: block;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.screen26 .block .input-container:first-of-type {
+    margin-bottom: 15px;
+}
+
+
+.screen26 .block .input-container p {
+    margin-left: 0;
+}
+
+.screen26 .block .input-container .input-group {
+    max-width: 168px;
+}
+
 .screen26 .name {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-left: 11px !important;
+}
+
+.screen26 .block-md {
+    display: block;
+    height: auto;
 }
 
 .screen26 .no-flex-mb {
     display: block;
     height: auto;
+    padding-bottom: 11px;
 }
 
 .screen26 .no-flex-mb .input-container {
@@ -2282,9 +2333,22 @@ td {
     margin-bottom: 10px;
 }
 
+.screen26 .no-flex-mb .input-container:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
 .screen26 .gray-bg p {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 0;
+}
+
+.screen26 .block-md p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.screen26 .no-flex-mb p {
+    margin-left: 0;
 }
 
 .screen26 .square-box {
@@ -2325,17 +2389,13 @@ td {
 }
 
 .screen26 .input-group-prepend {
-    width: 35px;
+    width: 45px;
+    padding-left: 7px;
     background-color: var(--white);
     border-right: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     margin-right: 5px;
     padding-top: 10px;
-    padding-left: 2px
-}
-
-.screen26 .no-pad-rt .gray-bg {
-    padding-left: 25px;
 }
 
 .screen26 .gray-bg .input-group input {
@@ -2355,6 +2415,10 @@ td {
 
 .screen26 .gray-bg button {
     width: 100px;
+}
+
+.screen26 .block .input-group {
+    margin-left: 10px;
 }
 
 /**************************************************************
@@ -2388,8 +2452,7 @@ td {
     width: 100%;
 }
 
-.screen27 th,
-td {
+.screen27 td {
     padding: 5px 0 0;
 }
 
@@ -2478,9 +2541,21 @@ td {
     justify-content: center;
 }
 
-.screen18 .search-form .form-group:nth-of-type(2) {
-    margin-right: 10px;
+.screen29 .search-form .form-group:first-of-type {
+    min-width: 242px;
 }
+
+.screen29 .order-action button {
+    width: 134px;
+}
+
+.screen29 .order-action .order-action-container:nth-of-type(2) {
+    margin-right: 0;
+}
+
+/* .screen18 .search-form .form-group:nth-of-type(2) {
+    margin-right: 10px;
+} */
 
 /**************************************************************
 *							START OF SCREEN 30
@@ -2495,7 +2570,6 @@ td {
     width: auto;
     padding-left: 7px;
     padding-right: 7px;
-    font-size: 1rem;
 }
 
 .screen30 .product-modal>button {
@@ -2505,4 +2579,10 @@ td {
 
 .screen30 .product-modal .btn-container:last-of-type {
     margin-bottom: var(--xl);
+    margin-top: var(--md);
+}
+
+.screen30 .product-modal button {
+    width: 240px;
+    margin-bottom: 10px;
 }

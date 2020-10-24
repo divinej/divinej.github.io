@@ -224,15 +224,16 @@
     }
 
     .email-field {
-        width: 400px;
+        width: 500px;
         text-align: left;
         padding-left: 20px;
     }
 
     .email-form .black-btn {
         position: absolute;
-        top: 1px;
-        right: 18%;
+        top: 0px;
+        right: 1%;
+        height: 50px;
     }
 
     .start-free {
@@ -500,6 +501,11 @@
         transform: translateX(-50%);
     }
 
+    .screen19 .custom-pd {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     /* *****************************
 	**              Scene 23 Media Query
     ********************************** */
@@ -520,14 +526,14 @@
     /* *****************************
 	**              Scene 26 Media Query
     ********************************** */
-    .screen26 .no-flex-mb {
-        display: flex;
-        height: 76px;
+
+    .screen26 .no-pad-rt .gray-bg {
+        padding-left: 25px;
     }
 
-    .screen26 .no-flex-mb .input-container {
-        margin-bottom: 0;
-        padding-top: 0;
+    .screen26 .block-md {
+        display: flex;
+        height: 76px;
     }
 
     /* *****************************
@@ -564,6 +570,10 @@
         width: auto;
     }
 
+    .screen29 .search-form .form-group:nth-of-type(2) {
+        margin-right: 10px;
+    }
+
     .screen30 .product-modal {
         position: absolute;
         width: 550px;
@@ -574,14 +584,14 @@
         border-top: none;
     }
 
-    .screen30 .product-modal button {
-        width: 230px;
-        font-size: 1.2rem;
+
+    .product-modal .btn-container button:first-of-type{
+        margin-right: 10px;
     }
 
-    .product-modal .btn-container button:first-of-type {
+    /* .product-modal .btn-container button:first-of-type {
         margin-right: 30px;
-    }
+    } */
 
     .screen30 .product-modal .small-txt {
         font-size: 1rem;
@@ -598,6 +608,10 @@
     .email-field {
         display: inline-block;
         margin: 0 auto;
+    }
+
+    .email-form .black-btn {
+        right: 12%;
     }
 
     .b2b-box {
@@ -774,11 +788,19 @@
         padding-right: 20px;
     }
 
-    .screen14 .col-lg-4>.no-mg-bt {
+    .screen14 .col-lg-5>.no-mg-bt,
+    .screen14 .col-lg-3>.no-mg-bt {
         margin-top: 0;
         margin-bottom: 10px
     }
 
+    /* *****************************
+	**              Page 13 Media Query
+    ********************************** */
+    .screen14 .col-lg-5 .form-group {
+        min-width: 150px;
+        background-color: var(--white);
+    }
     /* *****************************
 	**              Page 18 Media Query
     ********************************** */
@@ -801,6 +823,39 @@
     ********************************** */
     .screen26 .no-pad-rt {
         padding-right: 0;
+    }
+
+    .screen26 .col-md-8.no-pad-rt .form-group {
+        width: 350px;
+    }
+    .screen26 .no-flex-mb {
+        display: flex;
+        height: 76px;
+        padding-bottom: 6px;
+    }
+
+    .screen26 .no-flex-mb .input-container {
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    .screen26 .block {
+        display: flex;
+        height: 76px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .screen26 .block .input-container:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .screen26 .block .input-container:nth-of-type(2) p {
+        margin-left: 10px;
+    }
+
+    .screen26 .no-flex-mb .input-container:nth-of-type(2) {
+        margin-bottom: 0;
     }
 
 }
@@ -912,6 +967,11 @@
 
     .add-product p {
         display: flex;
+    }
+
+    .add-product span.bold-txt {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .screen19 .transaction-statement {
