@@ -105,6 +105,13 @@
     .screen26 .green-btn {
         min-width: 150px;
     }
+
+    /* *****************************
+	**              Scene 29 Media Query
+	********************************** */
+    .screen29 .search-form .form-group:first-of-type {
+        min-width: 69%;
+    }
 }
 
 
@@ -536,6 +543,16 @@
         height: 76px;
     }
 
+    .screen26 .block .input-container p {
+        margin-left: 0;
+        width: 29%;
+    }
+
+    .screen26 .block .input-container p:first-of-type {
+        margin-right: 0;
+    }
+
+
     /* *****************************
 	**              Scene 27 Media Query
     ********************************** */
@@ -585,7 +602,7 @@
     }
 
 
-    .product-modal .btn-container button:first-of-type{
+    .product-modal .btn-container button:first-of-type {
         margin-right: 10px;
     }
 
@@ -767,7 +784,7 @@
     .screen13-pd {
         padding: 0 6% var(--lg) 0;
     }
-    
+
     .screen13 .gray-box {
         margin-left: 0;
         margin-right: 0;
@@ -801,6 +818,7 @@
         min-width: 150px;
         background-color: var(--white);
     }
+
     /* *****************************
 	**              Page 18 Media Query
     ********************************** */
@@ -828,6 +846,7 @@
     .screen26 .col-md-8.no-pad-rt .form-group {
         width: 350px;
     }
+
     .screen26 .no-flex-mb {
         display: flex;
         height: 76px;

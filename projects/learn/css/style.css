@@ -2225,7 +2225,8 @@ td {
 /**************************************************************
 *							START OF SCREEN 25
 ***********************************************************/
-.screen25 {
+.screen25,
+.screen29 .sort-orders {
     font-size: 1rem;
 }
 
@@ -2306,6 +2307,7 @@ td {
 
 .screen26 .block .input-container p {
     margin-left: 0;
+    width: 50%;
 }
 
 .screen26 .block .input-container .input-group {
@@ -2542,7 +2544,7 @@ td {
 }
 
 .screen29 .search-form .form-group:first-of-type {
-    min-width: 242px;
+    min-width: 67%;
 }
 
 .screen29 .order-action button {
@@ -2564,6 +2566,7 @@ td {
     background-color: var(--white);
     border-radius: 10px;
     border: 2px solid var(--gray-bd);
+    margin-top: var(--sm);
 }
 
 .screen30 .product-modal button {
