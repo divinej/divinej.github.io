@@ -62,6 +62,22 @@
     .product-modal textarea {
         width: 100%;
     }
+
+    /* *****************************
+	**              Scene 31 Media Query
+	********************************** */
+    .menu-items li {
+        margin-right: 15px;
+    }
+
+    .contact-info {
+        width: 218px;
+    }
+
+    .ordering .form-control {
+        width: 217px;
+    }
+
 }
 
 
@@ -111,6 +127,17 @@
 	********************************** */
     .screen29 .search-form .form-group:first-of-type {
         min-width: 69%;
+    }
+
+    .ordering .form-control {
+        width: 265px;
+    }
+
+    /* *****************************
+	**              Scene 36 Media Query
+	********************************** */
+    .screen36 .pd-lf {
+        padding-left: 15px;
     }
 }
 
@@ -613,7 +640,135 @@
     .screen30 .product-modal .small-txt {
         font-size: 1rem;
     }
+
+    /* *****************************
+	**              Scene 31 Media Query
+    ********************************** */
+    .acc-stat {
+        display: none;
+    }
+
+    .account-action {
+        overflow-x: auto;
+    }
+
+    .contact-info {
+        min-height: 190px !important;
+        /* width: 100%; */
+    }
+
+    /* .activate .col-sm-12.col-md-6 {
+        padding-left: 0;
+    } */
+
+    .activate div[class*="col"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .activate i {
+        margin-left: 16%;
+    }
+
+    .shop {
+        padding: 10px 10px 13px 30px;
+    }
+
+    .photos {
+        margin-left: 15px;
+        padding-top: 16px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #order {
+        display: block;
+    }
+
+    .order-info-mb {
+        display: none;
+    }
+
+    .account .col-lg-2,
+    .account .col-lg-4 {
+        padding-right: 0;
+    }
+
+    .t1,
+    .t3 {
+        top: 2px;
+    }
+
+    .search>input {
+        margin-top: 0;
+        margin-right: 50px;
+    }
+
+    .search>p {
+        vertical-align: middle;
+    }
+
+    .screen31 .table-mobile {
+        display: none;
+    }
+
+    .screen31 table {
+        display: table;
+    }
+
+    .activate .form-group {
+        max-width: 100%;
+    }
+
+    .ordering .form-control {
+        width: 246px;
+    }
+
+    /* *****************************
+	**              Scene 33 Media Query
+    ********************************** */
+    .screen33 .order-action {
+        justify-content: flex-end;
+    }
+
+
+    /* *****************************
+	**              Scene 33 Media Query
+    ********************************** */
+    .screen34 .back {
+        display: block;
+    }
+
+    .screen34 .add-product {
+        justify-content: space-between;
+    }
+
+    .screen34 .no-display-md {
+        display: none;
+    } 
+
+    /* *****************************
+	**              Scene 37 Media Query
+    ********************************** */
+    .scroll-mb {
+        overflow-x: auto;
+    }
+
+    .padd-37 {
+        padding: 0 2% var(--lg);
+    }
+
+    /* *****************************
+	**              Scene 38 Media Query
+    ********************************** */
+
+    .screen38 .col-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
+
 
 @media all and (min-width: 1024px) {
 
@@ -877,6 +1032,116 @@
         margin-bottom: 0;
     }
 
+
+    /* *****************************
+	**              Page 34 Media Query
+    ********************************** */
+    .screen34 .col-lg-8 {
+        margin-top: 0;
+    }
+
+    .screen34 .btn-container {
+        display: none;
+    }
+
+    #content2,
+    #contwnt1 {
+        display: block;
+    }
+
+    #content2 .flex-container {
+        justify-content: start;
+    }
+
+    /* *****************************
+	**              Page 35 Media Query
+    ********************************** */
+    .screen35 .add-product {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .screen35 .order-action {
+        margin-top: 0;
+        width: auto;
+    }
+
+    /* *****************************
+	**              Page 36 Media Query
+    ********************************** */
+    .screen36 .gray-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--gray);
+        border-radius: 30px;
+        height: 60px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+
+    .screen36 .flex-container1,
+    .screen36 .flex-container2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .member-circle {
+        position: unset;
+    }
+
+    .screen36 .no-display-mb,
+    .screen36 #content4 {
+        display: block;
+    }
+
+    .screen36 > .btn-container {
+       display: none;
+    }
+
+/* *****************************
+	**              Page 37 Media Query
+    ********************************** */
+    .screen37 .no-display-mb {
+        display: inline-block;
+    }
+
+    #content6 {
+        display: block;
+    }
+    
+    .scroll-mb {
+        display: none;
+    }
+
+    .screen37 .btn-container.no-display-mb {
+        margin-bottom: 20px;
+    }
+
+    
+    /* *****************************
+	**              Page 38 Media Query
+    ********************************** */
+    .screen38 .col-lg-2 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    } 
+    
+    .screen38 .col-6 {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    #content8 {
+        display: block;
+    }
+
+
 }
 
 @media all and (min-width: 1440PX) {
@@ -1010,5 +1275,153 @@
 
     .screen19 .product-modal {
         top: 172px;
+    }
+
+
+    /* *****************************
+	**              Scene 31 Media Query
+    ********************************** */
+    main.screen31 {
+        padding: 30px 60px;
+    }
+
+    .screen31 .search-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .screen31 .search-container button {
+        border-radius: 3px;
+        border: 2px solid var(--red);
+        text-decoration: none;
+    }
+
+    .screen31 .flex-container {
+        margin-top: 0;
+    }
+
+    .screen31 .search-container button {
+        margin: 0;
+        display: block;
+    }
+
+    .order-details-mb {
+        display: none;
+    }
+
+    .screen31 .col-xl-3 {
+        max-width: 150px;
+    }
+
+    .upload,
+    .address {
+        width: 96px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shop {
+        height: 244px;
+    }
+
+    .order-details {
+        display: flex;
+    }
+
+    .order-info {
+        display: flex;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .activate {
+        margin: 0;
+    }
+
+    .photos {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+    }
+
+    .activate div[class*="col"] {
+        padding-left: 0;
+    }
+
+    .upload {
+        margin-bottom: 20px;
+    }
+
+    .upload,
+    .address {
+        padding: 10px 5px;
+    }
+
+    .activate .form-group {
+        max-width: 96px;
+    }
+
+    .one {
+        top: 12px;
+        left: 95%;
+    }
+
+    .two {
+        top: 67px;
+        left: 95%;
+    }
+
+    .three {
+        top: 123px;
+        left: 95%;
+    }
+
+    .four {
+        top: 179px;
+        left: 95%;
+    }
+
+    .ordering .form-control {
+        width: 186px;
+    }
+
+
+    /* *****************************
+	**              Scene 31 Media Query
+    ********************************** */
+    .screen33.add-product {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* *****************************
+	**              Scene 37 Media Query
+    ********************************** */
+    .screen37 .col-lg-8 > .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: var(--xl);
+    }
+
+    .screen37 .search-form .form-group:first-of-type {
+        width: 400px;
+    }
+
+    .screen37 .scroll-mb {
+        margin-bottom: 0;
+    }
+    
+    .screen37 .no-display-mb {
+        display: inline-block;
+    }
+
+    .screen37 .btn-container.no-display-mb {
+        margin-bottom: 0;
     }
 }
