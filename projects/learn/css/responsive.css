@@ -90,6 +90,8 @@
     .associate-details1,
     .add-product,
     .screen13 .box-container,
+    .screen43 .transaction-statement,
+    .screen48 .fg-container,
     footer {
         padding-left: 25px;
         padding-right: 25px;
@@ -139,6 +141,14 @@
     .screen36 .pd-lf {
         padding-left: 15px;
     }
+
+     /* *****************************
+	**              Scene 52 Media Query
+	********************************** */
+    .padd-52 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 
@@ -151,6 +161,8 @@
     .associate-details,
     .associate-details1,
     .add-product,
+    .screen43 .transaction-statement,
+    .screen48 .fg-container,
     footer {
         padding-right: 35px;
         padding-left: 35px;
@@ -628,14 +640,15 @@
         border-top: none;
     }
 
+    .screen29 .search-form .form-group:first-of-type {
+        min-width: 400px;
+        width: 400px;
+
+    }
 
     .product-modal .btn-container button:first-of-type {
         margin-right: 10px;
     }
-
-    /* .product-modal .btn-container button:first-of-type {
-        margin-right: 30px;
-    } */
 
     .screen30 .product-modal .small-txt {
         font-size: 1rem;
@@ -654,12 +667,7 @@
 
     .contact-info {
         min-height: 190px !important;
-        /* width: 100%; */
     }
-
-    /* .activate .col-sm-12.col-md-6 {
-        padding-left: 0;
-    } */
 
     .activate div[class*="col"] {
         padding-left: 15px;
@@ -726,6 +734,13 @@
     }
 
     /* *****************************
+	**              Scene 32 Media Query
+    ********************************** */
+    .screen32 .search-form .mg-rt {
+        width: 400px;
+    }
+
+    /* *****************************
 	**              Scene 33 Media Query
     ********************************** */
     .screen33 .order-action {
@@ -746,7 +761,7 @@
 
     .screen34 .no-display-md {
         display: none;
-    } 
+    }
 
     /* *****************************
 	**              Scene 37 Media Query
@@ -767,6 +782,148 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    /* *****************************
+	**              Scene 38 Media Query
+    ********************************** */
+    .dsr-details {
+        display: flex;
+        margin: var(--md) auto;
+        width: 100%;
+        border: none;
+    }
+
+    .screen38 .hide1 {
+        display: flex;
+    }
+
+    .screen38 .hide2 {
+        display: none;
+    }
+
+    .dsr-details div {
+        width: inherit;
+        border: 1px solid var(--gray-bd);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dsr-details div:first-of-type {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .dsr-details div:last-of-type {
+        border-right: none;
+        padding-right: 0;
+    }
+
+
+    /* *****************************
+	**              Scene 41 Media Query
+    ********************************** */
+    .screen41 .black-bd .form-control {
+        max-width: 350px;
+    }
+
+    .screen41>.credit {
+        max-width: 360px;
+    }
+
+    .screen41 .order-action {
+        justify-content: start;
+    }
+
+    /* *****************************
+	**              Scene 42 Media Query
+    ********************************** */
+    .screen42 .sort-orders .flex-container {
+        display: flex;
+        font-size: 1rem;
+    }
+
+    /* *****************************
+	**              Scene 43 Media Query
+    ********************************** */
+    .screen43 .back {
+        display: block;
+    }
+
+
+    /* *****************************
+	**              Scene 44 Media Query
+    ********************************** */
+    .screen44 .product-modal {
+        width: 510px;
+    }
+
+    /* *****************************
+	**              Page 46 Media Query
+    ********************************** */
+    .screen46 .add-product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .screen46 .order-action {
+        width: auto;
+        margin-top: 0;
+    }
+
+
+    /* *****************************
+	**              Page 46 Media Query
+    ********************************** */
+    .screen48 .fg-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .screen48 .fg-container .form-group {
+        min-width: 120px;
+    }
+
+    .btn-flex {
+        left: 16%;
+    }
+
+    /* *****************************
+	**              Page 50 Media Query
+    ********************************** */
+    .screen50 .cart .gray-bg {
+        padding-top: 175px;
+        height: 408px;
+    }
+
+    .screen50 .black-bg {
+        margin-bottom: 0;
+    }
+
+    .screen50 > .flex-container {
+        display: flex;
+    }
+
+    .screen52 {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* *****************************
+	**              Page 55 Media Query
+    ********************************** */
+    .screen55 .add-product {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .screen55 .order-action {
+        margin-top: 0;
+        width: auto;p;
+    }
+    
 }
 
 
@@ -1033,6 +1190,8 @@
     }
 
 
+
+
     /* *****************************
 	**              Page 34 Media Query
     ********************************** */
@@ -1045,8 +1204,8 @@
     }
 
     #content2,
-    #contwnt1 {
-        display: block;
+    #content1 {
+        display: block !important;
     }
 
     #content2 .flex-container {
@@ -1095,25 +1254,43 @@
     }
 
     .screen36 .no-display-mb,
-    .screen36 #content4 {
+    #content4,
+    #content3 {
+        display: block !important;
+    }
+
+    .screen36>.btn-container {
+        display: none;
+    }
+
+    .screen36 .col-lg-8>.flex-container {
         display: block;
     }
 
-    .screen36 > .btn-container {
-       display: none;
+    .screen36 .btn-container.no-display-mb {
+        margin-bottom: 20px;
+        text-align: left;
     }
 
-/* *****************************
+    .screen36 .pd-lf,
+    .pd-rt {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    /* *****************************
 	**              Page 37 Media Query
     ********************************** */
     .screen37 .no-display-mb {
         display: inline-block;
     }
 
-    #content6 {
-        display: block;
+    #content6,
+    #content5 {
+        display: block !important;
     }
-    
+
     .scroll-mb {
         display: none;
     }
@@ -1122,7 +1299,7 @@
         margin-bottom: 20px;
     }
 
-    
+
     /* *****************************
 	**              Page 38 Media Query
     ********************************** */
@@ -1130,18 +1307,115 @@
         -ms-flex: 0 0 20%;
         flex: 0 0 20%;
         max-width: 20%;
-    } 
-    
+    }
+
     .screen38 .col-6 {
         padding-left: 7px;
         padding-right: 7px;
     }
 
-    #content8 {
+    #content8,
+    #content7,
+    #content9,
+    #content10 {
+        display: block !important;
+    }
+
+    /* *****************************
+	**              Page 41 Media Query
+    ********************************** */
+    .screen41 .scroll {
+        overflow-x: auto;
+    }
+
+    .screen41 .scroll .flex-container {
+        justify-content: center
+    }
+
+    .screen41 .add-product {
+        display: block;
+    }
+
+    .screen41 .order-action {
+        margin-top: var(--lg);
+        justify-content: center;
+    }
+
+    .screen41 .mg-tp {
+        margin-top: 16px;
+    }
+
+
+    /* *****************************
+	**              Page 41 Media Query
+    ********************************** */
+    .screen42 .sort-orders .flex-container {
+        display: block;
+    }
+
+ /* *****************************
+	**              Page 43 Media Query
+    ********************************** */
+
+    .screen43 > .flex-container {
+        display: flex;
+        background-color: var(--white);
+        border: none;
+        padding: 0;
+        margin-top: var(--xl);
+        margin-bottom: var(--xl);
+    }
+
+    .transaction-statement-tb  table {
+        display: none;
+    }
+
+
+    .screen43 .transaction-statement {
         display: block;
     }
 
 
+    /* *****************************
+	**              Page 48 Media Query
+    ********************************** */
+    .screen48 .col-lg-2 {
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .btn-flex {
+        left: 12%;
+    }
+
+    .screen48 .fg-container > .form-group {
+        width: 450px;
+    }
+
+
+      /* *****************************
+	**              Page 50 Media Query
+    ********************************** */
+    .screen50 .small-black-box {
+        display: block;
+    }
+
+        /* *****************************
+	**              Page 52 Media Query
+    ********************************** */
+    .screen52 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+       /* *****************************
+	**              Page 54 Media Query
+    ********************************** */
+    .screen54 {
+        width: 100%;
+    }
 }
 
 @media all and (min-width: 1440PX) {
@@ -1400,9 +1674,20 @@
     }
 
     /* *****************************
+	**              Scene 36 Media Query
+    ********************************** */
+    .screen36 .col-lg-8>.flex-container {
+        display: flex;
+    }
+
+    .screen36 .btn-container.no-display-mb {
+        margin-bottom: 0;
+    }
+
+    /* *****************************
 	**              Scene 37 Media Query
     ********************************** */
-    .screen37 .col-lg-8 > .flex-container {
+    .screen37 .col-lg-8>.flex-container {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -1416,12 +1701,69 @@
     .screen37 .scroll-mb {
         margin-bottom: 0;
     }
-    
+
     .screen37 .no-display-mb {
         display: inline-block;
     }
 
     .screen37 .btn-container.no-display-mb {
         margin-bottom: 0;
+    }
+
+    /* *****************************
+	**              Scene 37 Media Query
+    ********************************** */
+    .screen38 .dsr-update,
+    .screen38 .dsr table,
+    .dsr-details {
+        width: 60%;
+    }
+
+
+    /* *****************************
+	**              Scene 37 Media Query
+    ********************************** */
+    .screen41 .add-product {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .screen41 .order-action {
+        margin-top: o;
+    }
+
+    /* *****************************
+	**              Page 42 Media Query
+    ********************************** */
+    .screen42 .sort-orders .flex-container {
+        display: flex;
+    }
+
+    .screen42 .no-pd-rt {
+        padding-right: 0;
+    }
+
+    .screen42 .no-pd-lt {
+        padding-right: 0;
+    }
+
+    /* *****************************
+	**              Page 42 Media Query
+    ********************************** */
+    .screen43 .transaction-statement {
+        overflow-x: auto;
+    }
+
+    /* *****************************
+	**              Page 48 Media Query
+    ********************************** */
+    .screen48 .col-lg-2 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .btn-flex {
+        left: 8px;
     }
 }
