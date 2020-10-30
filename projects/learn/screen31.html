@@ -241,8 +241,8 @@
                                     <div class="credit-hold">
                                         Credit hold
                                         <div class="wrap">
-                                            <div class="toggle">
-                                                <div class="t2"></div>
+                                            <div class="toggle" id="toggle1">
+                                                <div class="t2" id="green"></div>
                                                 <div class="t1"></div>
                                             </div>
                                             <span class="red-text">DeActive</span>
@@ -255,8 +255,8 @@
                                         Credits
 
                                         <div class="wrap">
-                                            <div class="toggle">
-                                                <div class="t3"></div>
+                                            <div class="toggle" id="toggle2">
+                                                <div class="t3" id="red"></div>
                                                 <div class="t1"></div>
                                             </div>
                                             <span class="green-txt"> Active</span>
@@ -467,14 +467,34 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Main JS -->
     <script>
+
         let btn = document.getElementById("order");
         let elem1 = document.getElementById("detail");
         let elem2 = document.getElementById("analytics");
         let elem3 = document.getElementById("action");
+        let activate = document.getElementById("toggle1");
+        let deactivate = document.getElementById('toggle2');
+        let red = document.getElementById('red');
+        let green = document.getElementById('green');
 
 
         elem1.addEventListener("click", display1);
         elem2.addEventListener("click", display2);
+        activate.addEventListener("click", toggleCircle2);
+        deactivate.addEventListener("click", toggleCircle1);
+
+        function toggleCircle1() {
+            if (red.className == "t3") {
+                red.classList.remove("t3");
+                red.classList.add("t2");
+            } else {
+                red.classList.toggle("t3");
+            }
+        }
+
+        function toggleCircle2() {
+            green.classList.toggle("t3");
+        }
 
         function display1() {
             btn.style.display = 'none';
