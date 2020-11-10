@@ -74,9 +74,9 @@
         width: 218px;
     }
 
-    .ordering .form-control {
+    /* .ordering .form-control {
         width: 217px;
-    }
+    } */
 
 }
 
@@ -131,9 +131,9 @@
         min-width: 69%;
     }
 
-    .ordering .form-control {
+    /* .ordering .form-control {
         width: 265px;
-    }
+    } */
 
     /* *****************************
 	**              Scene 36 Media Query
@@ -142,7 +142,7 @@
         padding-left: 15px;
     }
 
-     /* *****************************
+    /* *****************************
 	**              Scene 52 Media Query
 	********************************** */
     .padd-52 {
@@ -705,7 +705,7 @@
 
     .t1,
     .t3 {
-        top: 2px;
+        top: -2px;
     }
 
     .search>input {
@@ -834,6 +834,10 @@
         justify-content: start;
     }
 
+    .screen41 .add-product p {
+        margin-right: 35px;
+    }
+
     /* *****************************
 	**              Scene 42 Media Query
     ********************************** */
@@ -901,7 +905,7 @@
         margin-bottom: 0;
     }
 
-    .screen50 > .flex-container {
+    .screen50>.flex-container {
         display: flex;
     }
 
@@ -921,9 +925,9 @@
 
     .screen55 .order-action {
         margin-top: 0;
-        width: auto;p;
+        width: auto;
     }
-    
+
 }
 
 
@@ -1189,9 +1193,6 @@
         margin-bottom: 0;
     }
 
-
-
-
     /* *****************************
 	**              Page 34 Media Query
     ********************************** */
@@ -1247,10 +1248,6 @@
         margin-bottom: 0;
         margin-top: 0;
         padding-top: 0;
-    }
-
-    .member-circle {
-        position: unset;
     }
 
     .screen36 .no-display-mb,
@@ -1321,6 +1318,31 @@
         display: block !important;
     }
 
+
+     /* *****************************
+	**              Page 40 Media Query
+    ********************************** */
+    .padd-40 {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .screen40 .gray-container {
+        display: block;
+        position: relative;
+        background-color: var(--gray);
+        border-radius: 10px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+
+    .screen40 .flex-container1 {
+        margin-top: var(--lg);
+        margin-bottom: var(--md);
+        padding-top: var(--lg);
+    }
+
     /* *****************************
 	**              Page 41 Media Query
     ********************************** */
@@ -1345,7 +1367,6 @@
         margin-top: 16px;
     }
 
-
     /* *****************************
 	**              Page 41 Media Query
     ********************************** */
@@ -1353,11 +1374,11 @@
         display: block;
     }
 
- /* *****************************
+    /* *****************************
 	**              Page 43 Media Query
     ********************************** */
 
-    .screen43 > .flex-container {
+    .screen43>.flex-container {
         display: flex;
         background-color: var(--white);
         border: none;
@@ -1366,7 +1387,7 @@
         margin-bottom: var(--xl);
     }
 
-    .transaction-statement-tb  table {
+    .transaction-statement-tb table {
         display: none;
     }
 
@@ -1374,6 +1395,12 @@
     .screen43 .transaction-statement {
         display: block;
     }
+
+    .screen43 .center-txt {
+        margin-bottom: 0;
+    }
+
+
 
 
     /* *****************************
@@ -1389,19 +1416,19 @@
         left: 12%;
     }
 
-    .screen48 .fg-container > .form-group {
+    .screen48 .fg-container>.form-group {
         width: 450px;
     }
 
 
-      /* *****************************
+    /* *****************************
 	**              Page 50 Media Query
     ********************************** */
     .screen50 .small-black-box {
         display: block;
     }
 
-        /* *****************************
+    /* *****************************
 	**              Page 52 Media Query
     ********************************** */
     .screen52 {
@@ -1410,7 +1437,7 @@
         margin-right: auto;
     }
 
-       /* *****************************
+    /* *****************************
 	**              Page 54 Media Query
     ********************************** */
     .screen54 {
@@ -1552,11 +1579,19 @@
     }
 
 
-    /* *****************************
-	**              Scene 31 Media Query
+ /* *****************************
+	**              Page 31 Media Query
     ********************************** */
-    main.screen31 {
-        padding: 30px 60px;
+    .contact-info {
+        width: 100%;
+    }
+
+    .screen31 .col-xl-4 {
+        padding-left: 0;
+    }
+
+    .screen31 .col-xl-2 {
+        padding-right: 0;
     }
 
     .screen31 .search-container {
@@ -1636,10 +1671,6 @@
         padding: 10px 5px;
     }
 
-    .activate .form-group {
-        max-width: 96px;
-    }
-
     .one {
         top: 12px;
         left: 95%;
@@ -1658,10 +1689,6 @@
     .four {
         top: 179px;
         left: 95%;
-    }
-
-    .ordering .form-control {
-        width: 186px;
     }
 
 
@@ -1732,6 +1759,39 @@
         margin-top: o;
     }
 
+
+     /* *****************************
+	**              Page 40 Media Query
+    ********************************** */
+    .member-circle {
+        position: relative;
+        top: 0px;
+        left: -14px;
+        width: 90px;
+        height: 60px;
+        line-height: 1;
+    }
+
+    .screen40 .flex-container1, .screen40 .flex-container2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .screen40 .gray-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--gray);
+        border-radius: 30px;
+        height: 60px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+
     /* *****************************
 	**              Page 42 Media Query
     ********************************** */
@@ -1753,6 +1813,21 @@
     .screen43 .transaction-statement {
         overflow-x: auto;
     }
+
+    /* *****************************
+	**              Page 43 Media Query
+    ********************************** */
+    .screen43 .no-mb .col-3 {
+        padding-right: 0;
+    }
+
+    .screen43 .no-mb .form-control {
+        padding-right: 0;
+        height: 40px !important;
+
+    }
+
+
 
     /* *****************************
 	**              Page 48 Media Query

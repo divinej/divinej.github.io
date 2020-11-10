@@ -2858,35 +2858,35 @@ main.custom-pd {
 
 .toggle {
     position: relative;
-    margin-right: 7px;
+    margin-right: 15px;
     vertical-align: sub;
 }
 
 .t1 {
     background-color: var(--white);
-    width: 30px;
-    height: 15px;
-    border-radius: 8px;
+    width: 40px;
+    height: 22px;
+    border-radius: 12px;
     border: 2px solid var(--gray-bd);
 }
 
 .t2 {
     background-color: var(--red);
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
     position: absolute;
-    left: -4px;
-    top: 2px;
+    left: -11px;
+    top: -2px;
 }
 
 .t3 {
     background-color: var(--green);
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
     position: absolute;
-    left: 16px;
+    left: 23px;
     top: 2px;
 }
 
@@ -2908,6 +2908,28 @@ main.custom-pd {
 .order-info .live-orders {
     background-color: var(--black);
     color: var(--white);
+}
+
+.order-info button {
+    font-size: 1rem !important;
+}
+
+.screen31 .col-xl .mg-rt {
+    margin-right: 7px;
+}
+
+.screen31 .custom-wd {
+    width: 150px;
+}
+
+.screen31 .hold-account .flex-container {
+    width: calc(100% - 90px);
+    margin-top: 0;
+}
+
+.screen31 .ordering .flex-container {
+    width: calc(100% - 50px);
+    margin-top: 0;
 }
 
 .search {
@@ -2938,12 +2960,17 @@ main.custom-pd {
     margin-bottom: 0;
 }
 
+.from .form-group,
+.from .form-control {
+    height: 40px !important;
+}
+
 .from {
     display: flex;
     align-items: center;
     border: 1px solid var(--gray-bd);
     margin-right: 30px;
-    height: 51px;
+    height: 40px;
     padding: 10px 0 10px 5px;
     border-radius: 3px;
     background-color: var(--gray);
@@ -3046,7 +3073,7 @@ table .green-txt {
 .screen31 .small-box {
     background-color: rgba(0, 0, 0, 0.6);
     width: 13px;
-    height: 12px;
+    height: 9px;
     margin: 0 2px 2px;
 }
 
@@ -3095,8 +3122,18 @@ table .green-txt {
     margin-bottom: 15px;
 }
 
-.screen34 .flex-container p:first-of-type {
+.screen34 .flex-container p:first-of-type,
+.screen34 .mg-rt {
     margin-right: 50px;
+}
+
+.screen34 .custom-height {
+    height: 560px;
+}
+
+.custom-height > p:last-of-type {
+    position: absolute;
+    bottom: 40px;
 }
 
 #content2 .flex-container p {
@@ -3105,7 +3142,7 @@ table .green-txt {
 }
 
 .screen34 table {
-    width: 100%;
+    width: 90%;
 }
 
 .screen34 td {
@@ -3172,6 +3209,11 @@ table .green-txt {
 ***********************************************************/
 .screen36 table {
     text-align: center;
+    width: 100%;
+}
+
+#content3 .no-top-pd {
+    padding-top: 0;
 }
 
 .screen36 .search-form {
@@ -3355,16 +3397,28 @@ table .green-txt {
     width: 100%;
 }
 
-.screen38 {
+.screen38 .screen18 table {
+    text-align: left;
+}
+
+.screen38,
+.screen37,
+.screen36 {
     font-size: 1rem;
+}
+
+.screen38 .no-display-mb button,
+.screen37 .no-display-mb button,
+.screen36 .no-display-mb button {
+    font-size: 1.1rem;
 }
 
 .screen38 .small-txt {
     font-size: 0.7rem;
 }
 
-.screen38 th,
-.screen38 td {
+.screen38 .screen18 th,
+.screen38 .screen18 td {
     padding: 3px 7px;
 }
 
@@ -3443,6 +3497,17 @@ table .green-txt {
 
 .screen38 .hide1 {
     display: none;
+}
+
+/**************************************************************
+*							START OF SCREEN 40
+***********************************************************/
+#content9 .mg-rt {
+    margin-right: 20px;
+}
+
+#content10 > .flex-container {
+    margin-bottom: 80px;
 }
 
 /**************************************************************
@@ -3561,6 +3626,16 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 43
 ***********************************************************/
+.padd-43 {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.screen43 .col-3 .center-txt {
+    margin-bottom: 0;
+    color: var(--black);
+}
+
 .screen19 .flex-container .auto-delivery:first-of-type {
     margin-right: 25px;
 }
@@ -3618,6 +3693,10 @@ table .green-txt {
 
 .screen43>.flex-container p {
     margin-bottom: 0;
+}
+
+.screen43 th, .screen43 td {
+    padding-left: 0;
 }
 
 /**************************************************************
@@ -3779,6 +3858,10 @@ table .green-txt {
     ;
 }
 
+.screen48 .cart .gray-bg {
+    padding: var(--xl) 20px var(--xl);
+}
+
 .screen48 .cart del {
     text-decoration-color: var(--red);
 }
@@ -3808,11 +3891,15 @@ table .green-txt {
 .screen48 .white-bg,
 .screen48 .add {
     width: 30px;
-    height: 33px;
-    line-height: 2;
+    height: 38px;
+    line-height: 2.2;
     margin-bottom: 0;
     text-align: center;
 
+}
+
+.screen48 .minus {
+    line-height: 2;
 }
 
 .btn-flex {
@@ -4000,7 +4087,7 @@ table .green-txt {
     background-color: var(--gray);
     color: #62b19e;
     font-size: 2rem;
-    line-height: 1.4;
+    line-height: 1.1;
 }
 
 .screen52 .flex-container1 {
@@ -4067,7 +4154,6 @@ table .green-txt {
 }
 
 .screen55 .gray-bg {
-    background-color: var(--gray-bd);
     text-align: left;
     padding: 10px;
 }
@@ -4079,6 +4165,7 @@ table .green-txt {
 .screen55 .gray-box {
     text-align: left;
     margin-bottom: 5px;
+    background-color: var(--gray);
 }
 
 .screen55 .gray-box p {
@@ -4086,5 +4173,49 @@ table .green-txt {
 }
 
 .screen55 .black-tb tr {
-    background-color: var(--gray-bd);
-    color: rgba(0, 0, 0, 0.6)}
+    background-color: var(--gray);
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.screen55 .flex-container {
+    justify-content: center;
+    align-items: baseline;
+}
+
+.screen55 select {
+    width: 65px;
+    height: 38px !important;
+    background-color: var(--gray);
+    border-color: var(--gray);
+    border-radius: 30px;
+}
+
+.screen55 .black-btn {
+    width: 80px;
+}
+
+.screen55 .form-group {
+    background-color: var(--gray);
+    border-radius: 30px;
+    margin: 0 15px;
+}
+
+.screen55 .gray-tb tr {
+    background-color: var(--gray);
+}
+
+.screen55 .gray-tb {
+    border-spacing: 0 2px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.screen55 .price-box {
+    width: 290px;
+    margin-top: 20px;
+}
+
+.screen55 .gray-box,
+.screen55 .gray-bg {
+    padding-left: 20px;
+}
