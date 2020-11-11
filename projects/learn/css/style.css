@@ -6,7 +6,7 @@ body {
     position: relative;
     font-family: 'Quicksand', sans-serif;
     background-color: var(--white);
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--black);
     font-family: 'Quicksand', sans-serif;
 }
@@ -28,6 +28,10 @@ body.bt {
     --lg: 30px;
     --md: 20px;
     --sm: 10px;
+}
+
+.yellow-txt {
+    color: var(--yellow);
 }
 
 input,
@@ -58,7 +62,7 @@ button {
 
 .mid-btn {
     height: 38px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .small-btn {
@@ -155,7 +159,8 @@ nav,
 .screen13 .box-container,
 .screen43 .transaction-statement,
 .screen48 .fg-container,
-footer {
+footer,
+.padd-43 {
     padding-left: 13px;
     padding-right: 13px;
 }
@@ -260,7 +265,7 @@ main {
     width: calc(100% - 10px);
     padding: 10px;
     border-radius: 30px;
-    border: 1px solid var(--black);
+    border: 2px solid var(--black);
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -647,7 +652,7 @@ footer {
 
 .gray-box {
     position: relative;
-    background-color: var(--gray-bd);
+    background-color: var(--gray);
     padding: 10px;
     height: 78px;
     line-height: 1.2;
@@ -661,7 +666,7 @@ footer {
 .gray-box del {
     font-size: 14px;
     opacity: 0.6;
-    margin-bottom: 1em;
+    margin-bottom: 1.1em;
 }
 
 .gray-box .blue-btn {
@@ -673,6 +678,7 @@ footer {
 
 .price-box-lg {
     margin-top: 25px;
+    font-size: 1rem;
 }
 
 .price-box-lg table {
@@ -686,7 +692,7 @@ footer {
 }
 
 .gray-tb tr {
-    background-color: var(--gray-bd);
+    background-color: var(--gray);
 }
 
 th,
@@ -735,7 +741,7 @@ td {
 }
 
 .customize-box p {
-    background-color: var(--gray-bd);
+    background-color: var(--gray);
     padding: 26px 10px;
     font-weight: 700;
     height: 80px;
@@ -776,9 +782,12 @@ td {
     width: 100%;
     margin: 0 auto;
     border: 1px solid var(--black);
-    padding: 25px;
     border-radius: 30px;
 }
+
+/* .partner select.form-control {
+    color: #495057;
+} */
 
 .partner .black-btn {
     margin-top: var(--md);
@@ -1025,6 +1034,17 @@ main.no-pd {
 }
 
 
+.screen8 .red-bd {
+    border: none;
+    padding: 0;
+}
+
+.screen8 .red-bd .input-group-prepend select {
+    width: 45%;
+    border-right: 1px solid var(--red);
+    border-radius: 12px;
+}
+
 .sign-in-pd {
     padding: 30px 25px;
 }
@@ -1090,10 +1110,19 @@ main.no-pd,
 }
 
 .red-bd input,
-.red-bd .input-group {
+.red-bd .input-group,
+.red-bd select {
     border: 1px solid var(--red);
     border-radius: 12px;
     color: var(--black);
+}
+
+.screen8 .red-bd select {
+    color: #495057
+}
+
+.screen8 .black-bd p {
+    margin-top: 27px;
 }
 
 .red-bd .input-group input,
@@ -1199,17 +1228,17 @@ main.no-pd,
 
 .clear-box {
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     border-radius: 100%;
     background-color: var(--red);
     border: 2px solid var(--black);
     color: var(--white);
     display: inline-block;
     line-height: 0.8;
-    padding-left: 3px;
-    left: -13px;
-    top: 4px;
+    padding: 2px 5px;
+    left: -18px;
+    top: 2px;
 }
 
 .remove-txt {
@@ -1668,6 +1697,9 @@ main.custom-pd {
     margin-bottom: 10px;
 }
 
+.screen14 .gray-padd {
+    padding: 10px;
+}
 
 .screen14 .add-product p {
     display: inline-block;
@@ -1923,13 +1955,17 @@ main.custom-pd {
 }
 
 .screen17 .white-btn {
-    border: 2px solid var(--black);
+    border: 1px solid var(--black);
 }
 
 .screen17 .row {
     justify-content: center;
 }
 
+.screen17 .input-group select {
+    border: none;
+    border-right: 1px solid var(--black);
+}
 
 .photo-box {
     width: 300px;
@@ -1954,6 +1990,12 @@ main.custom-pd {
 
 .screen17 .input-group-prepend>select {
     width: 66px;
+}
+
+.screen17 .green-btn, .type-container button,
+.screen16 .green-btn, .type-container button {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -2126,6 +2168,11 @@ main.custom-pd {
     border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
+
+.screen20.auto-delivery {
+    margin-top: var(--lg) !important;
+    margin-bottom: var(--sm) !important;
+}
 
 
 /**************************************************************
@@ -2406,7 +2453,7 @@ main.custom-pd {
     border-right: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     margin-right: 5px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .screen26 .gray-bg .input-group input {
@@ -2685,6 +2732,10 @@ main.custom-pd {
     margin-bottom: 30px;
 }
 
+.order-details-mb p {
+    margin-bottom: 0;
+}
+
 .order-details div {
     border-right: 1px solid var(--black);
     padding: 5px 21px;
@@ -2822,9 +2873,6 @@ main.custom-pd {
     vertical-align: middle;
 }
 
-.activate .form-group {
-    max-width: 96px;
-}
 
 .credit-hold,
 .credit,
@@ -2845,9 +2893,9 @@ main.custom-pd {
     justify-content: start;
 }
 
-.ordering .form-control {
-    width: 163px;
-    margin-left: 10px;
+.ordering .form-group {
+    width: 100%;
+    margin-left: 15px;
 }
 
 .toggle,
@@ -2864,10 +2912,11 @@ main.custom-pd {
 
 .t1 {
     background-color: var(--white);
-    width: 40px;
+    width: 55px;
     height: 22px;
     border-radius: 12px;
     border: 2px solid var(--gray-bd);
+    margin-top: 6px;
 }
 
 .t2 {
@@ -2876,8 +2925,8 @@ main.custom-pd {
     height: 25px;
     border-radius: 100%;
     position: absolute;
-    left: -11px;
-    top: -2px;
+    left: 0;
+    top: 4px;
 }
 
 .t3 {
@@ -2886,8 +2935,13 @@ main.custom-pd {
     height: 25px;
     border-radius: 100%;
     position: absolute;
-    left: 23px;
-    top: 2px;
+    left: 29px;
+    top: 4px;
+}
+
+.screen31 .wrap {
+    display: flex;
+    align-items: center;
 }
 
 .col-md-1 {
@@ -2928,7 +2982,7 @@ main.custom-pd {
 }
 
 .screen31 .ordering .flex-container {
-    width: calc(100% - 50px);
+    width: calc(100% - 25px);
     margin-top: 0;
 }
 
@@ -2948,7 +3002,7 @@ main.custom-pd {
     padding: 5px 5px 5px 10px;
     margin-top: 10px;
     border: 2px solid var(--gray-bd);
-    width: 350px;
+    width: 100%;
 }
 
 .search p {
@@ -2969,12 +3023,20 @@ main.custom-pd {
     display: flex;
     align-items: center;
     border: 1px solid var(--gray-bd);
-    margin-right: 30px;
+    margin-right: 15px;
     height: 40px;
     padding: 10px 0 10px 5px;
     border-radius: 3px;
     background-color: var(--gray);
     width: 200px;
+}
+
+.from:nth-of-type(2) {
+    margin-right: 0;
+}
+
+.from .form-group {
+    width: 50px;
 }
 
 
@@ -2987,6 +3049,7 @@ main.custom-pd {
 
 .table-mobile {
     margin-top: 20px;
+    font-size: 0.89rem;
 }
 
 .table1,
@@ -2999,6 +3062,19 @@ main.custom-pd {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.table1 p,
+.table2 p,
+.table2 p,
+.table3 p,
+.table4 p {
+    margin-bottom: 0;
+}
+
+.table-mobile .mg-tp {
+    margin-top: 30px;
+}
+
 
 .fa-toggle-on {
     color: var(--green)
@@ -3113,6 +3189,10 @@ table .green-txt {
 }
 
 
+.sort-orders {
+    font-size: 0.9rem !important;
+}
+
 /**************************************************************
 *							START OF SCREEN 34
 ***********************************************************/
@@ -3131,7 +3211,7 @@ table .green-txt {
     height: 560px;
 }
 
-.custom-height > p:last-of-type {
+.custom-height>p:last-of-type {
     position: absolute;
     bottom: 40px;
 }
@@ -3142,7 +3222,7 @@ table .green-txt {
 }
 
 .screen34 table {
-    width: 90%;
+    width: 100%;
 }
 
 .screen34 td {
@@ -3190,6 +3270,14 @@ table .green-txt {
 #content,
 .screen34 .back {
     display: none;
+}
+
+#content2  .flex-container {
+    height: 50px;
+    background-color: var(--gray);
+    border-radius: 32px;
+    padding-left: 15px;
+    margin-bottom: 10px;
 }
 
 /**************************************************************
@@ -3294,7 +3382,8 @@ table .green-txt {
     padding-left: 3px;
 }
 
-.screen36 .no-display-mb {
+.screen36 .no-display-mb,
+.screen31 .no-display-mb {
     display: none;
 }
 
@@ -3506,7 +3595,7 @@ table .green-txt {
     margin-right: 20px;
 }
 
-#content10 > .flex-container {
+#content10>.flex-container {
     margin-bottom: 80px;
 }
 
@@ -3522,6 +3611,10 @@ table .green-txt {
 
 .screen41 .scroll p:last-of-type {
     margin-right: 0;
+}
+
+.screen41 .input2-align {
+    padding-top: 12px;
 }
 
 .screen41 .col-lg-4 .flex-container .form-group {
@@ -3600,7 +3693,7 @@ table .green-txt {
 
 
 /**************************************************************
-*							START OF SCREEN 41
+*							START OF SCREEN 42
 ***********************************************************/
 .screen42 .sort-orders p {
     border: none;
@@ -3610,27 +3703,26 @@ table .green-txt {
 }
 
 .screen42 .sort-orders .flex-container {
-    display: block;
     background-color: var(--gray);
     border: 1px solid var(--gray-bd);
-    padding: 6px 14px;
+    padding: 6px;
     border-radius: 30px;
     margin-bottom: 1rem;
-    font-size: 0.93rem;
+    font-size: 0.73rem;
 }
 
 .screen42 .search-form {
     margin-top: var(--xl);
 }
 
+.screen42 .col-md-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /**************************************************************
 *							START OF SCREEN 43
 ***********************************************************/
-.padd-43 {
-    padding-right: 35px;
-    padding-left: 35px;
-}
-
 .screen43 .col-3 .center-txt {
     margin-bottom: 0;
     color: var(--black);
@@ -3695,7 +3787,8 @@ table .green-txt {
     margin-bottom: 0;
 }
 
-.screen43 th, .screen43 td {
+.screen43 th,
+.screen43 td {
     padding-left: 0;
 }
 
@@ -3773,14 +3866,14 @@ table .green-txt {
 .screen46 .sort-orders p {
     height: 50px;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 12px;
 }
 
 .screen46>.center-txt {
     margin-bottom: 1rem;
 }
 
-.screen47 .sort-orders p {
+.screen46 .sort-orders p {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -3905,10 +3998,9 @@ table .green-txt {
 .btn-flex {
     display: flex;
     position: absolute;
-    left: 20%;
+    left: 7%;
     bottom: -13px;
 }
-
 
 .btn-flex .flex-container {
     margin-right: 20px;
@@ -3936,6 +4028,15 @@ table .green-txt {
     margin-bottom: var(--md);
 }
 
+.screen50 .col-xs-4 {
+    width: 20%;
+    padding-right: 0;
+}
+
+.screen50 .col-xs-8 {
+    width: 80%;
+}
+
 .screen50 .cart .gray-bg {
     height: auto;
     margin-top: 0;
@@ -3943,6 +4044,10 @@ table .green-txt {
 
 .screen50 .bt-pos {
     margin-bottom: 10px;
+}
+
+.screen50 .col {
+    display: none;
 }
 
 .screen50 .bt-pos p {
@@ -3953,7 +4058,6 @@ table .green-txt {
 }
 
 .screen50 .small-black-box {
-    display: none;
     background-color: var(--black);
     height: 70px;
     margin-bottom: 15px;
@@ -3986,10 +4090,12 @@ table .green-txt {
     margin-bottom: var(--md);
 }
 
-.screen50 .minus, .screen50 .white-bg, .screen50 .add {
+.screen50 .minus,
+.screen50 .white-bg,
+.screen50 .add {
     width: 60px;
     height: 48px;
-    line-height: 2.5;
+    line-height: 3;
     margin-bottom: 0;
     text-align: center;
 }
@@ -4006,14 +4112,14 @@ table .green-txt {
     cursor: pointer;
 }
 
-.screen50 > .flex-container {
+.screen50>.flex-container {
     display: block;
     margin-top: var(--md);
     margin-bottom: var(--md);
 }
 
-.screen50 > .flex-container .red-btn{
-    margin-right:  15px;
+.screen50>.flex-container .red-btn {
+    margin-right: 15px;
 }
 
 .screen50 .gray-container {
@@ -4050,6 +4156,13 @@ table .green-txt {
 }
 
 /**************************************************************
+*							START OF SCREEN 51
+***********************************************************/
+.screen51 .btn-flex .flex-container {
+    margin-right: 0;
+}
+
+/**************************************************************
 *							START OF SCREEN 52
 ***********************************************************/
 .screen52 {
@@ -4067,7 +4180,7 @@ table .green-txt {
 
 .t-green-bg {
     background-color: #62b19e;
-    padding-bottom: 130px;
+    height: 400px;
 }
 
 .screen52 .form-group,
@@ -4087,7 +4200,7 @@ table .green-txt {
     background-color: var(--gray);
     color: #62b19e;
     font-size: 2rem;
-    line-height: 1.1;
+    line-height: 1.5;
 }
 
 .screen52 .flex-container1 {
@@ -4122,22 +4235,44 @@ table .green-txt {
     border: 1px solid var(--gray-bd);
 }
 
+.screen53 p {
+    padding: 9px 5px 15px 20px;
+}
+
 .screen53 .btn-container {
     margin-bottom: 80px;
 }
 
+
+.screen53 button {
+    font-size: 1.1rem;
+}
+
+.screen53 .gray-btn,
+.screen52 .black-btn {
+    margin-bottom: 15px;
+}
 /**************************************************************
 *							START OF SCREEN 54
 ***********************************************************/
 .screen54 .blue-bg {
     background-color: var(--blue);
     padding-bottom: 20px;
-
+    height: 400px;
 }
 
-.screen54 .blue-bg .member-circle  {
+.screen54 .blue-bg .member-circle {
     color: var(--red);
 }
+
+.screen54 .blue-bg .member-circle {
+    line-height: 1.3;
+}
+
+.screen54 .t-green-bg .member-circle {
+    line-height: 1.55;
+}
+
 
 
 /**************************************************************
@@ -4146,12 +4281,16 @@ table .green-txt {
 .screen55 .add-product {
     text-align: left;
 }
+
 .screen55 .price-box {
     margin: 0 auto;
 }
+
 .screen55 .price-box-lg {
     margin-top: 0;
+    font-size: 0.95rem;
 }
+
 
 .screen55 .gray-bg {
     text-align: left;

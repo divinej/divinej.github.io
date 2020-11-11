@@ -43,7 +43,7 @@
 
     .discount-box button,
     .dark-gray-btn {
-        min-width: 98px;
+        min-width: 80px;
     }
 
     /* *****************************
@@ -67,16 +67,31 @@
 	**              Scene 31 Media Query
 	********************************** */
     .menu-items li {
-        margin-right: 15px;
+        margin-right: 8px;
+    }
+
+    .menu-items1 li {
+        margin-right: 4px;
     }
 
     .contact-info {
         width: 218px;
     }
 
-    /* .ordering .form-control {
-        width: 217px;
-    } */
+    /* *****************************
+	**              Scene 49 Media Query
+	********************************** */
+    .btn-flex {
+        left: 14%;
+    }
+
+    /* *****************************
+	**              Scene 53 Media Query
+	********************************** */
+    .screen53 .gray-btn,
+    .screen52 .black-btn {
+        margin-bottom: 0;
+    }
 
 }
 
@@ -92,7 +107,8 @@
     .screen13 .box-container,
     .screen43 .transaction-statement,
     .screen48 .fg-container,
-    footer {
+    footer,
+    .padd-43 {
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -143,6 +159,20 @@
     }
 
     /* *****************************
+	**              Scene 42 Media Query
+	********************************** */
+    .screen42 .sort-orders .flex-container {
+        font-size: 0.83rem;
+    }
+
+    /* *****************************
+	**              Scene 49 Media Query
+	********************************** */
+    .btn-flex {
+        left: 18%;
+    }
+
+    /* *****************************
 	**              Scene 52 Media Query
 	********************************** */
     .padd-52 {
@@ -155,6 +185,10 @@
 
 @media all and (min-width: 768px) {
 
+    body {
+        font-size: 1.1rem;
+    }
+
     nav,
     .dashboard,
     .add-associate,
@@ -163,7 +197,8 @@
     .add-product,
     .screen43 .transaction-statement,
     .screen48 .fg-container,
-    footer {
+    footer,
+    .padd-43 {
         padding-right: 35px;
         padding-left: 35px;
     }
@@ -366,7 +401,8 @@
         bottom: 60px;
     }
 
-    .dashboard .no-display {
+    .dashboard .no-display,
+    .screen31 .no-display-mb {
         display: inline-block;
     }
 
@@ -494,9 +530,9 @@
         justify-content: center;
     }
 
-    .screen18 .sort-orders p {
+    /* .screen18 .sort-orders p {
         padding-left: 20px;
-    }
+    } */
 
     .screen18 .mg-rt {
         width: 400px;
@@ -657,12 +693,18 @@
     /* *****************************
 	**              Scene 31 Media Query
     ********************************** */
-    .acc-stat {
-        display: none;
-    }
 
     .account-action {
         overflow-x: auto;
+    }
+
+    .table-mobile {
+        padding: 0 6% var(--lg);
+        font-size: 1rem;
+    }
+
+    .search>input {
+        width: 350px;
     }
 
     .contact-info {
@@ -690,10 +732,6 @@
         margin-right: 50px;
     }
 
-    #order {
-        display: block;
-    }
-
     .order-info-mb {
         display: none;
     }
@@ -701,11 +739,6 @@
     .account .col-lg-2,
     .account .col-lg-4 {
         padding-right: 0;
-    }
-
-    .t1,
-    .t3 {
-        top: -2px;
     }
 
     .search>input {
@@ -717,20 +750,16 @@
         vertical-align: middle;
     }
 
-    .screen31 .table-mobile {
-        display: none;
-    }
-
-    .screen31 table {
-        display: table;
-    }
-
     .activate .form-group {
         max-width: 100%;
     }
 
-    .ordering .form-control {
-        width: 246px;
+    .from .form-group {
+        width: auto;
+    }
+
+    .from {
+        margin-right: 30px;
     }
 
     /* *****************************
@@ -761,6 +790,10 @@
 
     .screen34 .no-display-md {
         display: none;
+    }
+
+    .sort-orders {
+        font-size: 1rem;
     }
 
     /* *****************************
@@ -846,6 +879,12 @@
         font-size: 1rem;
     }
 
+
+    .screen42 .sort-orders .flex-container {
+        padding: 6px 14px;
+    }
+
+
     /* *****************************
 	**              Scene 43 Media Query
     ********************************** */
@@ -890,7 +929,7 @@
     }
 
     .btn-flex {
-        left: 16%;
+        left: 11%;
     }
 
     /* *****************************
@@ -909,6 +948,14 @@
         display: flex;
     }
 
+    .screen50 .col-md-6.col-lg-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* *****************************
+	**              Page 52 Media Query
+    ********************************** */
     .screen52 {
         width: 60%;
         margin-left: auto;
@@ -1011,7 +1058,8 @@
     }
 
     .price-ft {
-        margin: 0px 15px 100px;
+        width: 420px;
+        margin: 0px auto 100px;
     }
 
     .customers {
@@ -1152,6 +1200,11 @@
         align-items: center;
     }
 
+    .screen25 .order-container {
+        display: flex;
+        align-items: baseline;
+    }
+
     /* *****************************
 	**              Page 26 Media Query
     ********************************** */
@@ -1191,6 +1244,26 @@
 
     .screen26 .no-flex-mb .input-container:nth-of-type(2) {
         margin-bottom: 0;
+    }
+
+    /* *****************************
+	**              Page 31 Media Query
+    ********************************** */
+    .acc-stat {
+        display: none;
+    }
+
+    .screen31 .table-mobile {
+        display: none;
+    }
+
+    #order,
+    #action {
+        display: block;
+    }
+
+    .screen31 table {
+        display: table;
     }
 
     /* *****************************
@@ -1248,6 +1321,14 @@
         margin-bottom: 0;
         margin-top: 0;
         padding-top: 0;
+    }
+
+    .screen36 .member-circle {
+        position: relative;
+        top: 0px;
+        left: -6px;
+        height: 42px;
+        line-height: 0.55;
     }
 
     .screen36 .no-display-mb,
@@ -1319,7 +1400,7 @@
     }
 
 
-     /* *****************************
+    /* *****************************
 	**              Page 40 Media Query
     ********************************** */
     .padd-40 {
@@ -1413,7 +1494,7 @@
     }
 
     .btn-flex {
-        left: 12%;
+        left: 5%;
     }
 
     .screen48 .fg-container>.form-group {
@@ -1424,8 +1505,14 @@
     /* *****************************
 	**              Page 50 Media Query
     ********************************** */
-    .screen50 .small-black-box {
+    .screen50 .small-black-box,
+    .screen50 .col {
         display: block;
+    }
+
+    .screen50 .col-xs-4,
+    .screen50 .col-xs-8 {
+        width: inherit;
     }
 
     /* *****************************
@@ -1435,6 +1522,13 @@
         width: 40%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* *****************************
+	**              Page 52 Media Query
+    ********************************** */
+    .screen53 button {
+        font-size: 1.2rem;
     }
 
     /* *****************************
@@ -1579,7 +1673,7 @@
     }
 
 
- /* *****************************
+    /* *****************************
 	**              Page 31 Media Query
     ********************************** */
     .contact-info {
@@ -1700,6 +1794,18 @@
         justify-content: flex-end;
     }
 
+    .screen34 .col-lg-4 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .screen34 .col-lg-8 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
     /* *****************************
 	**              Scene 36 Media Query
     ********************************** */
@@ -1737,8 +1843,14 @@
         margin-bottom: 0;
     }
 
+    .screen37 .padd-37 {
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
     /* *****************************
-	**              Scene 37 Media Query
+	**              Scene 38 Media Query
     ********************************** */
     .screen38 .dsr-update,
     .screen38 .dsr table,
@@ -1746,21 +1858,7 @@
         width: 60%;
     }
 
-
     /* *****************************
-	**              Scene 37 Media Query
-    ********************************** */
-    .screen41 .add-product {
-        display: flex;
-        align-items: baseline;
-    }
-
-    .screen41 .order-action {
-        margin-top: o;
-    }
-
-
-     /* *****************************
 	**              Page 40 Media Query
     ********************************** */
     .member-circle {
@@ -1768,11 +1866,12 @@
         top: 0px;
         left: -14px;
         width: 90px;
-        height: 60px;
-        line-height: 1;
+        height: 50px;
+        line-height: 0.75;
     }
 
-    .screen40 .flex-container1, .screen40 .flex-container2 {
+    .screen40 .flex-container1,
+    .screen40 .flex-container2 {
         display: flex;
         align-items: center;
         margin-bottom: 0;
@@ -1786,10 +1885,23 @@
         align-items: center;
         background-color: var(--gray);
         border-radius: 30px;
-        height: 60px;
+        height: 50px;
         padding-left: 15px;
         margin-bottom: 15px;
         padding-bottom: 0;
+    }
+
+
+    /* *****************************
+	**              Scene 41 Media Query
+    ********************************** */
+    .screen41 .add-product {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .screen41 .order-action {
+        margin-top: 0;
     }
 
     /* *****************************
@@ -1805,6 +1917,12 @@
 
     .screen42 .no-pd-lt {
         padding-right: 0;
+    }
+
+
+    .screen42 .col-md-12 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     /* *****************************
@@ -1830,7 +1948,7 @@
 
 
     /* *****************************
-	**              Page 48 Media Query
+	**              Page 49 Media Query
     ********************************** */
     .screen48 .col-lg-2 {
         -ms-flex: 0 0 20%;
@@ -1838,7 +1956,16 @@
         max-width: 20%;
     }
 
+    .btn-flex .red-btn {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .btn-flex .flex-container {
+        margin-right: 17px;
+    }
+
     .btn-flex {
-        left: 8px;
+        left: 7px;
     }
 }
