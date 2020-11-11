@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body class="bt">
     <header>
         <nav class="menu">
             <div class="img-box">
@@ -66,53 +66,48 @@
         </nav>
     </header>
 
-
-    <main class="container">
-        <div class="partner">
-            <h4>Become a Partner</h4>
-            <p class="black-bd bold-txt">Promote & Get 20% profit</p>
-
-            <form>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Full Name">
+    <div class="screen4">
+        <main class="padd">
+            <div class="login-box">
+                <div class="login-form">
+                    <button class="gray-btn" id="signIn">Sign In</button>
+                    <button class="black-btn" id="signUp">Sign Up</button>
                 </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Enter email id">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Country">
-                </div>
-                <div class="form-group">
-                    <input type="number" class="form-control" placeholder="Mobile">
-                </div>
-                <select class="form-control form-group">
-                    <option value="What you do">What you do</option>
-                    <option value="What you do">What you do</option>
-                    <option value="What you do">What you do</option>
-                </select>
-            </form>
 
-            <button class="black-btn">Join Now</button>
-
-            <div class="faqs">
-                <h3>FAQS</h3>
-                <div class="accordion" id="collapseBox">
-                    <div class="questions" id="questionBtn" data-toggle="collapse" data-target="#collapseOne"
-                        aria-expanded="true" aria-controls="collapseOne">Question <span class="right-txt show"
-                            id="plus">+</span><span class="right-txt" id="minus">-</span></div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#collapseBox">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                            quinoa nesciunt laborum ei
-                        </div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name">
                     </div>
-                </div>
-            </div>
-        </div>
-    </main>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter email id">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
 
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="">
+                        <label class="form-check-label" for="">
+                            Agree to <span class="txt-underline">Terms & condition</span>
+                        </label>
+                    </div>
+                </form>
+
+                <button class="black-btn">Create Now</button>
+            </div>
+
+        </main>
+
+        <footer class="footer-bt flex">
+            <p>An Initiative by - <span class="blue-txt">Ayush Mathur</span></p>
+
+            <div class="footer-nav">
+                <ul class="footer-nav-items">
+                    <li><a>FAQ</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
     <!-- Scripts -->
     <!-- jQuery JS -->
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -120,8 +115,6 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap JS file -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Main JS -->
-    <script src="js/script.js"></script>
 
 </body>
 
