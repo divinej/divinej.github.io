@@ -30,6 +30,8 @@ body.bt {
     --sm: 10px;
 }
 
+
+
 .yellow-txt {
     color: var(--yellow);
 }
@@ -174,6 +176,16 @@ footer,
     width: 80px;
 }
 
+select {
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 85%;
+}
+
+select.bg-95 {
+    background-position-x: 95%;
+}
+
 .menu-items {
     margin-bottom: 0;
     padding-left: 0;
@@ -202,7 +214,8 @@ li a {
     position: relative;
 }
 
-.menu-items .hide {
+.menu-items .hide,
+.hidden {
     display: none;
 }
 
@@ -1701,10 +1714,6 @@ main.custom-pd {
     padding: 10px;
 }
 
-.screen14 .add-product p {
-    display: inline-block;
-}
-
 .small-input2 .input-group-prepend {
     background-color: var(--white);
 }
@@ -1775,10 +1784,6 @@ main.custom-pd {
 .small-input4 .form-group {
     margin-bottom: 0;
 }
-
-/* .screen14 .country-added>.gray-bg {
-    padding: 21px 15px;
-} */
 
 .gray-bg .small-input4:first-of-type {
     width: 75px;
@@ -1867,6 +1872,20 @@ main.custom-pd {
     margin-bottom: 5px;
 }
 
+.screen14 label,
+.screen13 label,
+.screen9 label {
+    margin-right: 5px;
+}
+
+.screen9 .associate-details {
+    margin-bottom: 0;
+}
+
+
+.screen9 .btn-container {
+    margin-bottom: var(--lg);
+}
 /**************************************************************
 *							START OF SCREEN 15
 *********************************************************** */
@@ -2241,8 +2260,10 @@ main.custom-pd {
     text-align: center;
 }
 
-.product-modal1 p:first-of-type {
+.product-modal1 label {
     margin-top: 54px;
+    text-align: center;
+    display: block;
 }
 
 .product-modal1 p:last-of-type {
@@ -2317,15 +2338,17 @@ main.custom-pd {
     margin-bottom: var(--lg);
 }
 
-.screen26 .flex-container p {
+.screen26 .flex-container p,
+.screen26 .flex-container label {
     background-color: var(--gray);
     border: 1px solid var(--gray-bd);
     border-radius: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    height: 21px;
 }
 
-.screen26 .flex-container p:first-of-type {
+.screen26 .flex-container label {
     margin-right: 20px;
 }
 
@@ -2599,7 +2622,8 @@ main.custom-pd {
     justify-content: center;
 }
 
-.screen29 .search-form .form-group:first-of-type {
+.screen29 .search-form .form-group:first-of-type,
+.screen25 .search-form .form-group:first-of-type {
     min-width: 67%;
 }
 
@@ -3189,10 +3213,6 @@ table .green-txt {
 }
 
 
-.sort-orders {
-    font-size: 0.9rem !important;
-}
-
 /**************************************************************
 *							START OF SCREEN 34
 ***********************************************************/
@@ -3403,6 +3423,18 @@ table .green-txt {
     margin-bottom: 5px;
 }
 
+.screen36-wd {
+    width: 100%;
+}
+
+.screen36-wd .search-form .form-group:first-of-type {
+    min-width: 70%;
+}
+
+.screen36-wd .search-form .form-group:last-of-type {
+    width: auto;
+}
+
 /**************************************************************
 *							START OF SCREEN 37
 ***********************************************************/
@@ -3529,7 +3561,7 @@ table .green-txt {
 }
 
 /**************************************************************
-*							START OF SCREEN 37
+*							START OF SCREEN 39
 ***********************************************************/
 .screen38 .screen18>.space-btw {
     align-items: center;
@@ -3595,10 +3627,6 @@ table .green-txt {
     margin-right: 20px;
 }
 
-#content10>.flex-container {
-    margin-bottom: 80px;
-}
-
 /**************************************************************
 *							START OF SCREEN 41
 ***********************************************************/
@@ -3607,6 +3635,10 @@ table .green-txt {
     border-radius: 10px;
     font-size: 0.8rem;
     padding: 1px 10px;
+}
+
+.screen41 .black-bd {
+    margin-top: var(--md);
 }
 
 .screen41 .scroll p:last-of-type {
@@ -3703,12 +3735,13 @@ table .green-txt {
 }
 
 .screen42 .sort-orders .flex-container {
+    display: block;
     background-color: var(--gray);
     border: 1px solid var(--gray-bd);
     padding: 6px;
     border-radius: 30px;
     margin-bottom: 1rem;
-    font-size: 0.73rem;
+    text-align: center;
 }
 
 .screen42 .search-form {
@@ -3718,6 +3751,13 @@ table .green-txt {
 .screen42 .col-md-12 {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+
+
+.screen42 .flex1 {
+    display: flex;
+    justify-content: center;
 }
 
 /**************************************************************
@@ -3795,8 +3835,18 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 44
 ***********************************************************/
-.screen44 .product-modal {
+.screen44 .product-modal,
+.screen30 .product-modal,
+.screen24 .product-modal,
+.screen23 .product-modal1,
+.screen21 .product-modal
+ {
     height: auto;
+    position: absolute;
+    top: 251px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
 }
 
 .screen44 .product-modal .black-btn {
@@ -3884,6 +3934,13 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 48
 ***********************************************************/
+.screen47 .fg-container .form-group {
+    min-width: 100px;
+}
+
+/**************************************************************
+*							START OF SCREEN 48
+***********************************************************/
 
 .screen48 .fg-container {
     display: block;
@@ -3952,7 +4009,11 @@ table .green-txt {
 }
 
 .screen48 .cart .gray-bg {
-    padding: var(--xl) 20px var(--xl);
+    padding: var(--xl) 10px var(--xl);
+}
+
+.screen48 .btn-flex .flex-container {
+    margin-right: 20px;
 }
 
 .screen48 .cart del {
@@ -3988,22 +4049,21 @@ table .green-txt {
     line-height: 2.2;
     margin-bottom: 0;
     text-align: center;
+}
 
+.screen48 .white-bg {
+    line-height: 2.4;
 }
 
 .screen48 .minus {
-    line-height: 2;
+    line-height: 2.2;
 }
 
 .btn-flex {
     display: flex;
     position: absolute;
-    left: 7%;
+    left: 10%;
     bottom: -13px;
-}
-
-.btn-flex .flex-container {
-    margin-right: 20px;
 }
 
 .screen48 .cart p {
@@ -4357,4 +4417,8 @@ table .green-txt {
 .screen55 .gray-box,
 .screen55 .gray-bg {
     padding-left: 20px;
+}
+
+.hide-mb {
+    display: none;
 }

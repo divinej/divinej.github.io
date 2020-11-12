@@ -82,7 +82,7 @@
 	**              Scene 49 Media Query
 	********************************** */
     .btn-flex {
-        left: 14%;
+        left: 17%;
     }
 
     /* *****************************
@@ -159,17 +159,10 @@
     }
 
     /* *****************************
-	**              Scene 42 Media Query
-	********************************** */
-    .screen42 .sort-orders .flex-container {
-        font-size: 0.83rem;
-    }
-
-    /* *****************************
 	**              Scene 49 Media Query
 	********************************** */
     .btn-flex {
-        left: 18%;
+        left: 21%;
     }
 
     /* *****************************
@@ -184,9 +177,8 @@
 
 
 @media all and (min-width: 768px) {
-
-    body {
-        font-size: 1.1rem;
+    .hide-mb {
+        display: inline-block;
     }
 
     nav,
@@ -198,9 +190,15 @@
     .screen43 .transaction-statement,
     .screen48 .fg-container,
     footer,
-    .padd-43 {
+    .padd-43,
+    .screen9 {
         padding-right: 35px;
         padding-left: 35px;
+    }
+
+    .screen9 .associate-details {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     footer {
@@ -449,6 +447,13 @@
     }
 
     /* *****************************
+	**              Page 9 Media Query
+	********************************** */
+    .screen9 .associate-details {
+        margin-bottom: var(--lg);
+    }
+
+    /* *****************************
 	**              Page 10 Media Query
 	********************************** */
     .select-container,
@@ -506,6 +511,21 @@
 
     .screen13 .mb-12 {
         margin-bottom: 12px;
+    }
+
+    /* *****************************
+	**              Page 14 Media Query
+	********************************** */
+    .screen14 .add-product,
+    .screen13 .add-product,
+    .screen9,
+    .screen9 .text-container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .screen9 {
+        justify-content: space-between;
     }
 
     /* *****************************
@@ -796,6 +816,20 @@
         font-size: 1rem;
     }
 
+    .screen36-wd .search-form .form-group:first-of-type,
+    .screen18 .search-form .form-group:first-of-type {
+        min-width: inherit;
+    }
+
+   .search-form .form-group:last-of-type,
+    .screen36-wd .search-form .form-group:last-of-type {
+        min-width: 104px;
+    }
+
+    .screen36-wd {
+        width: auto;
+    }
+
     /* *****************************
 	**              Scene 37 Media Query
     ********************************** */
@@ -884,6 +918,10 @@
         padding: 6px 14px;
     }
 
+    .screen42 .flex1 p.red-txt {
+        position: absolute;
+        right: 25px;
+    }
 
     /* *****************************
 	**              Scene 43 Media Query
@@ -933,6 +971,13 @@
     }
 
     /* *****************************
+	**              Page 46 Media Query
+    ********************************** */
+    .screen47 .fg-container .flex-container .form-group:nth-of-type(2) {
+        width: 156px;
+    }
+
+    /* *****************************
 	**              Page 50 Media Query
     ********************************** */
     .screen50 .cart .gray-bg {
@@ -951,6 +996,10 @@
     .screen50 .col-md-6.col-lg-3 {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .btn-flex .flex-container {
+        margin-right: 20px;
     }
 
     /* *****************************
@@ -1356,6 +1405,10 @@
         padding-right: 15px;
     }
 
+    #content4>.flex-container {
+        margin-bottom: var(--xl);
+
+    }
 
     /* *****************************
 	**              Page 37 Media Query
@@ -1424,6 +1477,10 @@
         padding-top: var(--lg);
     }
 
+    #content10>.flex-container {
+        margin-bottom: var(--xl);
+    }
+
     /* *****************************
 	**              Page 41 Media Query
     ********************************** */
@@ -1449,11 +1506,17 @@
     }
 
     /* *****************************
-	**              Page 41 Media Query
+	**              Page 42 Media Query
     ********************************** */
     .screen42 .sort-orders .flex-container {
         display: block;
     }
+
+    .screen42 .flex1 p.red-txt {
+        position: relative;
+        right: inherit;
+    }
+
 
     /* *****************************
 	**              Page 43 Media Query
@@ -1932,6 +1995,11 @@
         overflow-x: auto;
     }
 
+    .screen42 .flex1 p.red-txt {
+        position: absolute;
+        right: 25px;
+    }
+
     /* *****************************
 	**              Page 43 Media Query
     ********************************** */
@@ -1966,6 +2034,7 @@
     }
 
     .btn-flex {
-        left: 7px;
+        left: 10px;
     }
+
 }
