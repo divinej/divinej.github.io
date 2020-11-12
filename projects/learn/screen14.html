@@ -59,29 +59,33 @@
     </header>
 
     <div class="screen14">
-    <div class="dashboard">
-        <p>Manage</p>
-        <p class="bold-txt">Add</p>
-        <p>Your Profile</p>
-        <p>Your Plan</p>
-        <p>Analytics</p>
+        <div class="dashboard">
+            <p>Manage</p>
+            <p class="bold-txt">Add</p>
+            <p><span class="hide-mb">Your </span> Profile</p>
+            <p><span class="hide-mb">Your </span> Plan</p>
+            <p>Analytics</p>
+        </div>
+
+        <div class="add-associate">
+            <button class="gray-btn mid-btn">Add Associate</button>
+            <button class="black-btn mid-btn">Add Products</button>
+            <button class="gray-btn mid-btn">Add as lead</button>
+            <button class="gray-btn mid-btn">Add team</button>
+        </div>
+
+
+        <div class="add-product">
+            <p class="bold-txt">Add Products</p>
+            <div class="flex-container justify-center">
+                <input type="file" id="files" placeholder="Upload FIle" class="hidden">
+                <label class="red-txt txt-underline upload-excel" for="files">Upload Other</label>
+                <p class="upload-excel">Add multiple <span
+                    class="txt-underline blue-txt">Sample</span></p>
+            </div>
+        </div>
+
     </div>
-
-    <div class="add-associate">
-        <button class="gray-btn mid-btn">Add Associate</button>
-        <button class="black-btn mid-btn">Add Products</button>
-        <button class="gray-btn mid-btn">Add as lead</button>
-        <button class="gray-btn mid-btn">Add team</button>
-    </div>
-
-
-    <div class="add-product">
-        <p class="bold-txt">Add Products</p>
-        <p class="upload-excel"><span class="txt-underline red-txt">Upload Excel</span> Add multiple <span
-                class="txt-underline blue-txt">Sample</span></p>
-    </div>
-
-</div>
     <main class="padd">
         <div class="screen14">
             <div class="box-container">
@@ -174,30 +178,30 @@
                     </div>
 
                     <div class="col-lg-5">
-                            <div class="gray-bg no-mg-bt">
-                                <div class="small-input-container">
-                                    <div class="small-input4 small-text bold-txt">
-                                        % Discount Statewise
-                                    </div>
-                                    <div class="small-input4">
-                                        <div class="form-group input-group">
-                                            <input type="text" class="form-control" placeholder="%">
-                                        </div>
-                                    </div>
-                                    <div class="small-input4">
-                                        <div class="input-group form-group">
-                                            <select class="form-control no-bd">
-                                                <option value="State">State</option>
-                                                <option value="State">State</option>
-                                                <option value="State"><span class="red-text">State</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="small-input4">
-                                        <button class="black-btn small-btn">ADD</button>
+                        <div class="gray-bg no-mg-bt">
+                            <div class="small-input-container">
+                                <div class="small-input4 small-text bold-txt">
+                                    % Discount Statewise
+                                </div>
+                                <div class="small-input4">
+                                    <div class="form-group input-group">
+                                        <input type="text" class="form-control" placeholder="%">
                                     </div>
                                 </div>
+                                <div class="small-input4">
+                                    <div class="input-group form-group">
+                                        <select class="form-control no-bd">
+                                            <option value="State">State</option>
+                                            <option value="State">State</option>
+                                            <option value="State"><span class="red-text">State</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="small-input4">
+                                    <button class="black-btn small-btn">ADD</button>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="gray-bg gray-padd">
@@ -212,7 +216,8 @@
                                 </div>
                             </div>
 
-                            <p class="custom-mg"><span class="bold-txt">For</span> <span class="gray-txt">Define Specifications</span></p>
+                            <p class="custom-mg"><span class="bold-txt">For</span> <span class="gray-txt">Define
+                                    Specifications</span></p>
                             <div class="small-input-container no-mg-tp">
                                 <div class="small-input2">
                                     <div class="input-group form-group">

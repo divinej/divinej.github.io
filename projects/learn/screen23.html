@@ -59,8 +59,8 @@
     <div class="dashboard">
         <p class="bold-txt">Manage</p>
         <p>Add</p>
-        <p>Your Profile</p>
-        <p>Your Plan</p>
+        <p><span class="hide-mb">Your </span> Profile</p>
+        <p><span class="hide-mb">Your </span> Plan</p>
         <p>Analytics</p>
     </div>
 
@@ -88,7 +88,7 @@
     </div>
 
     <main class="padd">
-        <div class="screen19 hide">
+        <div class="screen19">
             <div class="transaction-statement">
                 <button class="gray-btn"><span class="bold-txt">Placed by</span> self</button>
 
@@ -341,7 +341,7 @@
 
         </div>
 
-        <div class="screen19">
+        <div class="screen19 screen23">
             <div class="product-modal1 gray-bg">
                 <h5>UPDATE STATUS</h5>
 
@@ -349,7 +349,8 @@
                 <button class="black-btn">RETURNED</button>
                 <button class="black-btn">CANCELLED</button>
                 
-                <p class="red-txt txt-underline">Upload Other</p>
+                <input  type="file" id="files" placeholder="Upload FIle" class="hidden">
+                <label class="red-txt txt-underline" for="files">Upload Other</label>
                 <p>(<span class="red-txt">x</span>) File</p>
                 <div class="btn-container">
                     <button class="red-btn mid-btn">Submit</button>
