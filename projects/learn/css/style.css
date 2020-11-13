@@ -175,7 +175,7 @@ footer,
 .logo {
     width: 80px;
 }
-
+/* 
 select {
     background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
     -webkit-appearance: none;
@@ -184,7 +184,7 @@ select {
 
 select.bg-95 {
     background-position-x: 95%;
-}
+} */
 
 .menu-items {
     margin-bottom: 0;
