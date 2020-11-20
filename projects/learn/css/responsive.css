@@ -23,6 +23,8 @@
         left: 20%;
     }
 
+    .screen14 .col-lg-5
+
     /* *****************************
 	**              Scene 10 Media Query
 	********************************** */
@@ -93,6 +95,14 @@
         margin-bottom: 0;
     }
 
+    .no-mg-lf .menu-items li {
+        margin-right: 15px;
+    }
+
+    .no-mg-lf .menu-items li {
+        margin-left: 7px;
+    }
+
 }
 
 
@@ -108,7 +118,8 @@
     .screen43 .transaction-statement,
     .screen48 .fg-container,
     footer,
-    .padd-43 {
+    .padd-43,
+    .padd-78 {
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -131,6 +142,13 @@
 
     .logo-box {
         left: 34%;
+    }
+
+    /* *****************************
+	**              Scene 15 Media Query
+	********************************** */
+    .screen13 .gray-bg {
+        padding: 23px;
     }
 
     /* *****************************
@@ -174,6 +192,12 @@
     }
 }
 
+@media (min-width: 576px) {
+    .padd-67 {
+        max-width: 540px;
+    }
+}
+
 
 
 @media all and (min-width: 768px) {
@@ -191,7 +215,8 @@
     .screen48 .fg-container,
     footer,
     .padd-43,
-    .screen9 {
+    .screen9,
+    .padd-78 {
         padding-right: 35px;
         padding-left: 35px;
     }
@@ -590,7 +615,8 @@
     }
 
     .screen19 .product-modal,
-    .screen19 .product-modal1 {
+    .screen19 .product-modal1,
+    .screen61 .product-modal {
         position: absolute;
         padding-left: 60px;
         padding-right: 60px;
@@ -601,6 +627,12 @@
         top: 251px;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .screen61 .product-modal {
+        border-color: var(--red);
+        top: 156px;
+        width: 350px;
     }
 
     .screen19 .custom-pd {
@@ -821,9 +853,16 @@
         min-width: inherit;
     }
 
-   .search-form .form-group:last-of-type,
-    .screen36-wd .search-form .form-group:last-of-type {
+    .screen29 .search-form .form-group:last-of-type,
+    .screen25 .search-form .form-group:last-of-type {
+        min-width: 100px;
+    }
+
+    .search-form .form-group:last-of-type,
+    .screen36-wd .search-form .form-group:last-of-type,
+    .screen37 .search-form .form-group:last-of-type {
         min-width: 104px;
+        width: 104px;
     }
 
     .screen36-wd {
@@ -938,6 +977,10 @@
         width: 510px;
     }
 
+    .screen32 .search-form .w-400 {
+        width: 400px;
+    }
+
     /* *****************************
 	**              Page 46 Media Query
     ********************************** */
@@ -1024,6 +1067,94 @@
         width: auto;
     }
 
+    /* *****************************
+	**              Page 56 Media Query
+    ********************************** */
+    .screen56 .b2b-box {
+        margin: 0px 15px 15px;
+    }
+
+    .no-mg-lf .menu-items li {
+        margin-left: 30px;
+    }
+
+    /* *****************************
+	**              Scene 61 Media Query
+	********************************** */
+    .screen61 .col-lg-5 .flex-container {
+        display: flex;
+    }
+
+    /* *****************************
+	**              Scene 67 Media Query
+	********************************** */
+    .padd-67 {
+        max-width: 720px;
+    }
+
+    /* *****************************
+	**              Scene 68 Media Query
+	********************************** */
+    .screen68 .product-modal1 {
+        width: 600px;
+        padding: 20px 32px;
+    }
+
+    .screen68 .product-modal1 .form-group {
+        width: 80px;
+    }
+
+    /* *****************************
+	**              Scene 70 Media Query
+	********************************** */
+    .screen70 .product-modal {
+        width: 350px;
+        top: 183px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    /* *****************************
+	**              Scene 73 Media Query
+	********************************** */
+    .screen73 .product-modal {
+        border: 1px solid var(--red);
+    }
+
+    .block-txt {
+        display: block;
+    }
+
+    /* *****************************
+	**              Scene 73 Media Query
+	********************************** */
+    .screen74 .border-container {
+        border-radius: 0;
+    }
+
+    .screen74 .custom-wd {
+        width: 458px;
+    }
+
+    /**************************************************************
+    *							START OF SCREEN 79
+    ***********************************************************/
+    .screen79 .associate-details {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .screen79 .text-container {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .padd-79 .add-associate-form {
+        text-align: center;
+        margin-bottom: 80px;
+    }
 }
 
 
@@ -1242,6 +1373,7 @@
 
     .screen18 .order-action {
         margin-top: 0;
+        width: auto;
     }
 
     .order-container {
@@ -1252,6 +1384,20 @@
     .screen25 .order-container {
         display: flex;
         align-items: baseline;
+    }
+
+
+    /* *****************************
+	**              Page 22 Media Query
+    ********************************** */
+    .screen19 .add-product {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .order-action {
+        margin-top: 0;
+        width: auto;
     }
 
     /* *****************************
@@ -1600,7 +1746,98 @@
     .screen54 {
         width: 100%;
     }
+
+    /* *****************************
+	**              Page 61 Media Query
+    ********************************** */
+    .menu-items .hide-md {
+        display: inline-block;
+    }
+
+    .menu-items .hide-lg {
+        display: none;
+    }
+
+    .chart-box {
+        display: block;
+    }
+
+    .stock {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .sales-detail.gray-bg {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .chart-box {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .screen61 .order-info {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .screen61 .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    /* *****************************
+	**              Page 65 Media Query
+    ********************************** */
+    .product-details .col-lg-4 {
+        margin-bottom: 0;
+    }
+
+    /**************************************************************
+    *							START OF SCREEN 67
+    ***********************************************************/
+    .padd-67 {
+        max-width: 660px;
+    }
+
+    .screen67 .form-group:last-of-type {
+        width: 150px;
+    }
+
+    .screen67 .form-group:first-of-type {
+        width: 460px;
+    }
+
+    .screen67 .search-form select {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* *****************************
+	**              Scene 70 Media Query
+	********************************** */
+    .screen70 .product-modal {
+        top: 165px;
+    }
+
+    /* *****************************
+	**              Scene 76 Media Query
+	********************************** */
+    .screen76 .sort-orders .flex-container {
+        display: flex;
+    }
+
+    .screen76 .flex1 p.red-txt,
+    .screen76 .flex1 p.green-txt {
+        position: absolute;
+        right: 25px;
+    }
 }
+
+
+
+
 
 @media all and (min-width: 1440PX) {
     .small-btn {
@@ -1702,11 +1939,6 @@
         margin-top: 9px;
     }
 
-    .screen19 .add-product {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .add-product p {
         display: flex;
     }
@@ -1720,11 +1952,6 @@
         display: flex;
         justify-content: center;
         overflow-x: auto;
-    }
-
-    .order-action {
-        margin-top: 0;
-        width: auto;
     }
 
     /* *****************************
@@ -1995,7 +2222,8 @@
         overflow-x: auto;
     }
 
-    .screen42 .flex1 p.red-txt {
+    .screen42 .flex1 p.red-txt,
+    .screen42 .flex1 p.green-txt {
         position: absolute;
         right: 25px;
     }
@@ -2036,5 +2264,36 @@
     .btn-flex {
         left: 10px;
     }
+
+    .screen61 .order-info div {
+        margin-bottom: 10px;
+    }
+
+    .stock {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .stock-box {
+        width: 260px;
+    }
+
+    .stock-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* *****************************
+	**              Page 65 Media Query
+    ********************************** */
+    .screen65 .product-details {
+        padding: 20px 40px;
+        border: 1px solid var(--gray);
+        -webkit-box-shadow: 5px 9px 0px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: 5px 9px 0px 0px rgba(0, 0, 0, 0.6);
+        box-shadow: 5px 9px 0px 0px rgba(0, 0, 0, 0.6);
+    }
+
 
 }
