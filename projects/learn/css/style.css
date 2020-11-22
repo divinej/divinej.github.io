@@ -1008,6 +1008,11 @@ footer.flex p {
     margin-bottom: 0;
 }
 
+.dashboard p:last-of-type {
+    margin-right: 0;
+    padding-right: 20px;
+}
+
 nav .fa-bell {
     font-size: 16px;
 }
@@ -4752,7 +4757,7 @@ table .green-txt {
 .sales-detail.gray-bg {
     position: relative;
     height: auto;
-    margin-top: 50px;
+    margin-top: 90px;
     padding-top: 40px;
     padding-bottom: 0;
     margin-left: 5px;
@@ -4836,6 +4841,7 @@ table .green-txt {
 
 .stock-box {
     width: 300px;
+    font-size: 0.9rem;
 }
 
 .stock-box2 {
@@ -4909,6 +4915,7 @@ table .green-txt {
 .screen63 .product-modal .white-btn {
     border-radius: 30px;
     padding-left: 20px;
+    padding-right: 20px;
     width: 224px;
 }
 
@@ -4968,7 +4975,8 @@ table .green-txt {
 
 .screen65 .product {
     display: flex;
-    padding: 10px;
+    padding: 10px 36px 10px 10px;
+    font-size: 0.9rem;
 }
 
 .screen65 .product table {
@@ -4977,10 +4985,6 @@ table .green-txt {
 
 .screen65 .product table tr {
     border-bottom:  1px solid var(--gray-bd);
-}
-
-.screen65 .product table td {
-    padding: 5px;
 }
 
 .screen65 .product-details {
@@ -5004,7 +5008,7 @@ table .green-txt {
 
 .screen65 .dark-gray-box {
     background-color: rgba(0, 0, 0, 0.4);
-    height: 104px;
+    height: 72px;
     width: 90px;
     margin-right: 15px;
 }
