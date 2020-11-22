@@ -76,17 +76,19 @@
         <p>Profile</p>
     </div>
 
-    <div class="screen19 screen74">
+    <div class="screen19">
         <div class="add-product">
             <div class="order-container">
                 <p><span class="bold-txt">Order# 111</p>
             </div>
 
+
             <div class="order-action">
-                <button class="red-btn mid-btn">Pay</button>
+
                 <button class="red-btn mid-btn">Reject with comment</button>
-                <button class="blue-btn mid-btn">Update payment</button>
-                <button class="green-btn mid-btn">Request collection</button>
+
+                <button class="blue-btn mid-btn">Accept Proposal</button>
+
                 <div class="back">
                     <i class="fal fa-arrow-left fa-2x"></i>
                 </div>
@@ -94,21 +96,20 @@
         </div>
     </div>
 
-    <div class="screen70 screen74">
+    <div class="screen70 screen71 screen73">
         <main class="container">
             <div class="screen27">
-                <div class="text-container">
-                    <p class="green-txt">PROPOSAL ACCEPTED</p>
-                    <p>Deliver on: <span class="blue-txt">&lt;Date&gt;</span> </p>
-                </div>
-
-                <div class="border-container custom-wd">
-                        <p><span class="red-txt">Note: </span> <span class="gray-txt"> Update the Quantity & Product will be updated in stock</span></p>
+                <div class="screen26">
+                    <p class="bold-txt center-txt">Your requirements</p>
+                    <div class="form-group gray-input">
+                        <input type="text" class="form-control">
                     </div>
 
-                <div class="flex-container border-container">
-                    <p>Amount pending: <span class="red-txt">RS.10,0000</span></p>
-                    <p>Amount Received: <span class="green-txt">RS.10,0000</span></p>
+                    <div class="flex-container">
+                        <input type="file" id="files" placeholder="Upload FIle" class="hidden">
+                        <label for="files"><i class="fa fa-download" aria-hidden="true"></i> Uploaded Files</label>
+                        <p>Quantity Req. <span class="bold-txt">100</span></p>
+                    </div>
                 </div>
 
                 <div class="row">
@@ -174,7 +175,31 @@
                 </div>
             </div>
 
+            <div class="screen19 screen23">
+                <div class="product-modal gray-bg">
+                    <div class="clear">x</div>
+                    <h5 class="red-txt">PAYMENT REQUEST</h5>
+                    <h5><span class="red-txt">FOR </span> <span class="blue-txt">CUSTOM ORDER</span></h5>
 
+                    <p class="bold-txt red-txt mg-tp">Order#: 1244HH</p>
+                    <p class="gray-txt">Order on:</p>
+                    <p>03March20</p>
+
+                    <p class="mg-bt mg-tp blue-txt block-txt">Is ready to dispatch</p>
+
+                    <p class="mg-tp">Advance:</p>
+                    <p>Rs.9,0000</p>
+
+                    <p class="mg-tp">Amount Due</p>
+                    <p class="red-txt">Rs.9,0000</p>
+
+                    <p class="red-txt mg-tp">Pay now</p>
+
+                    <div class="btn-container">
+                        <button class="red-btn mid-btn">Update Payment</button>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 
