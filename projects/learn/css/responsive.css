@@ -190,6 +190,13 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    /* *****************************
+	**              Scene 61 Media Query
+	********************************** */
+    .screen61 .order-info div.black-btn {
+        min-width: 47.5%;
+    }
 }
 
 @media (min-width: 576px) {
@@ -1084,6 +1091,11 @@
     .screen61 .col-lg-5 .flex-container {
         display: flex;
     }
+
+    .screen61 .order-info div.black-btn {
+        min-width: 149px;
+    }
+    
 
     /* *****************************
 	**              Scene 67 Media Query

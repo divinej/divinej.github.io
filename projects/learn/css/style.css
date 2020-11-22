@@ -39,6 +39,10 @@ select {
     height: 50px !important;
 }
 
+label {
+    cursor: pointer;
+}
+
 input[type=checkbox] {
     height: 13px !important;
 }
@@ -3813,6 +3817,10 @@ table .green-txt {
     justify-content: center;
 }
 
+.screen42 .flex1 p:first-of-type {
+    margin-right: 10px;
+}
+
 /**************************************************************
 *							START OF SCREEN 43
 ***********************************************************/
@@ -4491,6 +4499,19 @@ table .green-txt {
 ***********************************************************/
 .screen59 {
     padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.screen59 .about-company-box {
+    padding: 82px 20px 10px;
+}
+
+.screen59 .logo-box {
+    height: 85px;
+    background-color: var(--gray);
+    border: none;
+    left: 31%;
+    padding-top: 30px;
 }
 
 /**************************************************************
@@ -4885,6 +4906,12 @@ table .green-txt {
 }
 
 
+.screen63 .product-modal .white-btn {
+    border-radius: 30px;
+    padding: 20px;
+    width: 190px;
+}
+
 /**************************************************************
 *							START OF SCREEN 64
 ***********************************************************/
@@ -5105,6 +5132,14 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 67
 ***********************************************************/
+.menu-items .hide-lg {
+    padding-bottom: 0;
+}
+
+.menu-items .hide-lg img {
+    width: 35px;
+}
+
 .padd-67 {
     margin-left: auto;
     margin-right: auto;
@@ -5115,6 +5150,14 @@ table .green-txt {
 ***********************************************************/
 .screen68 {
     padding-bottom: var(--xl);
+}
+
+.screen68 .add-product {
+    text-align: left;
+}
+
+.screen68 .order-action {
+    justify-content: space-between;
 }
 
 .screen68 .product-modal1 input::placeholder {
@@ -5238,7 +5281,7 @@ table .green-txt {
 .screen73 .dark-gray-box,
 .screen74 .dark-gray-box {
     width: 100%;
-    height: 100%;
+    height: 321px;
 }
 
 .screen73 .product-modal {
@@ -5249,8 +5292,8 @@ table .green-txt {
     display: block;
 }
 
-.screen74 .order-action .mid-btn,
-.screen75 .order-action .mid-btn{
+.screen74 .order-action .custom-width,
+.screen75 .order-action .mid-btn {
     min-width: 80px;
 }
 
