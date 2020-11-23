@@ -25,6 +25,7 @@ body {
     --md: 20px;
     --sm: 10px;
 }
+
 body.bt {
     min-height: 100vh;
 }
@@ -890,7 +891,7 @@ footer.flex p {
 .login-box input.form-control {
     width: calc(100% - 10%) !important;
     margin: 0 auto;
-    border: 2px solid var(--gray);
+    border: 2px solid var(--gray-bd);
     padding: 15px;
     border-radius: 30px;
 }
@@ -3292,6 +3293,7 @@ table .green-txt {
 .custom-height>p:last-of-type {
     position: absolute;
     bottom: 40px;
+    margin-bottom: 0;
 }
 
 #content2 .flex-container p {
@@ -4556,6 +4558,7 @@ table .green-txt {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .screen61 .gray-bg {
     padding: 13px 10px;
     height: 50px;
@@ -4729,7 +4732,7 @@ table .green-txt {
 }
 
 .chart-name {
-   transform: rotate(270deg);
+    transform: rotate(270deg);
 }
 
 .white-bg {
@@ -4989,11 +4992,11 @@ table .green-txt {
 }
 
 .screen65 .product table tr {
-    border-bottom:  1px solid var(--gray-bd);
+    border-bottom: 1px solid var(--gray-bd);
 }
 
 .screen65 .product-details {
-    margin-top:  var(--xl);
+    margin-top: var(--xl);
     margin-bottom: var(--xl);
 }
 
@@ -5039,11 +5042,11 @@ table .green-txt {
     margin-right: 10px;
 }
 
-.screen65 .mg-rt  {
-    margin-right:  30px
+.screen65 .mg-rt {
+    margin-right: 30px
 }
 
-.saved-products > p {
+.saved-products>p {
     text-align: center;
     display: block;
     margin-bottom: 1rem;
@@ -5063,7 +5066,7 @@ table .green-txt {
     margin-bottom: var(--xl);
 }
 
-.address-box > p {
+.address-box>p {
     margin-bottom: 5px;
 }
 
@@ -5112,7 +5115,7 @@ table .green-txt {
     display: none;
 }
 
-.label-container input:checked ~ .checkmark::after {
+.label-container input:checked~.checkmark::after {
     display: block;
 }
 
@@ -5276,6 +5279,7 @@ table .green-txt {
 .screen71 {
     padding-bottom: 210px;
 }
+
 .screen71 .product-modal h5 {
     margin-bottom: 0;
 }
@@ -5388,6 +5392,10 @@ table .green-txt {
     padding-right: 15px;
 }
 
+
+/**************************************************************
+*							START OF SCREEN 83
+***********************************************************/
 .screen82 {
     padding-top: var(--xl);
     text-align: center;
@@ -5412,3 +5420,112 @@ table .green-txt {
     margin-right: auto;
 }
 
+
+/**************************************************************
+*							START OF SCREEN 84
+***********************************************************/
+.screen84 .gray-box {
+    width: 300px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--xl);
+}
+
+.screen84 .big-ft {
+    font-weight: 400;
+}
+
+.screen84 .login-box {
+    border: none;
+}
+
+.screen84 .login-box button {
+    width: 150px;
+}
+
+/**************************************************************
+*							START OF SCREEN 85
+***********************************************************/
+.screen85 .add-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screen85 .order-action {
+    width: auto;
+    margin-top: 0;
+}
+
+.screen85 .add-associate {
+    justify-content: center;
+    margin-bottom: var(--xl);
+    margin-top: var(--xl);
+}
+
+.screen85 .add-associate button {
+    width: auto;
+}
+
+.allot-container button,
+.allot-container1 button {
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.allot-container p.gray-bg,
+.allot-container1 p.gray-bg {
+    height: 48px;
+    padding-left: 15px;
+    padding-top: 12px;
+    width: 70%;
+}
+
+.allot-container1 p.gray-bg {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.allot-container1 button {
+    margin-bottom: var(--xl);
+}
+
+.allot-container1 .flex-container{
+    display: block;
+}
+
+.screen85 .mg-tp {
+    margin-top: var(--xl);
+    margin-bottom: var(--lg);
+    text-align: center;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 86
+***********************************************************/
+.screen86 .allot-container p.gray-bg {
+    width: 59%;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 87
+***********************************************************/
+.screen87 .custom-height>p:last-of-type {
+    bottom: 30px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 88
+***********************************************************/
+.screen88 .gray-container .black-btn {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.screen88 .search-form {
+    margin-top: var(--xl);
+}

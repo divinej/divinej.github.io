@@ -197,6 +197,13 @@
     .screen61 .order-info div.black-btn {
         min-width: 47.5%;
     }
+
+    /* *****************************
+	**              Scene 61 Media Query
+	********************************** */
+    .screen86 .allot-container p.gray-bg {
+        width: 62%;
+    }
 }
 
 @media (min-width: 576px) {
@@ -1171,6 +1178,26 @@
         text-align: center;
         margin-bottom: 80px;
     }
+
+     /**************************************************************
+    *							START OF SCREEN 84
+    ***********************************************************/
+    .screen84 .login-box input.form-control {
+        width: 100% !important;
+    }
+
+     /**************************************************************
+    *							START OF SCREEN 86
+    ***********************************************************/
+    .screen86 .allot-container p.gray-bg {
+        width: 79%;
+    }
+
+     /**************************************************************
+    *							START OF SCREEN 88
+    ***********************************************************/
+
+
 }
 
 
@@ -1818,7 +1845,7 @@
         left: 102px;
     }
 
-    .sales-chart { 
+    .sales-chart {
         left: 50%;
         top: 40px;
         -moz-transform: translate(-50%, -50%);
@@ -1885,6 +1912,53 @@
     .screen76 .flex1 p.green-txt {
         position: absolute;
         right: 25px;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 85
+    ***********************************************************/
+    .allot-container p.gray-bg,
+    .allot-container1 p.gray-bg {
+        width: 76%;
+        margin-bottom: 1rem;
+    }
+    .allot-container button {
+        width: 100px;
+    }
+
+    .allot-container1 .flex-container{
+        display: flex;
+    }
+
+    .allot-container1 button {
+        margin-bottom: 0;
+    }
+
+     /**************************************************************
+    *							START OF SCREEN 86
+    ***********************************************************/
+    .screen86 .allot-container p.gray-bg {
+        width: 68%;
+    }
+    .screen86 .allot-container button {
+        width: auto;
+    }
+
+    .screen88 .gray-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--gray);
+        border-radius: 30px;
+        height: 60px;
+        padding-left: 40px;
+        padding-bottom: 0;
+    }
+
+    .screen88 .gray-container .black-btn {
+        margin-left: 44px;
+        margin-top: 0;
     }
 }
 
@@ -2343,7 +2417,7 @@
     .price-val {
         left: 170px;
     }
-    
+
     .chart-name {
         left: 94px;
     }
@@ -2358,6 +2432,24 @@
         -webkit-box-shadow: 5px 9px 0px 0px rgba(0, 0, 0, 0.6);
         -moz-box-shadow: 5px 9px 0px 0px rgba(0, 0, 0, 0.6);
         box-shadow: 5px 9px 0px 0px rgba(0, 0, 0, 0.6);
+    }
+
+     /**************************************************************
+    *							START OF SCREEN 67
+    ***********************************************************/
+    .allot-container button {
+        width: 120px;
+    }
+
+     /**************************************************************
+    *							START OF SCREEN 67
+    ***********************************************************/
+    .allot-container button {
+        width: auto;
+    }
+
+    .allot-container p.gray-bg {
+        width: 72%;
     }
 
 
