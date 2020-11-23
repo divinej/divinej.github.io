@@ -5530,3 +5530,31 @@ table .green-txt {
 .screen88 .search-form {
     margin-top: var(--xl);
 }
+
+/**************************************************************
+*							START OF SCREEN 91
+***********************************************************/
+.update-dsr {
+    text-align: center;
+}
+
+.update-dsr p {
+    margin-top: 20px;
+}
+.update-dsr .gray-bg {
+    border-radius: 80px;
+    padding: 25px;
+    width: 280px;
+    height: 163px;
+}
+
+.icon8,
+.icon7,
+.icon6,
+.icon5 {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}

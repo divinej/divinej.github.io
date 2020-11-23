@@ -1814,7 +1814,9 @@
     .order-info .form-control,
     .screen61 .order-info,
     .sales-detail,
-    .screen61 .col-md-6 .gray-bg {
+    .screen61 .col-md-6 .gray-bg,
+    .screen61 .col-md-8 .gray-bg,
+    .screen61 .col-md-4 .gray-bg {
         font-size: 0.9rem;
     }
 
