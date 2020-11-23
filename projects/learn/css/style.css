@@ -2254,7 +2254,8 @@ main.custom-pd {
     margin-bottom: var(--xl);
 }
 
-.screen19 .product-modal1 h5 {
+.screen19 .product-modal1 h5,
+.screen68 .product-modal1 h6 {
     text-align: center;
 }
 
@@ -5208,6 +5209,14 @@ table .green-txt {
 
 .screen68 .product-modal1 {
     top: 210px;
+}
+
+/**************************************************************
+*							START OF SCREEN 69
+***********************************************************/
+.screen68 .product-modal1 h6,
+.screen69 .product-modal1 .blue-txt {
+    font-weight: 600;
 }
 
 
