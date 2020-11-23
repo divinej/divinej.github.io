@@ -334,7 +334,8 @@ video {
 .screen11 .btn-container,
 .box-container,
 .order-action,
-.transaction-statement {
+.transaction-statement,
+.chart-box .gray-bg {
     width: 100%;
     white-space: nowrap;
     position: relative;
@@ -4638,21 +4639,28 @@ table .green-txt {
 
 .chart-box {
     position: relative;
-    display: none;
+    margin-top: 30px;
 }
 
 .chart-box>.gray-bg {
     height: auto;
 }
 
-.price-val {
+
+.chart-name {
     position: absolute;
-    left: 120px;
-    bottom: 24px;
+    top: 40%;
+    left: -11px;
 }
 
 .price-val p {
     margin-bottom: 5px;
+}
+
+.price-val {
+    position: absolute;
+    bottom: 24px;
+    left: 54px;
 }
 
 .chart,
@@ -4660,9 +4668,7 @@ table .green-txt {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
 }
 
 .sales-chart {
@@ -4671,10 +4677,7 @@ table .green-txt {
     align-items: center;
     font-size: 0.9rem;
     left: 50%;
-    top: 40px;
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50, 50%);
-    transform: translate(-50%, -50%);
+    top: 15px;
 }
 
 .sales-chart .form-control {
@@ -4709,10 +4712,12 @@ table .green-txt {
 .month {
     width: 45px;
     text-align: center;
+    margin-right: 15px;
 }
 
 .column-box {
     position: relative;
+    margin-right: 15px;
 }
 
 .column {
@@ -4722,9 +4727,6 @@ table .green-txt {
 
 .chart-name {
    transform: rotate(270deg);
-   position: absolute;
-   top: 40%;
-   left: 50px;
 }
 
 .white-bg {

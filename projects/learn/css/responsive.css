@@ -1095,7 +1095,11 @@
     .screen61 .order-info div.black-btn {
         min-width: 149px;
     }
-    
+
+    .sales-chart {
+        left: 20%;
+    }
+
 
     /* *****************************
 	**              Scene 67 Media Query
@@ -1770,10 +1774,6 @@
         display: none;
     }
 
-    .chart-box {
-        display: block;
-    }
-
     .stock {
         margin-right: -10px;
         margin-left: -10px;
@@ -1784,9 +1784,45 @@
         margin-left: -10px;
     }
 
+    .chart-box .gray-bg.flex-container {
+        display: block;
+    }
+
     .chart-box {
         margin-right: -10px;
         margin-left: -10px;
+        margin-top: 0;
+    }
+
+    .column-box {
+        margin-right: 0;
+    }
+
+    .chart,
+    .chart1 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .chart-name {
+        left: 30px;
+    }
+
+    .price-val {
+        left: 102px;
+    }
+
+    .sales-chart { 
+        left: 50%;
+        top: 40px;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50, 50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .month {
+        margin-right: 0;
     }
 
     .screen61 .order-info {
@@ -2295,6 +2331,18 @@
         display: flex;
         justify-content: space-between;
     }
+
+    /* *****************************
+	**              Page 61 Media Query
+    ********************************** */
+    .price-val {
+        left: 120px;
+    }
+    
+    .chart-name {
+        left: 50px;
+    }
+
 
     /* *****************************
 	**              Page 65 Media Query
