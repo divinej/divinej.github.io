@@ -5479,19 +5479,20 @@ table .green-txt {
     height: 48px;
     padding-left: 15px;
     padding-top: 12px;
-    width: 70%;
-}
-
-.allot-container1 p.gray-bg {
     width: 100%;
     margin-bottom: 5px;
 }
 
-.allot-container1 button {
+.allot-container1 button,
+.allot-container button {
     margin-bottom: var(--xl);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.allot-container1 .flex-container{
+.allot-container1 .flex-container,
+.allot-container .flex-container {
     display: block;
 }
 
@@ -5509,6 +5510,15 @@ table .green-txt {
     width: 59%;
 }
 
+.screen86 .allot-container .flex-container {
+    display: flex;
+}
+
+.screen86 .allot-container button {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 
 /**************************************************************
 *							START OF SCREEN 87
@@ -5522,13 +5532,34 @@ table .green-txt {
 *							START OF SCREEN 88
 ***********************************************************/
 .screen88 .gray-container .black-btn {
-    height: 60px;
+    height: 38px;
     margin-top: 10px;
     font-size: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.screen88 .flex-container1 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .screen88 .search-form {
     margin-top: var(--xl);
+}
+
+.screen88 .hide-mb {
+    display: none;
+}
+
+.screen36 .flex-container2 p {
+    margin-right: 0;
+}
+
+.screen88 .gray-container {
+    padding-right: 15px;
 }
 
 /**************************************************************
@@ -5541,6 +5572,7 @@ table .green-txt {
 .update-dsr p {
     margin-top: 20px;
 }
+
 .update-dsr .gray-bg {
     border-radius: 80px;
     padding: 25px;

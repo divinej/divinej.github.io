@@ -1930,11 +1930,13 @@
         width: 100px;
     }
 
-    .allot-container1 .flex-container{
+    .allot-container1 .flex-container,
+    .allot-container .flex-container {
         display: flex;
     }
 
-    .allot-container1 button {
+    .allot-container1 button,
+    .allot-container button {
         margin-bottom: 0;
     }
 
@@ -1962,6 +1964,30 @@
     .screen88 .gray-container .black-btn {
         margin-left: 44px;
         margin-top: 0;
+    }
+
+
+     /**************************************************************
+    *							START OF SCREEN 88
+    ***********************************************************/
+    .screen88 .gray-container .black-btn {
+        height: 60px;
+    }
+
+    .screen88 .hide-mb {
+        display: block;
+    }
+
+    .screen88 .hide-dp {
+        display: none;
+    }
+
+    .screen88 .flex-container2 p {
+        margin-right: 20px;
+    }
+
+    .screen88 .gray-container {
+        padding-right: 0;
     }
 }
 
