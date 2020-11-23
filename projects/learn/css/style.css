@@ -5489,6 +5489,7 @@ table .green-txt {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100px;
 }
 
 .allot-container1 .flex-container,
@@ -5517,6 +5518,7 @@ table .green-txt {
 .screen86 .allot-container button {
     margin-left: 0;
     margin-right: 0;
+    width: auto;
 }
 
 
@@ -5562,11 +5564,18 @@ table .green-txt {
     padding-right: 15px;
 }
 
+.screen36 .flex-container1 {
+    padding-top: var(--sm);
+    margin-bottom: 0;
+}
+
 /**************************************************************
 *							START OF SCREEN 91
 ***********************************************************/
 .update-dsr {
+    margin-top: var(--xl);
     text-align: center;
+    padding-top: 30px;
 }
 
 .update-dsr p {
@@ -5576,17 +5585,30 @@ table .green-txt {
 .update-dsr .gray-bg {
     border-radius: 80px;
     padding: 25px;
-    width: 280px;
-    height: 163px;
+    width: 196px;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icon8,
 .icon7,
 .icon6,
 .icon5 {
-    width: 80px;
+    width: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+}
+
+.icon6 {
+    width: 125px;
+}
+
+.icon8 {
+   width: 40px;
 }

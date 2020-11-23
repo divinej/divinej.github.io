@@ -1923,7 +1923,7 @@
     ***********************************************************/
     .allot-container p.gray-bg,
     .allot-container1 p.gray-bg {
-        width: 76%;
+        width: 74%;
         margin-bottom: 1rem;
     }
     .allot-container button {
@@ -1988,6 +1988,12 @@
 
     .screen88 .gray-container {
         padding-right: 0;
+    }
+
+    .screen88 .flex-container1 {
+        margin-top: var(--lg);
+        margin-bottom: var(--md);
+        padding-top: var(--lg);
     }
 }
 
@@ -2482,5 +2488,11 @@
         width: 73%;
     }
 
+    .update-dsr {
+        border: 1px solid var(--gray);
+        -webkit-box-shadow: 5px 7px 0px 0px var(--gray-bd);
+        -moz-box-shadow: 5px 7px 0px 0px var(--gray-bd);
+        box-shadow: 5px 7px 0px 0px var(--gray-bd);
+    }
 
 }
