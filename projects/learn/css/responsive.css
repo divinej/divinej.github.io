@@ -2436,21 +2436,22 @@
     }
 
      /**************************************************************
-    *							START OF SCREEN 67
+    *							START OF SCREEN 85
     ***********************************************************/
-    .allot-container button {
+    .allot-container button,
+    .allot-container1 button {
         width: 120px;
     }
 
      /**************************************************************
-    *							START OF SCREEN 67
+    *							START OF SCREEN 86
     ***********************************************************/
-    .allot-container button {
+    .screen86 .allot-container button {
         width: auto;
     }
 
-    .allot-container p.gray-bg {
-        width: 72%;
+    .screen86 .allot-container p.gray-bg {
+        width: 73%;
     }
 
 
