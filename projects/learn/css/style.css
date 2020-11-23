@@ -4640,6 +4640,8 @@ table .green-txt {
 .chart-box {
     position: relative;
     margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .chart-box>.gray-bg {
