@@ -5456,6 +5456,7 @@ table .green-txt {
 .screen85 .order-action {
     width: auto;
     margin-top: 0;
+    align-items: center;
 }
 
 .screen85 .add-associate {
@@ -5469,13 +5470,15 @@ table .green-txt {
 }
 
 .allot-container button,
-.allot-container1 button {
+.allot-container1 button,
+.new-lead button {
     border-radius: 3px;
     font-size: 1rem;
 }
 
 .allot-container p.gray-bg,
-.allot-container1 p.gray-bg {
+.allot-container1 p.gray-bg,
+.new-lead p.gray-bg {
     height: 48px;
     padding-left: 15px;
     padding-top: 12px;
@@ -5586,7 +5589,7 @@ table .green-txt {
     border-radius: 80px;
     padding: 25px;
     width: 196px;
-    height: 114px;
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5602,7 +5605,6 @@ table .green-txt {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: middle;
 }
 
 .icon6 {
@@ -5612,3 +5614,282 @@ table .green-txt {
 .icon8 {
    width: 40px;
 }
+
+.screen91 .col-md-6 {
+    margin-bottom: var(--xl);
+}
+
+.new-lead p.gray-txt {
+    text-align: center;
+    margin-bottom: var(--lg);
+}
+
+.new-lead p.gray-bg {
+    width: 57%;;
+}
+
+.new-lead .flex-container {
+    margin-bottom: 7px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 92
+***********************************************************/
+.sch-visit  {
+    padding: 15px;
+    margin-top: var(--xl);
+    margin-bottom: var(--xl);
+    border: 1px solid var(--gray-bd);
+    -webkit-box-shadow: 5px 7px 0px 0px var(--gray-bd);
+    -moz-box-shadow: 5px 7px 0px 0px var(--gray-bd);
+    box-shadow: 5px 7px 0px 0px var(--gray-bd);
+}
+.sch-visit .form-control {
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.screen92 .gray-bg,
+.screen93 .gray-bg,
+.screen95 .gray-bg {
+    height: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.screen92 .btn-container {
+    margin-bottom:  var(--lg);
+}
+
+.screen92 .btn-container .black-btn {
+    margin-right: 20px;
+}
+
+.screen92 .gray-bg p,
+.screen93 .gray-bg p,
+.screen95 .gray-bg p {
+    margin-bottom: 0;
+}
+
+.screen92 .sch-visit p.gray-bg {
+    padding-top: 10px;
+}
+
+.screen92 .green-btn {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+.pending-visit {
+    margin-bottom: var(--xl);
+}
+
+.pending-visit > p {
+    text-align: center;
+}
+
+.pending-visit .row {
+    justify-content: center;
+}
+
+/**************************************************************
+*							START OF SCREEN 93
+***********************************************************/
+.screen93 .gray-bg {
+    width: 48%;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.screen93 .form-group,
+.visit {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screen93 .form-control {
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.visit > p {
+    text-align: center;
+    margin-top: var(--xl);
+    margin-bottom: var(--lg);
+}
+
+.visit .gray-btn {
+    border-radius: 5px;
+    border-color: var(--red);
+    width: 200px;
+    margin-bottom: 70px;
+    font-size: 1rem;
+}
+
+.visit .red-btn,
+.screen95 .red-btn {
+    border-radius: 15px;
+    font-size: 1rem;
+    width: 170px;
+}
+
+/**************************************************************
+*							START OF SCREEN 94
+***********************************************************/
+.screen94 .mg-rt {
+    margin-right: 10px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 95
+***********************************************************/
+.screen95 .gray-bg {
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.screen95 textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    height: 150px;
+    margin-top: var(--lg);
+    margin-bottom: var(--xl);
+}
+
+/**************************************************************
+*							START OF SCREEN 97
+***********************************************************/
+.screen97 .add-associate {
+    margin-bottom: var(--xl);
+}
+
+.screen97 .col-md-4 {
+    margin-bottom: var(--lg);
+}
+
+.screen97 .col-md-4 .gray-bg {
+    border: 2px solid var(--gray-bd);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.screen97 > p {
+    text-align: center;
+}
+
+.screen97 table {
+    width: 100%;
+}
+
+.screen97 th,
+.screen97 td {
+    padding: 0;
+}
+
+.screen97 .small-txt {
+    font-size: 0.65rem;
+}
+
+/**************************************************************
+*							START OF SCREEN 99
+***********************************************************/
+.screen99 {
+    text-align: center;
+}
+
+.screen99 span.red-circle {
+    position: unset;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 100
+***********************************************************/
+.screen100 .ordering {
+    justify-content: space-between;
+}
+
+.screen100 .hold-account .flex-container {
+    width: auto;
+    margin-top: 0;
+}
+
+/**************************************************************
+*							START OF SCREEN 102
+***********************************************************/
+.screen102 .add-associate {
+    margin-bottom: var(--xl);
+}
+
+.summary {
+
+    font-size: 0.9rem;
+}
+
+.screen102 .gray-bg {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.screen102 .gray-bg p {
+    margin-bottom: 0;
+}
+
+/**************************************************************
+*							START OF SCREEN 104
+***********************************************************/
+.screen104 p {
+    margin-bottom: 0;
+}
+
+.screen104 .mg-rt {
+    margin-right: 10px;
+}
+
+.screen104 .mg-lf {
+    margin-left: 20px;
+}
+
+.screen104 .search-container .white-btn {
+    border: none;
+    color: var(--red);
+}
+
+.screen104 .no-bd {
+    border: none;
+}
+
+.screen104 .form-control {
+    background-color: var(--gray);
+}
+
+
+.screen104 table {
+    display: table;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 104
+***********************************************************/
+.screen105,
+.screen106 {
+    padding-bottom: 90px;
+}
+
+

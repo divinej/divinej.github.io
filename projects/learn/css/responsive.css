@@ -204,6 +204,15 @@
     .screen86 .allot-container p.gray-bg {
         width: 62%;
     }
+
+    /* *****************************
+	**              Scene 91 Media Query
+	********************************** */
+    .new-lead p.gray-bg {
+        width: 62%;
+    }
+
+
 }
 
 @media (min-width: 576px) {
@@ -710,7 +719,7 @@
     }
 
     /* *****************************
-	8**              Scene 29 Media Query
+	**              Scene 29 Media Query
     ********************************** */
 
     .screen18 .screen29,
@@ -1179,25 +1188,72 @@
         margin-bottom: 80px;
     }
 
-     /**************************************************************
+    /**************************************************************
     *							START OF SCREEN 84
     ***********************************************************/
     .screen84 .login-box input.form-control {
         width: 100% !important;
     }
 
-     /**************************************************************
+    /**************************************************************
     *							START OF SCREEN 86
     ***********************************************************/
     .screen86 .allot-container p.gray-bg {
         width: 79%;
     }
 
-     /**************************************************************
-    *							START OF SCREEN 88
+    /**************************************************************
+    *							START OF SCREEN 91
     ***********************************************************/
+    .new-lead p.gray-bg {
+        width: 77%;
+    }
 
 
+    /**************************************************************
+    *							START OF SCREEN 97
+    ***********************************************************/
+    .screen97 .blue-txt {
+        display: table-cell;
+    }
+
+    .screen99 .blue-txt {
+        display: block;
+    }
+
+    .screen99 span.red-circle {
+        margin-top: 9px;
+    }
+
+    /**************************************************************
+    *							START OF SCREEN 101
+    ***********************************************************/
+    .screen101 .add-product p {
+        margin-right: 40px;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 102
+    ***********************************************************/
+    .screen102 .add-associate {
+        justify-content: unset;
+    }
+
+    .screen102 .gray-bg {
+        padding: 10px 25px;
+    }
+
+    /**************************************************************
+    *							START OF SCREEN 104
+    ***********************************************************/
+    .screen104 .from .form-group {
+        width: 50px;
+    }
+
+    .screen104 .from {
+        width: 130px;
+    }
 }
 
 
@@ -1926,6 +1982,7 @@
         width: 74%;
         margin-bottom: 1rem;
     }
+
     .allot-container button {
         width: 100px;
     }
@@ -1940,12 +1997,13 @@
         margin-bottom: 0;
     }
 
-     /**************************************************************
+    /**************************************************************
     *							START OF SCREEN 86
     ***********************************************************/
     .screen86 .allot-container p.gray-bg {
         width: 68%;
     }
+
     .screen86 .allot-container button {
         width: auto;
     }
@@ -1967,7 +2025,7 @@
     }
 
 
-     /**************************************************************
+    /**************************************************************
     *							START OF SCREEN 88
     ***********************************************************/
     .screen88 .gray-container .black-btn {
@@ -1995,6 +2053,142 @@
         margin-bottom: var(--md);
         padding-top: var(--lg);
     }
+
+
+    /**************************************************************
+    *							START OF SCREEN 91
+    ***********************************************************/
+    .new-lead {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    .new-lead p.gray-bg {
+        width: 73%;
+    }
+
+    .screen91 .col-md-6 {
+        margin-bottom: 0;
+    }
+
+    .update-dsr {
+        border: 1px solid var(--gray-bd);
+        -webkit-box-shadow: 5px 7px 0px 0px var(--gray-bd);
+        -moz-box-shadow: 5px 7px 0px 0px var(--gray-bd);
+        box-shadow: 5px 7px 0px 0px var(--gray-bd);
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 92
+    ***********************************************************/
+    .sch-visit {
+        width: 600px;
+        padding: 15px 45px 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sch-visit .btn-container {
+        margin-bottom: 0;
+    }
+
+    .screen92 .green-btn {
+        border-radius: 5px;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .pending-visit div[class*="col"] {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .pending-visit .col {
+        -ms-flex: 0 0 150px;
+        flex: 0 0 150px;
+        max-width: 150px;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 95
+    ***********************************************************/
+    .screen95 textarea {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 97
+    ***********************************************************/
+    .screen97 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /**************************************************************
+    *							START OF SCREEN 98
+    ***********************************************************/
+    .screen98 .dsr-update,
+    .screen98 .dsr table,
+    .dsr-details {
+        width: 60%;
+    }
+
+    /**************************************************************
+    *							START OF SCREEN 102
+    ***********************************************************/
+    .screen102 .add-associate {
+        justify-content: center;
+    }
+
+    .summary {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 104
+    ***********************************************************/
+    .screen104 .gray-bg {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px 40px;
+    }
+
+    .screen104 .search-container {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wd-130 {
+        width: 130px;
+    }
+
+    .wd-80 {
+        width: 80px;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 104
+    ***********************************************************/
+    .screen106 .add-product {
+        justify-content: center;
+    }
+
 }
 
 
@@ -2469,7 +2663,7 @@
         box-shadow: 5px 9px 0px 0px rgba(0, 0, 0, 0.6);
     }
 
-     /**************************************************************
+    /**************************************************************
     *							START OF SCREEN 85
     ***********************************************************/
     .allot-container button,
@@ -2477,7 +2671,7 @@
         width: 120px;
     }
 
-     /**************************************************************
+    /**************************************************************
     *							START OF SCREEN 86
     ***********************************************************/
     .screen86 .allot-container button {
@@ -2488,11 +2682,9 @@
         width: 73%;
     }
 
-    .update-dsr {
-        border: 1px solid var(--gray);
-        -webkit-box-shadow: 5px 7px 0px 0px var(--gray-bd);
-        -moz-box-shadow: 5px 7px 0px 0px var(--gray-bd);
-        box-shadow: 5px 7px 0px 0px var(--gray-bd);
-    }
+    /**************************************************************
+    *							START OF SCREEN 98
+    ***********************************************************/
+
 
 }
