@@ -209,7 +209,7 @@
 	**              Scene 91 Media Query
 	********************************** */
     .new-lead p.gray-bg {
-        width: 62%;
+        width: 100%;
     }
 
 
@@ -1209,6 +1209,25 @@
         width: 77%;
     }
 
+    .screen91 .new-lead .flex-container {
+        display: flex;
+    }
+
+    .update-dsr .gray-bg {
+        width: 196px;
+        height: 130px;
+    }
+
+    .icon8,
+    .icon7,
+    .icon6,
+    .icon5 {
+        width: 60px;
+    }
+
+    .icon6 {
+        width: 125px;
+    }
 
     /**************************************************************
     *							START OF SCREEN 97
@@ -2168,7 +2187,7 @@
         width: 60%;
         margin-left: auto;
         margin-right: auto;
-        padding: 0 10px 40px 25px; 
+        padding: 0 10px 40px 25px;
     }
 
     .screen104 .search-container {

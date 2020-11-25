@@ -5588,8 +5588,8 @@ table .green-txt {
 .update-dsr .gray-bg {
     border-radius: 80px;
     padding: 25px;
-    width: 196px;
-    height: 130px;
+    width: 150px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5601,14 +5601,14 @@ table .green-txt {
 .icon7,
 .icon6,
 .icon5 {
-    width: 60px;
+    width: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .icon6 {
-    width: 125px;
+    width: 98px;
 }
 
 .icon8 {
@@ -5619,17 +5619,31 @@ table .green-txt {
     margin-bottom: var(--xl);
 }
 
+.new-lead {
+    margin-top: var(--xl);
+}
+
+.screen91 .new-lead .flex-container {
+    display: block;
+}
+
 .new-lead p.gray-txt {
     text-align: center;
     margin-bottom: var(--lg);
 }
 
 .new-lead p.gray-bg {
-    width: 57%;;
+    width: 100%;;
+}
+
+.new-lead button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .new-lead .flex-container {
-    margin-bottom: 7px;
+    margin-bottom: var(--md);
 }
 
 
@@ -5892,9 +5906,13 @@ table .green-txt {
     padding-left: 0;
 }
 
-
 .screen104 table {
     display: table;
+}
+
+.screen104 .wd-130,
+.screen104 .wd-80 {
+    width: 90px;
 }
 
 
