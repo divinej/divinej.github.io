@@ -213,6 +213,21 @@
     }
 
 
+    /* *****************************
+	**              Scene 104 Media Query
+	********************************** */
+    .screen104 .from {
+        width: 35%;
+    }
+
+
+    /* *****************************
+	**              Scene 104 Media Query
+	********************************** */
+    .screen115 .order-info {
+        justify-content: center;
+    }
+
 }
 
 @media (min-width: 576px) {
@@ -807,10 +822,6 @@
         margin-right: 50px;
     }
 
-    .order-info-mb {
-        display: none;
-    }
-
     .account .col-lg-2,
     .account .col-lg-4 {
         padding-right: 0;
@@ -1267,7 +1278,8 @@
     *							START OF SCREEN 104
     ***********************************************************/
     .screen104 .from {
-        width: 130px;
+        width: 210px;
+        margin-right: 0;
     }
 
     .screen104 select {
@@ -1570,8 +1582,13 @@
         display: none;
     }
 
+    .order-info-mb {
+        display: none;
+    }
+
     #order,
-    #action {
+    #action,
+    #acc {
         display: block;
     }
 
@@ -2191,16 +2208,23 @@
     }
 
     .screen104 .search-container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
         width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .wd-130 {
+    .screen104 .from {
         width: 150px;
     }
 
-    .wd-80 {
+    .screen104 .wd-130 {
+        width: 150px;
+    }
+
+    .screen104 .wd-80 {
         width: 140px;
     }
 
@@ -2714,6 +2738,10 @@
     ***********************************************************/
     .screen104 select {
         background-position-x: 37%;
+    }
+
+    .screen104 .from {
+        width: 210px;
     }
 
 }

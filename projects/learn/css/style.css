@@ -3099,7 +3099,7 @@ main.custom-pd {
 
 .from .form-group,
 .from .form-control {
-    height: 40px !important;
+    height: 38px !important;
 }
 
 .from {
@@ -3119,7 +3119,7 @@ main.custom-pd {
 }
 
 .from .form-group {
-    width: 50px;
+    width: 110px;
 }
 
 
@@ -3227,6 +3227,7 @@ table .green-txt {
 .order-info-mb select {
     background-color: var(--black);
     color: var(--white);
+    padding-left: 15px;
 }
 
 .screen31 .small-box {
@@ -5845,6 +5846,10 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 100
 ***********************************************************/
+.screen100 .add-product {
+    text-align: left;
+}
+
 .screen100 .ordering {
     justify-content: space-between;
 }
@@ -5890,6 +5895,14 @@ table .green-txt {
     margin-left: 20px;
 }
 
+.screen104 .from {
+    width: 32%;
+}
+
+.screen104 .from .form-group {
+    width: 100%;
+}
+
 .screen104 .search-container .white-btn {
     border: none;
     color: var(--red);
@@ -5910,18 +5923,41 @@ table .green-txt {
     display: table;
 }
 
-.screen104 .wd-130,
+.screen104 .wd-130 {
+    width: 75px;
+}
+
 .screen104 .wd-80 {
-    width: 90px;
+    width: 128px;
 }
 
 
 /**************************************************************
-*							START OF SCREEN 104
+*							START OF SCREEN 105
 ***********************************************************/
 .screen105,
 .screen106 .sort-orders {
     padding-bottom: 90px;
+}
+
+
+/**************************************************************
+*							START OF SCREEN 115
+***********************************************************/
+.screen115 .order-info {
+    margin-top: var(--md);
+}
+
+.screen115 .order-info {
+    justify-content: left;
+}
+
+.screen115 .order-info .blue-btn {
+    margin-right: 0 !important;
+}
+
+.screen115 .sales-detail.gray-bg {
+    margin-top: 40px;
 }
 
 
