@@ -1247,10 +1247,6 @@
     /**************************************************************
     *							START OF SCREEN 104
     ***********************************************************/
-    .screen104 .from .form-group {
-        width: 50px;
-    }
-
     .screen104 .from {
         width: 130px;
     }
@@ -2143,6 +2139,10 @@
         width: 60%;
     }
 
+    .screen98 .custom-wd {
+        width: 210px;
+    }
+
     /**************************************************************
     *							START OF SCREEN 102
     ***********************************************************/
@@ -2161,24 +2161,24 @@
     *							START OF SCREEN 104
     ***********************************************************/
     .screen104 .gray-bg {
-        width: 50%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
-        padding: 0 20px 40px;
+        padding: 0 10px 40px 25px; 
     }
 
     .screen104 .search-container {
-        width: 50%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .wd-130 {
-        width: 130px;
+        width: 150px;
     }
 
     .wd-80 {
-        width: 80px;
+        width: 140px;
     }
 
 
