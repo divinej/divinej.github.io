@@ -1250,6 +1250,10 @@
     .screen104 .from {
         width: 130px;
     }
+
+    .screen104 select {
+        background-position-x: 37%;
+    }
 }
 
 
@@ -2181,9 +2185,13 @@
         width: 140px;
     }
 
+    .screen104 select {
+        background-position-x: 98%;
+    }
+
 
     /**************************************************************
-    *							START OF SCREEN 104
+    *							START OF SCREEN 106
     ***********************************************************/
     .screen106 .add-product {
         justify-content: center;
@@ -2683,8 +2691,10 @@
     }
 
     /**************************************************************
-    *							START OF SCREEN 98
+    *							START OF SCREEN 104
     ***********************************************************/
-
+    .screen104 select {
+        background-position-x: 37%;
+    }
 
 }
