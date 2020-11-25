@@ -66,7 +66,7 @@
         <p>Profile</p>
     </div>
 
-    <div class="screen19 screen31">
+    <div class="screen19 screen31 screen100">
         <div class="add-product">
             <div class="order-container">
                 <p><span class="red-text"><span class="bold-txt">Company name, </span> City, Area</p>
@@ -275,50 +275,13 @@
                         <div class="flex-container">
                             <p>From</p>
                             <div class="from">
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
                                 <div class="form-group">
                                     <input type="date" class="form-control">
                                 </div>
                             </div>
 
-
                             <p>To</p>
                             <div class="from">
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
                                 <div class="form-group">
                                     <input type="date" class="form-control">
                                 </div>
@@ -452,30 +415,11 @@
         let btn = document.getElementById("order");
         let elem1 = document.getElementById("detail");
         let elem2 = document.getElementById("analytics");
-        let elem3 = document.getElementById("action");
-        let activate = document.getElementById("toggle1");
-        let deactivate = document.getElementById('toggle2');
-        let red = document.getElementById('red');
-        let green = document.getElementById('green');
-
+        let elem3 = document.getElementById("order");
+        let elem4 = document.getElementById("acc")
 
         elem1.addEventListener("click", display1);
         elem2.addEventListener("click", display2);
-        activate.addEventListener("click", toggleCircle2);
-        deactivate.addEventListener("click", toggleCircle1);
-
-        function toggleCircle1() {
-            if (red.className == "t3") {
-                red.classList.remove("t3");
-                red.classList.add("t2");
-            } else {
-                red.classList.toggle("t3");
-            }
-        }
-
-        function toggleCircle2() {
-            green.classList.toggle("t3");
-        }
 
         function display1() {
             btn.style.display = 'none';
@@ -483,8 +427,8 @@
             elem2.classList.add("acc-analytics");
             elem1.classList.remove("acc-analytics");
             elem1.classList.add("acc-details");
-            elem3.style.display = 'block';
-            document.getElementById("acc").style.display = 'block';
+            elem3.style.display = 'none';
+            elem4.style.display = 'block';
         }
 
         function display2() {
@@ -493,8 +437,8 @@
             elem1.classList.add("acc-analytics");
             elem2.classList.remove("acc-analytics");
             elem2.classList.add("acc-details");
-            elem3.style.display = 'none';
-            document.getElementById("acc").style.display = 'none';
+            elem3.style.display = 'block';
+            elem4.style.display = 'none';
         }
     </script>
 

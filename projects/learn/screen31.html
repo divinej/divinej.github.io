@@ -310,24 +310,6 @@
                         <div class="flex-container">
                             <p>From</p>
                             <div class="from">
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
                                 <div class="form-group">
                                     <input type="date" class="form-control">
                                 </div>
@@ -336,24 +318,6 @@
 
                             <p>To</p>
                             <div class="from">
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
-                                <div class="box">
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                    <div class="small-box"></div>
-                                </div>
-
                                 <div class="form-group">
                                     <input type="date" class="form-control">
                                 </div>
@@ -487,7 +451,9 @@
         let btn = document.getElementById("order");
         let elem1 = document.getElementById("detail");
         let elem2 = document.getElementById("analytics");
-        let elem3 = document.getElementById("action");
+        let elem3 = document.getElementById("order");
+        let elem4 = document.getElementById("acc");
+        let elem5 = document.getElementById("action")
         let activate = document.getElementById("toggle1");
         let deactivate = document.getElementById('toggle2');
         let red = document.getElementById('red');
@@ -518,18 +484,20 @@
             elem2.classList.add("acc-analytics");
             elem1.classList.remove("acc-analytics");
             elem1.classList.add("acc-details");
-            elem3.style.display = 'block';
-            document.getElementById("acc").style.display = 'block';
+            elem3.style.display = 'none';
+            elem4.style.display = 'block';
+            elem5.style.display = 'block';
         }
 
-        function display2() {
+       function display2() {
             btn.style.display = 'block';
             elem1.classList.remove("acc-details");
             elem1.classList.add("acc-analytics");
             elem2.classList.remove("acc-analytics");
             elem2.classList.add("acc-details");
-            elem3.style.display = 'none';
-            document.getElementById("acc").style.display = 'none';
+            elem3.style.display = 'block';
+            elem4.style.display = 'none';
+            elem5.style.display = 'none';
         }
     </script>
 
