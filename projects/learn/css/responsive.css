@@ -848,6 +848,12 @@
         margin-right: 30px;
     }
 
+    .from .fa-calendar {
+        position: absolute;
+        top: 11px;
+        right: 25px;
+    }
+
     /* *****************************
 	**              Scene 32 Media Query
     ********************************** */
@@ -1594,6 +1600,10 @@
 
     .screen31 table {
         display: table;
+    }
+
+    .from .fa-calendar {
+        display: none;
     }
 
     /* *****************************

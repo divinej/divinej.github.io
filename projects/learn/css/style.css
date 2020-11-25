@@ -3103,6 +3103,7 @@ main.custom-pd {
 }
 
 .from {
+    position: relative;
     display: flex;
     align-items: center;
     border: 1px solid var(--gray-bd);
@@ -3112,6 +3113,12 @@ main.custom-pd {
     border-radius: 3px;
     background-color: var(--gray);
     width: 200px;
+}
+
+.from .fa-calendar {
+    position: absolute;
+    top: 10px;
+    right: 11px;
 }
 
 .from:nth-of-type(2) {
