@@ -228,6 +228,23 @@
         justify-content: center;
     }
 
+
+    /* *****************************
+	**              Scene 139 Media Query
+    ********************************** */
+    .screen139 .flex-container {
+        display: flex;
+    }
+
+    .screen139 .flex-container .txt-bd {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .screen139 .flex-container .mg-rt {
+        margin-right: 20px;
+    }
+
 }
 
 @media (min-width: 576px) {
@@ -1068,10 +1085,6 @@
         height: 408px;
     }
 
-    .screen50 .black-bg {
-        margin-bottom: 0;
-    }
-
     .screen50>.flex-container {
         display: flex;
     }
@@ -1092,6 +1105,14 @@
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    /* *****************************
+	**              Page 52 Media Query
+    ********************************** */
+    .screen54 .btn-container .form-group {
+        width: 180px;
     }
 
     /* *****************************
@@ -1131,6 +1152,10 @@
 
     .sales-chart {
         left: 20%;
+    }
+
+    .menu-items .hide-lg .show {
+        display: inline-block;
     }
 
 
@@ -1290,6 +1315,32 @@
 
     .screen104 select {
         background-position-x: 37%;
+    }
+
+    /**************************************************************
+    *							START OF SCREEN 138
+    ***********************************************************/
+    .screen138 .shop {
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 139
+    ***********************************************************/
+    .screen139 .flex-container1 {
+        display: flex;
+    }
+
+    .screen139 .flex-container1 .txt-bd {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .screen139 .flex-container1 .mg-rt {
+        margin-right: 20px;
     }
 }
 
@@ -1869,6 +1920,28 @@
         width: inherit;
     }
 
+    .screen50-hide-lg {
+        display: none;
+    }
+
+    .screen50-show-lg {
+        display: block;
+    }
+
+    .pos1 {
+        position: absolute;
+        left: -67px;
+        top: 72px;
+    }
+
+    .pos2 {
+        position: absolute;
+        right: -64px;
+        top: 72px;
+    }
+
+
+
     /* *****************************
 	**              Page 52 Media Query
     ********************************** */
@@ -2248,6 +2321,38 @@
     ***********************************************************/
     .screen106 .add-product {
         justify-content: center;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 138
+    ***********************************************************/
+    .screen138 .one,
+    .screen138 .two,
+    .screen138 .three,
+    .screen138 .four {
+        height: 30px;
+        padding: 2px;
+    }
+
+    .screen138 .one {
+        top: 6px;
+        left: 95%;
+    }
+
+    .screen138 .two {
+        top: 54px;
+        left: 95%;
+    }
+
+    .screen138 .three {
+        top: 102px;
+        left: 95%;
+    }
+
+    .screen138 .four {
+        top: 146px;
+        left: 95%;
     }
 
 }
@@ -2701,6 +2806,14 @@
         justify-content: space-between;
     }
 
+
+    /* *****************************
+	**              Page 50 Media Query
+    ********************************** */
+    .screen50 .mg-bd {
+        margin-left: 30px;
+    }
+
     /* *****************************
 	**              Page 61 Media Query
     ********************************** */
@@ -2744,14 +2857,46 @@
     }
 
     /**************************************************************
-    *							START OF SCREEN 104
-    ***********************************************************/
+        *							START OF SCREEN 104
+        ***********************************************************/
     .screen104 select {
         background-position-x: 37%;
     }
 
     .screen104 .from {
         width: 210px;
+    }
+
+
+    /**************************************************************
+    *							START OF SCREEN 138
+    ***********************************************************/
+    .screen138 .shop {
+        height: auto;
+    }
+
+    .screen138 .one,
+    .screen138 .two,
+    .screen138 .three,
+    .screen138 .four {
+        height: 30px;
+        padding: 2px;
+    }
+
+    .screen138 .one {
+        top: 6px;
+    }
+
+    .screen138 .two {
+        top: 54px;
+    }
+
+    .screen138 .three {
+        top: 102px;
+    }
+
+    .screen138 .four {
+        top: 146px;
     }
 
 }

@@ -1146,7 +1146,8 @@ main.no-pd,
 }
 
 .screen8 .red-bd select {
-    color: #495057
+    color: #495057;
+    border-color: var(--red);
 }
 
 .screen8 .black-bd p {
@@ -1396,7 +1397,7 @@ main.no-pd,
     padding: 10px;
     text-align: center;
     border-radius: 5px;
-    margin: 0 auto var(--xl);
+    margin: 0 auto 100px;
 }
 
 .cash-discount-box p {
@@ -1420,7 +1421,7 @@ main.no-pd,
 }
 
 /**************************************************************
-*							START OF SCREEN 11
+*							START OF SCREEN 12
 *********************************************************** */
 main.custom-pd {
     padding: 0 5px var(--lg);
@@ -1716,7 +1717,7 @@ main.custom-pd {
 }
 
 .screen14 .col-lg-5 .small-input-container .small-input4:nth-of-type(3) {
-    width: 27%;
+    width: 150px;
 }
 
 .screen14 .col-lg-5 .small-input-container .small-input4 select {
@@ -1747,7 +1748,7 @@ main.custom-pd {
 
 .screen14 .gray-bg {
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 
@@ -1857,6 +1858,7 @@ main.custom-pd {
 
 .screen14 .row-container {
     padding: 10px;
+    height: 282px;
 }
 
 .screen14 .custom-mg {
@@ -1937,7 +1939,7 @@ main.custom-pd {
 *********************************************************** */
 .screen15 textarea {
     width: 100%;
-    height: 183px;
+    height: 257px;
     border-radius: 5px;
     padding: 10px;
 }
@@ -1962,8 +1964,29 @@ main.custom-pd {
     width: 66px;
 }
 
+.screen15 .input-group-prepend>input {
+    border: none;
+    border-right: 1px solid var(--black);
+    margin-right: 5px;
+}
+
 .screen15 .row {
     align-items: center;
+}
+
+.screen15 .dark-box {
+    width: 50px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.screen15 .flex-container p {
+    margin-bottom: 0;
+}
+
+.screen15 .red-btn {
+    margin-top: var(--lg);
 }
 
 /**************************************************************
@@ -2769,6 +2792,11 @@ main.custom-pd {
     margin-top: 30px;
 }
 
+.order-info-mb select {
+    background: url(../images/icon9.png) no-repeat right #ddd;
+    background-position-x: 85%;
+}
+
 .status {
     display: flex;
     margin-top: 20px;
@@ -2861,7 +2889,7 @@ main.custom-pd {
 .shop {
     padding: 10px 10px 30px 30px;
     position: relative;
-    margin-left: 20px;
+    margin-left: 12px;
     margin-bottom: 10px;
 }
 
@@ -4159,9 +4187,13 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 50
 ***********************************************************/
+.pos-container {
+    position: relative;
+}
+
 .screen50 .black-bg {
     background-color: var(--black);
-    height: 408px;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: var(--md);
 }
@@ -4214,7 +4246,7 @@ table .green-txt {
     margin-top: var(--lg);
 }
 
-.screen50 .gray-bg .mg-rt {
+.screen50 .mg-rt {
     margin-right: 15px;
 }
 
@@ -4266,8 +4298,16 @@ table .green-txt {
     border-radius: 10px;
 }
 
+.screen50 .mg-bd {
+    margin-left: 15px;
+}
+
+.screen50-show-lg {
+    display: none;
+}
+
 /**************************************************************
-*							START OF SCREEN 50
+*							START OF SCREEN 51
 ***********************************************************/
 .screen51 .black-btn {
     margin-bottom: 7px;
@@ -4356,9 +4396,47 @@ table .green-txt {
     width: 250px;
 }
 
+
+.screen52 .btn-container .form-group {
+    margin-top: var(--lg);
+    width: 40%;
+}
+
+.screen52 .btn-container .form-control {
+    border-radius: 30px;
+    height: 47px !important;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
 .padd-52 {
     padding-left: 9px;
     padding-right: 9px;
+}
+
+.screen52 .flex-container {
+    align-items: center;
+}
+
+.screen52 .flex-container p {
+    border: none;
+    background-color: var(--white);
+    padding: 4px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.screen52 .small-circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    border: 1px solid var(--red);
+    font-size: 0.7rem;
+    line-height: 1.05;
+    padding-left: 1px;
+}
+
+.screen52 .mg-rt {
+    margin-right: 7px;
 }
 
 
@@ -4412,7 +4490,13 @@ table .green-txt {
     line-height: 1.2;
 }
 
-
+/* *****************************
+**              Page 54 Media Query
+********************************** */
+.screen54 .btn-container {
+    margin-top: 0;
+    margin-bottom: var(--xl);
+}
 
 /**************************************************************
 *							START OF SCREEN 55
@@ -4428,6 +4512,11 @@ table .green-txt {
 .screen55 .price-box-lg {
     margin-top: 0;
     font-size: 0.95rem;
+}
+
+.screen55 .price-box-lg .red-txt {
+    font-size: 1rem;
+    margin-top: var(--lg);
 }
 
 
@@ -4534,10 +4623,24 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 61
 ***********************************************************/
+.dropdown {
+    width: 48px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
 .menu-items .form-control {
     width: 200px;
-    color: var(--black);
     height: 30px !important;
+    color: var(--black);
     border-radius: 30px;
     padding-top: 1px;
     font-weight: 700;
@@ -5147,6 +5250,10 @@ table .green-txt {
     margin-right: 25px;
 }
 
+.screen66 .black-btn {
+    border-radius: 10px;
+    font-size: 1rem;
+}
 
 
 /**************************************************************
@@ -5620,7 +5727,7 @@ table .green-txt {
 }
 
 .icon8 {
-   width: 40px;
+    width: 40px;
 }
 
 .screen91 .col-md-6 {
@@ -5641,7 +5748,8 @@ table .green-txt {
 }
 
 .new-lead p.gray-bg {
-    width: 100%;;
+    width: 100%;
+    ;
 }
 
 .new-lead button {
@@ -5658,7 +5766,7 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 92
 ***********************************************************/
-.sch-visit  {
+.sch-visit {
     padding: 15px;
     margin-top: var(--xl);
     margin-bottom: var(--xl);
@@ -5667,6 +5775,7 @@ table .green-txt {
     -moz-box-shadow: 5px 7px 0px 0px var(--gray-bd);
     box-shadow: 5px 7px 0px 0px var(--gray-bd);
 }
+
 .sch-visit .form-control {
     border-radius: 30px;
     border: 1px solid rgba(0, 0, 0, 0.4);
@@ -5682,7 +5791,7 @@ table .green-txt {
 }
 
 .screen92 .btn-container {
-    margin-bottom:  var(--xl);
+    margin-bottom: var(--xl);
 }
 
 .screen92 .btn-container .black-btn {
@@ -5711,7 +5820,7 @@ table .green-txt {
     margin-bottom: var(--xl);
 }
 
-.pending-visit > p {
+.pending-visit>p {
     text-align: center;
 }
 
@@ -5741,7 +5850,7 @@ table .green-txt {
     border-color: rgba(0, 0, 0, 0.4);
 }
 
-.visit > p {
+.visit>p {
     text-align: center;
     margin-top: var(--xl);
     margin-bottom: var(--lg);
@@ -5804,7 +5913,7 @@ table .green-txt {
     padding: 10px;
 }
 
-.screen97 > p {
+.screen97>p {
     text-align: center;
 }
 
@@ -5968,3 +6077,38 @@ table .green-txt {
 }
 
 
+/**************************************************************
+*							START OF SCREEN 138
+***********************************************************/
+.screen138 .shop {
+    margin-bottom: 56px;
+    margin-top: var(--lg);
+    text-align: left;
+}
+
+.screen138 .shop p {
+    margin-bottom: 0;
+}
+
+.screen138 .shop h6 {
+    text-align: left;
+}
+
+/**************************************************************
+*							START OF SCREEN 139
+***********************************************************/
+.screen139 .custom-wd,
+.screen139 .custom-wd2 {
+    width: 205px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.screen139 .custom-wd {
+    width: 300px;
+}
+
+.screen139 .flex-container,
+.screen139 .flex-container1 {
+    display: block;
+}
