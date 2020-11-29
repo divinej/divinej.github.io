@@ -20,6 +20,10 @@
     <!-- Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- Owl Carousel Files -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
     <!-- Custom Css file -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -88,36 +92,29 @@
         </div>
     </div>
 
-    <main class="padd">
+    <main class="padd-50">
         <div class="screen50 pos-container">
-            <div class="back pos1">
-                <i class="fal fa-arrow-left fa-2x"></i>
+            <div id="owl-demo" class="owl-carousel owl-theme">
+                <div class="item black-bg" style="width:300px">
+
+                </div>
+
+                <div class="item black-bg" style="width:300px">
+
+                </div>
+
+                <div class="item black-bg" style="width:300px">
+
+                </div>
+
+
+                <div class="item black-bg" style="width:300px">
+
+                </div>
             </div>
+
+
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="black-bg">
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="black-bg">
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="black-bg">
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="black-bg">
-
-                    </div>
-                </div>
-
                 <div class="col-xs-12 col-md-6 col-lg-3">
                     <div class="cart screen50-hide-lg">
                         <div class="gray-bg">
@@ -145,10 +142,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="back pos2">
-                    <i class="fal fa-arrow-right fa-2x"></i>
                 </div>
             </div>
 
@@ -194,8 +187,8 @@
 
             <div class="flex-container justify-center">
                 <div class="btn-flex">
-                    <!-- plus 1 -->
-                    <div class="flex-container">
+            <!-- plus 1 -->
+            <div class="flex-container">
                         <p class="minus" id="minus1">-</p>
                         <p class="white-bg" id="text1">1</p>
                         <p class="add" id="add1">+</p>
@@ -221,14 +214,50 @@
     </main>
 
     <!-- Scripts -->
+
     <!-- jQuery JS -->
     <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- OWl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
     <!-- Popper JS -->
     <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap JS file -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- Main JS -->
-    <script src="s/screen49.js"></script>
+    <script src="js/screen49.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                margin: 10,
+                loop: true,
+                // nav: true,
+                dots: false,
+                autoWidth: true,
+                items: 4,
+                // autoplay: true
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false,
+                        dots: false
+                    },
+                    600: {
+                        items: 2,
+                        nav: false,
+                        dots: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        loop: true,
+                        dots: false
+                    }
+                }
+            });
+            
+        });
+    </script>
 
 </body>
 
