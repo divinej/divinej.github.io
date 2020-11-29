@@ -1928,19 +1928,21 @@
         display: block;
     }
 
-    .pos1 {
+    .screen50 .owl-nav button.owl-prev {
         position: absolute;
         left: -67px;
         top: 72px;
     }
 
-    .pos2 {
+    .screen50 .owl-nav button.owl-next {
         position: absolute;
         right: -64px;
         top: 72px;
     }
 
-
+    .padd-50 {
+        padding: 0 10% var(--lg);
+    }
 
     /* *****************************
 	**              Page 52 Media Query

@@ -1975,6 +1975,7 @@ main.custom-pd {
 }
 
 .screen15 .dark-box {
+    position: relative;
     width: 50px;
     height: 40px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -1987,6 +1988,17 @@ main.custom-pd {
 
 .screen15 .red-btn {
     margin-top: var(--lg);
+}
+
+.screen15 .dark-box input {
+    height: 40px !important;
+}
+
+.screen15 .fa-calendar {
+    position: absolute;
+    top: 6px;
+    left: 14px;
+    font-size: 1.5rem;
 }
 
 /**************************************************************
@@ -2793,7 +2805,7 @@ main.custom-pd {
 }
 
 .order-info-mb select {
-    background: url(https://i.ibb.co/cLNFhSg/icon9.png) no-repeat right #ddd;
+    background: url(../images/icon9.png) no-repeat right #ddd;
     background-position-x: 85%;
 }
 
@@ -4306,6 +4318,30 @@ table .green-txt {
     display: none;
 }
 
+.screen50 .owl-nav button.owl-next,
+.screen50 .owl-nav button.owl-prev {
+    border-radius: 100%;
+    color: var(--black);
+    padding: 6px 7px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    width: 40px;
+    height: 40px;
+    line-height: 0;
+    outline: none;
+}
+
+.screen50 .owl-nav button.owl-next:hover,
+.screen50 .owl-nav button.owl-prev:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.screen50 .owl-nav button.owl-next span,
+.screen50 .owl-nav button.owl-prev span {
+    font-size: 3rem;
+}
+
 /**************************************************************
 *							START OF SCREEN 51
 ***********************************************************/
@@ -4439,7 +4475,9 @@ table .green-txt {
     margin-right: 7px;
 }
 
-
+.screen52 .small-txt {
+    font-size: 0.9rem;
+}
 /**************************************************************
 *							START OF SCREEN 53
 ***********************************************************/
@@ -6099,16 +6137,25 @@ table .green-txt {
 ***********************************************************/
 .screen139 .custom-wd,
 .screen139 .custom-wd2 {
-    width: 205px;
+    width: 181px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .screen139 .custom-wd {
-    width: 300px;
+    width: 272px;
 }
 
 .screen139 .flex-container,
 .screen139 .flex-container1 {
     display: block;
+}
+
+.screen139 .flex-container .txt-bd {
+    width: 180px;
+    font-size: 0.9rem;
+}
+
+.screen139 .flex-container1 .txt-bd {
+    font-size: 0.9rem;
 }
