@@ -316,10 +316,6 @@
         padding: 0 15% var(--lg);
     }
 
-    .no-display {
-        display: block;
-    }
-
     .b2b-container,
     .dashboard,
     .add-associate,
@@ -539,10 +535,6 @@
         display: inline-block;
     }
 
-    .back1 {
-        display: none;
-    }
-
     .select-container .input-group {
         width: 362px;
     }
@@ -652,8 +644,12 @@
     }
 
     .order-action {
-        justify-content: center;
+        justify-content: flex-start;
         overflow-x: auto;
+    }
+
+    .add-product p {
+        margin-right: 15px;
     }
 
     /* *****************************
@@ -1208,6 +1204,18 @@
         width: 475px;
     }
 
+
+    /* *****************************
+	**              Screen 76 Media Query
+	********************************** */
+    .screen76 .add-product p {
+        display: block;
+    }
+
+    .screen76 .mg-rt {
+        width: auto;
+    }
+
     /**************************************************************
     *							START OF SCREEN 79
     ***********************************************************/
@@ -1436,7 +1444,14 @@
     .dashboard p {
         margin-right: 60px;
     }
+    
+    .no-display {
+        display: block;
+    }
 
+    .back1 {
+        display: none;
+    }
     /* *****************************
 	**              Page 7 Media Query
 	********************************** */
@@ -1568,11 +1583,6 @@
     /* *****************************
 	**              Page 22 Media Query
     ********************************** */
-    .screen19 .add-product {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .order-action {
         margin-top: 0;
         width: auto;
@@ -2478,6 +2488,15 @@
         display: flex;
         justify-content: center;
         overflow-x: auto;
+    }
+
+    /* *****************************
+	**              Scene 21 Media Query
+    ********************************** */
+    .screen19 .add-product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* *****************************
