@@ -63,6 +63,7 @@ button {
     font-weight: 400;
     border-radius: 30px;
     height: 48px;
+    outline: none;
 }
 
 .mid-btn {

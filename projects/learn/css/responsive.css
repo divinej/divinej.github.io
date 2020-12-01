@@ -1815,6 +1815,16 @@
         margin-bottom: var(--xl);
     }
 
+    #content40 .gray-container .flex-container1 {
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #content40 .gray-container {
+        padding-right: 15px;
+    }
+
     /* *****************************
 	**              Page 41 Media Query
     ********************************** */
