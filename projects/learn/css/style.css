@@ -2171,6 +2171,7 @@ main.custom-pd {
 ***********************************************************/
 .screen19 .add-product {
     margin-bottom: var(--xl);
+    text-align: left;
 }
 
 .transaction-statement .gray-btn {
@@ -3479,7 +3480,7 @@ table .green-txt {
     line-height: 0.8;
 }
 
-.screen36 .flex-container1 {
+.screen36 .gray-container .flex-container1 {
     margin-top: var(--lg);
     margin-bottom: var(--md);
     padding-top: var(--lg);
@@ -3516,7 +3517,9 @@ table .green-txt {
 }
 
 #content4,
-#content10 {
+#content10,
+#content10-lg,
+#content40 {
     display: none;
 }
 
@@ -3741,6 +3744,29 @@ table .green-txt {
     margin-right: 20px;
 }
 
+.screen40 .member-circle {
+    position: unset;
+    height: 42px;
+    width: 90px;
+    line-height: 0.6;
+}
+
+.screen40 .flex-container1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0 !important;
+    padding-top: 0 !important;
+    height: 50px;
+}
+
+.screen40 .gray-container {
+    border-radius: 30px;
+    height: 50px;
+    padding-bottom: 0;
+    padding-left: 6px;
+}
 /**************************************************************
 *							START OF SCREEN 41
 ***********************************************************/
@@ -5663,17 +5689,15 @@ table .green-txt {
 /**************************************************************
 *							START OF SCREEN 86
 ***********************************************************/
-.screen86 .allot-container p.gray-bg {
+/* .screen86 .allot-container p.gray-bg {
     width: 59%;
 }
 
 .screen86 .allot-container .flex-container {
     display: flex;
-}
+} */
 
 .screen86 .allot-container button {
-    margin-left: 0;
-    margin-right: 0;
     width: auto;
 }
 

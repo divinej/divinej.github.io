@@ -198,12 +198,6 @@
         min-width: 47.5%;
     }
 
-    /* *****************************
-	**              Scene 61 Media Query
-	********************************** */
-    .screen86 .allot-container p.gray-bg {
-        width: 62%;
-    }
 
     /* *****************************
 	**              Scene 91 Media Query
@@ -981,6 +975,10 @@
         padding-right: 0;
     }
 
+    #content40 {
+        display: none;
+    }
+
 
     /* *****************************
 	**              Scene 41 Media Query
@@ -1236,14 +1234,7 @@
     .screen84 .login-box input.form-control {
         width: 100% !important;
     }
-
-    /**************************************************************
-    *							START OF SCREEN 86
-    ***********************************************************/
-    .screen86 .allot-container p.gray-bg {
-        width: 79%;
-    }
-
+    
     /**************************************************************
     *							START OF SCREEN 91
     ***********************************************************/
@@ -1790,8 +1781,9 @@
     #content8,
     #content7,
     #content9,
-    #content10 {
-        display: block !important;
+    #content10,
+    #content10-lg {
+        display: block;
     }
 
 
@@ -2684,8 +2676,8 @@
         line-height: 0.75;
     }
 
-    .screen40 .flex-container1,
-    .screen40 .flex-container2 {
+    .screen40 .gray-container .flex-container1,
+    .screen40 .gray-container .flex-container2 {
         display: flex;
         align-items: center;
         margin-bottom: 0;
