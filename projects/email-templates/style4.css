@@ -1,0 +1,150 @@
+body {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: #6C6C6C;
+    line-height: 18px;
+}
+
+header {
+    height: 26px;
+    text-align: center;
+    background-color: rgb(187, 204, 238);
+    line-height: 24px;
+}
+
+.column2 {
+    background-color: rgb(204, 221, 255);
+    padding: 5px 15px;
+}
+
+.image {
+    border: 1px solid #99aacc;
+    width: 100%;
+}
+
+.col-lg-3,
+.col-md-4 {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.flex-box,
+.flex-box2,
+.maincottage_book_miniholder_iframe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sauna {
+    width: 320px;
+}
+
+.maincottage_book_holder {
+    width: 300px;
+    border: 1px solid #99aacc;
+}
+
+.maincottage_book_title {
+    font-size: 15px;
+    color: #bf0c1d;
+    font-weight: bold;
+    border-bottom: 1px solid #999999;
+    padding: 3px;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+.maincottage_bookleft,
+.maincottage_bookright {
+    width: 35px;
+    height: 24px;
+    background-color: #bbddff;
+    text-align: center;
+    padding-top: 4px;
+    background-color: #3384b3;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.maincottage_book_options {
+    width: 230px;
+    background-color: #dddddd;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.maincottage_bookcontent {
+    background-color: #eeeeee;
+    padding: 4px;
+    min-height: 150px;
+}
+
+.maincottage_book_miniholder_iframe {
+    border-bottom: dashed 1px #999999;
+    margin-bottom: 4px;
+    min-height: 38px;
+}
+
+.maincottage_book_period {
+    width: 135px;
+    font-family: arial;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.maincottage_book_price {
+    width: 100px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.maincottage_book_dates {
+    font-family: arial;
+    font-size: 11px;
+}
+
+.maincottage_book_book {
+    width: 60px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #136392;
+    height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #bbccee;
+    text-align: center;
+    height: 26px;
+    line-height: 24px;
+}
+
+
+/* *******************************Media Query**************************** */
+@media screen and (max-width: 850px) {
+    .flex-box {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .sauna,
+    .maincottage_book_holder {
+        width: 100%;
+    }
+
+    .maincottage_book_price {
+        width: 35%;
+    }
+
+    .maincottage_book_period {
+        width: 45%;
+    }
+}
