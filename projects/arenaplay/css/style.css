@@ -401,6 +401,23 @@ Media Query
         height: 520px;
     }
 
+    .hero,
+    .do-it,
+    .growth,
+    .features,
+    .esport,
+    ..our-team h3
+    {
+	text-align: center;
+    }
+	
+    .icon-box,
+    .icon-container {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+    }
+	
     .arena-pay {
         margin-bottom: 50px;
     }
