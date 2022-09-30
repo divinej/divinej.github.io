@@ -397,7 +397,7 @@ nav a:active,
   z-index: 9999;
   top: 82px;
   opacity: 0;
-  transition: opacity 2s;
+  transition: opacity .3s ease-in-out .3s;
 }
 
 .mobile-menu.is-active {
